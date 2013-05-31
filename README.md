@@ -21,16 +21,15 @@ grunt
 '''
 
 ## New Teams
-All that needs to be done to support a new team is to update the json shedule located in app/data. To generate a schedule for your team:
-
-- How to retrieve input data for this script:
+All that needs to be done to support a new team is to update the json shedule located in app/data.
+####Retrieve a schedule and generate the json:
 - Go to http://mlb.mlb.com/mlb/schedule/team_by_team.jsp
 - Click on Regular Schedule
-- Scroll down and click on Downloadable schedule
+- Click on Downloadable schedule
   - http://colorado.rockies.mlb.com/schedule/downloadable.jsp?c_id=col&year=2013
 - Click on Download Full Season Schedule
-
-Run csv2json.py against this schedule and update the file reference in main.js to point to the new file.
+- Run csv2json.py against the downloaded schedule 
+- re-run Grunt.
 
 ## TODOs
 

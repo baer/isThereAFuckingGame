@@ -46,11 +46,19 @@ module.exports = function (grunt) {
         }
       }
     },
+    minjson: {
+      compile: {
+        files: {
+          '<%= yeoman.dist %>/data/schedule.min.json': ['<%= yeoman.app %>/data/*.json']
+        }
+      }
+    },
     less: {
       dist: {
         options: {
           paths: ['<%= yeoman.app %>/styles'],
-          yuicompress: true
+          yuicompress: true,
+          compress: true
         },
         files: {
           '<%= yeoman.dist %>/styles/main.min.css': ['<%= yeoman.app %>/styles/*.less']
@@ -60,7 +68,14 @@ module.exports = function (grunt) {
 		htmlmin: {
 			dist: {
 				options: {
-					collapseBooleanAttributes: true,
+          useShortDoctype: true,
+          collapseWhitespace: true,
+          collapseBooleanAttributes: true,
+          removeComments: true,
+          removeCDATASectionsFromCDATA: true,
+          removeCommentsFromCDATA: true,
+          removeRedundantAttributes: true,
+          removeAttributeQuotes: true,
 					removeEmptyAttributes: true,
 					removeOptionalTags: true
 				},
@@ -81,7 +96,6 @@ module.exports = function (grunt) {
 					cwd: '<%= yeoman.app %>',
 					dest: '<%= yeoman.dist %>',
 					src: [
-						'data/*',
 						'font/*',
             'images/*',
             '.htaccess',
@@ -98,11 +112,13 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-minjson');
 
   grunt.registerTask('build', [
     'clean',
     'uglify',
     'less',
+    'minjson',
     'copy',
     'htmlmin'
   ]);
