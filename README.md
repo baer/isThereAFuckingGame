@@ -1,25 +1,34 @@
 # Is there a fucking Rockies game today?
 
 ## Running the code
-If you are having problems with the code try this:
+This code is requires a server to run due to same-origin browser security constraints. To run the code you will need to startup a webserver. The simplest way to do this is to navigate to the dist directory and run the following command:
+'''bash
+python -m SimpleHTTPServer
+'''
 
-Open the JavaScript console in Google Chrome:
+## Development
+The code is managed with a Grunt based asset pipeline and Bower for dependency management. 
 
-(Mac)     option + command + J
-(Windows) Ctrl + Shift + J
+To make changes you should be modifying files in the app directory. Running the grunt command will compile and minify the assets and copy them into the dist directory.
+'''bash
+grunt
+'''
 
-If you get this error:
+## New Teams
+All that needs to be done to support a new team is to update the json shedule located in app/data. To generate a schedule for your team:
 
-XMLHttpRequest cannot load file:/// ... giants2012schedule.json. Origin null is not allowed by Access-Control-Allow-Origin.
+- How to retrieve input data for this script:
+- Go to http://mlb.mlb.com/mlb/schedule/team_by_team.jsp
+- Click on Regular Schedule
+- Scroll down and click on Downloadable schedule
+- e.g. http://sanfrancisco.giants.mlb.com/schedule/downloadable.jsp?c_id=sf&year=2012
+- Click on Download Full Season Schedule
 
-It's because you're trying to open the page without a web server running. To test your changes locally, you will need to start up Apache. If you're on OS X, you probably already have it preinstalled. You can also try MAMP.
+Run csv2json.py against this schedule and update the file reference in main.js to point to the new file.
 
 ## TODOs
 
-* Offline support
-* More cursing
-* Responsive Layout
-* Better colors
-* Update docs to explain csv2json.py
+- [ ] Offline support
+- [ ] Update docs to explain csv2json.py better
 
-Many thanks to https://github.com/lforrest/isthereagiantsgametoday for the inspiration.
+Many many thanks to [isthereagiantsgametoday](https://github.com/lforrest/isthereagiantsgametoday) for the inspiration.

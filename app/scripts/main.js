@@ -12,7 +12,7 @@
 
   $(document).ready(function () {
 
-    var url = 'data/rockies2013schedule.min.json';
+    var url = 'data/rockies2013schedule.json';
 
     var today = new Date();
     var nextGame = null;
