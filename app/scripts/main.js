@@ -10,15 +10,22 @@
     return weekday[a];
   }
 
+  function renderPage(data) {
+    var source       = $('#entry-template').html();
+    var templateHTML = Handlebars.compile(source)(data);
+    $('.hero-unit').append(templateHTML);
+  }
+
   $(document).ready(function () {
 
-    var url = 'data/schedule.min.json';
+    var url = 'data/schedule.min.json',
+        gameData = {},
+        today = new Date(),
+        nextGame = null,
+        todaysGame = null;
 
-    var today = new Date();
-    var nextGame = null;
-    var todaysGame = null;
-
-    // Check for game today               
+    // Check for game today
+    // TODO: Cleanup with moment.js              
     $.getJSON(url, function (json) {
       var nextGameDate;
 
@@ -30,39 +37,31 @@
           return false;
         }
 
-        if (today.getYear() === nextGameDate.getYear() && today.getMonth() === nextGameDate.getMonth() && today.getDate() === nextGameDate.getDate()) {
+        if (today.getYear() === nextGameDate.getYear() && 
+            today.getMonth() === nextGameDate.getMonth() && 
+            today.getDate() === nextGameDate.getDate()) {
           todaysGame = game;
           return false;
         }
       });
 
       if (todaysGame) {
-        $('.yesno').text('YES');
-        $('#game .homeTeam').text('The Rockies ');
-        $('#game .opponent').text(todaysGame.opponent);
-        $('#game .startTime').text(todaysGame.time);
-        $('#game .location').text(todaysGame.location);
-
-        if (todaysGame.location === 'Coors Field') {
-          $('#away').hide();
-          $('#home').show();
-        } else {
-          $('#away').show();
-          $('#home').hide();
-        }
-        $('#homeaway').show();
-        $('#game').show();
+        gameData.yesno     = 'YES';
+        gameData.homeTeam  = 'The Rockies';
+        gameData.opponent  = todaysGame.opponent;
+        gameData.startTime = todaysGame.time;
+        gameData.location  = todaysGame.location;
+        gameData.homeAway  = (todaysGame.location === 'Coors Field') ? 'home' : 'away';
       } else {
-        $('.yesno').text('NO');
-        var day = getDayofTheWeek(nextGameDate.getDay());
-        $('#game .day').text('on ' + day);
-        $('#game .date').text(nextGame.date);
-        $('#game .homeTeam').text('The Rockies ');
-        $('#game .opponent').text(nextGame.opponent);
-        $('#game .startTime').text(nextGame.time);
-        $('#game .location').text(nextGame.location);
-        $('#game').show();
+        gameData.yesno     = 'NO';
+        gameData.day       = 'on ' + getDayofTheWeek(nextGameDate.getDay());
+        gameData.date      = nextGame.date;
+        gameData.hometeam  = 'The Rockies ';
+        gameData.opponent  = nextGame.opponent;
+        gameData.startTime = nextGame.time;
+        gameData.location  = nextGame.location;
       }
+      renderPage(gameData);
     });
   });
 }());
