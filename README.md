@@ -1,27 +1,24 @@
-# Is there a fucking Rockies game today?
+# Is there a fucking ____ game today?
 
 ## Running the code
-The compiled code is not checked in so you will have to have [Grunt](http://gruntjs.com/) installed:
-'''bash
-cd <location-of-the-downloaded-project>
-npm install
-grunt
-'''
-This code is requires a server to run due to same-origin browser security constraints. To run the code you will need to startup a webserver. The simplest way to do this is to navigate to the dist directory and run the following command:
-'''bash
-python -m SimpleHTTPServer
-'''
+First, the compiled code is not checked in so you will have to build the project using [Grunt](http://gruntjs.com/):
 
-## Development
-The code is managed with a Grunt based asset pipeline and Bower for dependency management. 
+    cd <location-of-the-downloaded-project>
+    npm install
+    grunt
 
-To make changes you should be modifying files in the app directory. Running the grunt command will compile and minify the assets and copy them into the dist directory.
-'''bash
-grunt
-'''
+Because this project makes same-origin requests you will have to use some sort of container to run the code. The simplest way is to use python but tomcat jetty etc will work fine.
+    
+    cd <location-of-the-downloaded-project>/dist
+    python -m SimpleHTTPServer
 
-## New Teams
-All that needs to be done to support a new team is to update the json shedule located in app/data.
+## Create a version for your favorite team
+There are two things that need to be done to add a team:
+
+####Edit the application variables:
+- Edit the @homeTeamColor variable in <project>/app/styles/main.less
+- Edit the homeTeam and homeStadium variables in <project>/app/scripts/main.js
+
 ####Retrieve a schedule and generate the json:
 - Go to http://mlb.mlb.com/mlb/schedule/team_by_team.jsp
 - Click on Regular Schedule
@@ -30,10 +27,5 @@ All that needs to be done to support a new team is to update the json shedule lo
 - Click on Download Full Season Schedule
 - Run csv2json.py against the downloaded schedule 
 - re-run Grunt.
-
-## TODOs
-
-- Offline support
-- Update docs to explain csv2json.py better
 
 Many many thanks to [isthereagiantsgametoday](https://github.com/lforrest/isthereagiantsgametoday) for the inspiration.

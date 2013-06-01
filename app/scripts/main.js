@@ -1,13 +1,18 @@
 (function () {
   'use strict';
 
+  // --------------------------------------------------------------------------------
+  var homeTeam = 'The Rockies',     // Change this to set a new home team
+      homeStadium = 'Coors Field';  // Change this to set a new home stadium
+  // --------------------------------------------------------------------------------
+
   var url = 'data/schedule.min.json',
       today = new Date();
 
   function gameDataAsJSON(game) {
     var gameData = {};
 
-    gameData.homeTeam  = 'The Rockies';
+    gameData.homeTeam  = homeTeam;
     gameData.opponent  = game.opponent;
     gameData.startTime = game.time;
 
@@ -15,7 +20,7 @@
       gameData.yes       = true;
       gameData.yesno     = 'YES';
       gameData.location  = game.location;
-      gameData.homeAway  = (game.location === 'Coors Field') ? 'home' : 'away';
+      gameData.homeAway  = (game.location === homeStadium) ? 'home' : 'away';
     } else {
       gameData.yesno     = 'NO';
       gameData.location  = game.location;
