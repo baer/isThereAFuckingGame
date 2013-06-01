@@ -1,13 +1,27 @@
 (function () {
   'use strict';
 
-  function isDateLaterThan(a, b) {
-    return a > b;
-  }
+  var url = 'data/schedule.min.json',
+      today = new Date();
 
-  function getDayofTheWeek(a) {
-    var weekday = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-    return weekday[a];
+  function gameDataAsJSON(game) {
+    var gameData = {};
+
+    gameData.homeTeam  = 'The Rockies';
+    gameData.opponent  = game.opponent;
+    gameData.startTime = game.time;
+
+    if (moment(today).isSame(game.date, 'day')) {
+      gameData.yesno     = 'YES';
+      gameData.location  = game.location;
+      gameData.homeAway  = (game.location === 'Coors Field') ? 'home' : 'away';
+    } else {
+      gameData.yesno     = 'NO';
+      gameData.location  = game.location;
+      gameData.day       = 'on ' + moment(game.date).format('dddd');
+      gameData.date      = game.date;
+    }
+    return gameData;
   }
 
   function renderPage(data) {
@@ -18,43 +32,19 @@
 
   $(document).ready(function () {
 
-    var url = 'data/schedule.min.json',
-        gameData = {},
-        today = new Date(),
-        nextGame = null,
-        theGame;
-
-    // Check for game today
     $.getJSON(url, function (json) {
-      var nextGameDate;
+      var theGame;
 
       $.each(json.games, function (i, game) {
-        nextGameDate = new Date(game.date);
-
-        if ( (!nextGame && isDateLaterThan(nextGameDate, today)) || moment(today).isSame(nextGameDate, 'day') ){
+        if ( moment(today).isBefore(game.date, 'day') || moment(today).isSame(game.date, 'day') ){
           theGame = game;
           return false;
         }
       });
 
-      nextGameDate = new Date(theGame.date);
-      if (moment(today).isSame(nextGameDate, 'day')) {
-        gameData.yesno     = 'YES';
-        gameData.homeTeam  = 'The Rockies';
-        gameData.opponent  = theGame.opponent;
-        gameData.startTime = theGame.time;
-        gameData.location  = theGame.location;
-        gameData.homeAway  = (theGame.location === 'Coors Field') ? 'home' : 'away';
-      } else {
-        gameData.yesno     = 'NO';
-        gameData.day       = 'on ' + getDayofTheWeek(theGame.getDay());
-        gameData.date      = theGame.date;
-        gameData.hometeam  = 'The Rockies ';
-        gameData.opponent  = theGame.opponent;
-        gameData.startTime = theGame.time;
-        gameData.location  = theGame.location;
-      }
-      renderPage(gameData);
+      var gameJSON = gameDataAsJSON(theGame);
+      renderPage(gameJSON);
     });
   });
+
 }());
