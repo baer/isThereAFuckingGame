@@ -12,14 +12,14 @@
     gameData.startTime = game.time;
 
     if (moment(today).isSame(game.date, 'day')) {
+      gameData.yes       = true;
       gameData.yesno     = 'YES';
       gameData.location  = game.location;
       gameData.homeAway  = (game.location === 'Coors Field') ? 'home' : 'away';
     } else {
       gameData.yesno     = 'NO';
       gameData.location  = game.location;
-      gameData.day       = 'on ' + moment(game.date).format('dddd');
-      gameData.date      = game.date;
+      gameData.day       = moment(game.date).format('dddd M/D/YY');
     }
     return gameData;
   }

@@ -55,24 +55,24 @@
     <script id="entry-template" type="text/x-handlebars-template">
       <section id="answer">
         <div class="yesno">{{ yesno }}</div>
-        <h1 id="homeaway">
-          It's a fucking
-          <span>{{ homeAway }}</span>
-          game
-        </h1>
+        {{#if yes}}
+          <h1 id="homeaway">
+            It's a fucking
+            <span>{{ homeAway }}</span>
+            game
+          </h1>
+        {{/if}}
       </section>
 
       <h2 id="game">
-        <span>{{ day }}</span>
-        <span>{{ date }}</span>
         <span>{{ homeTeam }}</span>
         play the fucking
         <span>{{ opponent }}</span>
-        <span>{{ day }}</span>
         at
         <span>{{ startTime }}</span>
         @ 
         <span>{{ location }}</span>
+        <span>{{ day }}</span>
       </h2>
     </script>
     <script src="scripts/main.min.js"></script>
