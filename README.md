@@ -1,10 +1,11 @@
 # Is there a fucking ____ game today?
 
 ## Running the code
-First, the compiled code is not checked in so you will have to build the project using [Grunt](http://gruntjs.com/):
+First, the compiled code is not checked in so you will have to build the project using [Grunt](http://gruntjs.com/) and [Bower](http://bower.io/):
 
     cd <location-of-the-downloaded-project>
     npm install
+    bower install
     grunt
 
 Because this project makes same-origin requests you will have to use some sort of container to run the code. The simplest way is to use python but tomcat jetty etc will work fine.
