@@ -37,8 +37,8 @@
           return false;
         }
 
-        if (today.getYear() === nextGameDate.getYear() && 
-            today.getMonth() === nextGameDate.getMonth() && 
+        if (today.getYear() === nextGameDate.getYear() &&
+            today.getMonth() === nextGameDate.getMonth() &&
             today.getDate() === nextGameDate.getDate()) {
           todaysGame = game;
           return false;
