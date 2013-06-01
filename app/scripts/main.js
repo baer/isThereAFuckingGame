@@ -22,44 +22,37 @@
         gameData = {},
         today = new Date(),
         nextGame = null,
-        todaysGame = null;
+        theGame;
 
     // Check for game today
-    // TODO: Cleanup with moment.js              
     $.getJSON(url, function (json) {
       var nextGameDate;
 
       $.each(json.games, function (i, game) {
         nextGameDate = new Date(game.date);
 
-        if (!nextGame && isDateLaterThan(nextGameDate, today)) {
-          nextGame = game;
-          return false;
-        }
-
-        if (today.getYear() === nextGameDate.getYear() &&
-            today.getMonth() === nextGameDate.getMonth() &&
-            today.getDate() === nextGameDate.getDate()) {
-          todaysGame = game;
+        if ( (!nextGame && isDateLaterThan(nextGameDate, today)) || moment(today).isSame(nextGameDate, 'day') ){
+          theGame = game;
           return false;
         }
       });
 
-      if (todaysGame) {
+      nextGameDate = new Date(theGame.date);
+      if (moment(today).isSame(nextGameDate, 'day')) {
         gameData.yesno     = 'YES';
         gameData.homeTeam  = 'The Rockies';
-        gameData.opponent  = todaysGame.opponent;
-        gameData.startTime = todaysGame.time;
-        gameData.location  = todaysGame.location;
-        gameData.homeAway  = (todaysGame.location === 'Coors Field') ? 'home' : 'away';
+        gameData.opponent  = theGame.opponent;
+        gameData.startTime = theGame.time;
+        gameData.location  = theGame.location;
+        gameData.homeAway  = (theGame.location === 'Coors Field') ? 'home' : 'away';
       } else {
         gameData.yesno     = 'NO';
-        gameData.day       = 'on ' + getDayofTheWeek(nextGameDate.getDay());
-        gameData.date      = nextGame.date;
+        gameData.day       = 'on ' + getDayofTheWeek(theGame.getDay());
+        gameData.date      = theGame.date;
         gameData.hometeam  = 'The Rockies ';
-        gameData.opponent  = nextGame.opponent;
-        gameData.startTime = nextGame.time;
-        gameData.location  = nextGame.location;
+        gameData.opponent  = theGame.opponent;
+        gameData.startTime = theGame.time;
+        gameData.location  = theGame.location;
       }
       renderPage(gameData);
     });

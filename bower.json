@@ -6,6 +6,8 @@
     "bootstrap": "~2.3.2",
     "font-awesome": "~3.1.1",
     "jquery": "~2.0.1",
-    "handlebars": "~1.0.0-rc.4"
+    "handlebars": "~1.0.0-rc.4",
+    "lodash": "~1.2.1",
+    "moment": "~2.0.0"
   }
 }
