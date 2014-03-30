@@ -26,12 +26,12 @@ There are three things that need to be done to add a team:
 
 ####Retrieve a schedule and generate the json:
 - Go to http://mlb.mlb.com/mlb/schedule/team_by_team.jsp
-- Click on Regular Schedule
-- Click on Downloadable schedule
-  - http://colorado.rockies.mlb.com/schedule/downloadable.jsp?c_id=col&year=2013
-- Click on Download Full Season Schedule
-- Run csv2json.py against the downloaded schedule 
-- re-run Grunt.
+- Click on Regular Season Schedule under desired team. 
+- Scroll down to "In this Section". Click on Downloadable Schedule.
+  - http://colorado.rockies.mlb.com/schedule/downloadable.jsp?c_id=col&year=2014
+- Download Full Season Schedule CSV
+- Run python csv2json.py <Full Schedule.csv> app/data/schedule.json
+- Run Grunt.
 
 ####Edit the HTML:
 - You will need to change the title and meta data to be about your team rather than rockies
