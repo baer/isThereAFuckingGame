@@ -37,10 +37,10 @@
 
   $(document).ready(function () {
 
-    $.getJSON(url, function (json) {
+    $.getJSON(url, function (games) {
       var theGame;
 
-      $.each(json, function (i, game) {
+      $.each(games, function (i, game) {
         if ( moment(today).isBefore(game.date, 'day') || moment(today).isSame(game.date, 'day') ){
           theGame = game;
           return false;

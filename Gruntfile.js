@@ -42,7 +42,12 @@ module.exports = function (grunt) {
     uglify: {
       dist: {
         files: {
-          '<%= yeoman.dist %>/scripts/main.min.js': ['<%= yeoman.app %>/components/handlebars/handlebars.js', '<%= yeoman.app %>/components/lodash/lodash.js', '<%= yeoman.app %>/components/moment/moment.js', '<%= yeoman.app %>/scripts/{,*/}*.js']
+          '<%= yeoman.dist %>/scripts/main.min.js': [
+            '<%= yeoman.app %>/components/handlebars/handlebars.js',
+            '<%= yeoman.app %>/components/lodash/lodash.js',
+            '<%= yeoman.app %>/components/moment/moment.js',
+            '<%= yeoman.app %>/scripts/{,*/}*.js'
+          ]
         }
       }
     },
