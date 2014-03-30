@@ -40,7 +40,7 @@
     $.getJSON(url, function (json) {
       var theGame;
 
-      $.each(json.games, function (i, game) {
+      $.each(json, function (i, game) {
         if ( moment(today).isBefore(game.date, 'day') || moment(today).isSame(game.date, 'day') ){
           theGame = game;
           return false;

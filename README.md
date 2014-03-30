@@ -14,7 +14,8 @@ Because this project makes same-origin requests you will have to use some sort o
     
     cd <location-of-the-downloaded-project>/dist
     python -m SimpleHTTPServer
-
+    (Note: for python 3.x run python -m http.server)
+    
 Create a version for your favorite team
 -------
 
