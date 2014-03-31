@@ -40,6 +40,9 @@ module.exports = function (grunt) {
 			]
 		},
     uglify: {
+      options: {
+        sourceMap: true
+      },
       dist: {
         files: {
           '<%= yeoman.dist %>/scripts/main.min.js': [
