@@ -46,9 +46,9 @@ module.exports = function (grunt) {
       dist: {
         files: {
           '<%= yeoman.dist %>/scripts/main.min.js': [
-            '<%= yeoman.app %>/components/handlebars/handlebars.js',
-            '<%= yeoman.app %>/components/lodash/lodash.js',
-            '<%= yeoman.app %>/components/moment/moment.js',
+            './node_modules/handlebars/dist/handlebars.js',
+            './node_modules/moment/moment.js',
+            './node_modules/moment-timezone/moment-timezone.js',
             '<%= yeoman.app %>/scripts/{,*/}*.js'
           ]
         }
