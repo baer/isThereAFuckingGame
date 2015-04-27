@@ -7,38 +7,38 @@
 module.exports = function (grunt) {
   'use strict';
 
-	// configurable paths
-	var yeomanConfig = {
-		app: 'app',
-		dist: 'dist'
-	};
+  // configurable paths
+  var yeomanConfig = {
+    app: 'app',
+    dist: 'dist'
+  };
 
-	grunt.initConfig({
-		yeoman: yeomanConfig,
-		clean: {
-			dist: {
-				files: [{
-					dot: true,
-					src: [
-						'.tmp',
-						'<%= yeoman.dist %>/*',
-						'!<%= yeoman.dist %>/.git*'
-					]
-				}]
-			},
-			server: '.tmp'
-		},
-		jshint: {
-			options: {
-				jshintrc: '.jshintrc'
-			},
-			all: [
-				'Gruntfile.js',
-				'<%= yeoman.app %>/scripts/{,*/}*.js',
-				'!<%= yeoman.app %>/scripts/vendor/*',
-				'test/spec/{,*/}*.js'
-			]
-		},
+  grunt.initConfig({
+    yeoman: yeomanConfig,
+    clean: {
+      dist: {
+        files: [{
+          dot: true,
+          src: [
+            '.tmp',
+            '<%= yeoman.dist %>/*',
+            '!<%= yeoman.dist %>/.git*'
+          ]
+        }]
+      },
+      server: '.tmp'
+    },
+    jshint: {
+      options: {
+        jshintrc: '.jshintrc'
+      },
+      all: [
+        'Gruntfile.js',
+        '<%= yeoman.app %>/scripts/{,*/}*.js',
+        '!<%= yeoman.app %>/scripts/vendor/*',
+        'test/spec/{,*/}*.js'
+      ]
+    },
     uglify: {
       options: {
         sourceMap: true
@@ -73,9 +73,9 @@ module.exports = function (grunt) {
         }
       }
     },
-		htmlmin: {
-			dist: {
-				options: {
+    htmlmin: {
+      dist: {
+        options: {
           useShortDoctype: true,
           collapseWhitespace: true,
           collapseBooleanAttributes: true,
@@ -84,35 +84,35 @@ module.exports = function (grunt) {
           removeCommentsFromCDATA: true,
           removeRedundantAttributes: true,
           removeAttributeQuotes: true,
-					removeEmptyAttributes: true,
-					removeOptionalTags: true
-				},
-				files: [{
-					expand: true,
-					cwd: '<%= yeoman.app %>',
-					src: '*.html',
-					dest: '<%= yeoman.dist %>'
-				}]
-			}
-		},
-		// Put files not handled in other tasks here
-		copy: {
-			dist: {
-				files: [{
-					expand: true,
-					dot: true,
-					cwd: '<%= yeoman.app %>',
-					dest: '<%= yeoman.dist %>',
-					src: [
-						'font/*',
+          removeEmptyAttributes: true,
+          removeOptionalTags: true
+        },
+        files: [{
+          expand: true,
+          cwd: '<%= yeoman.app %>',
+          src: '*.html',
+          dest: '<%= yeoman.dist %>'
+        }]
+      }
+    },
+    // Put files not handled in other tasks here
+    copy: {
+      dist: {
+        files: [{
+          expand: true,
+          dot: true,
+          cwd: '<%= yeoman.app %>',
+          dest: '<%= yeoman.dist %>',
+          src: [
+            'font/*',
             'images/*',
             '.htaccess',
             '*.{ico,txt}'
-					]
-				}]
-			}
-		}
-	});
+          ]
+        }]
+      }
+    }
+  });
 
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-less');
@@ -131,9 +131,9 @@ module.exports = function (grunt) {
     'htmlmin'
   ]);
 
-	grunt.registerTask('default', [
+  grunt.registerTask('default', [
     'clean',
-		'jshint',
-		'build'
-	]);
+    'jshint',
+    'build'
+  ]);
 };
