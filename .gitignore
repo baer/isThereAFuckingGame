@@ -37,6 +37,8 @@ out/
 # App Files
 # --------------------
 node_modules
+coverage
+dist-test
 dist
-.tmp
-app/components
+frontend-dist
+records.json
