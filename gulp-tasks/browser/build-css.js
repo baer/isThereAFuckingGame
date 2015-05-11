@@ -1,13 +1,11 @@
-var
-  path = require('path');
+'use strict';
 
-var
-  gulp = require('gulp'),
-  less = require('gulp-less'),
-  prefix = require('gulp-autoprefixer');
+var path = require('path');
+var gulp = require('gulp');
+var less = require('gulp-less');
+var prefix = require('gulp-autoprefixer');
 
-var
-  config = require('../../project.config');
+var config = require('../../project.config');
 
 gulp.task('build:css', 'Build CSS & LESS --> CSS.', [
   'build:css:css',
