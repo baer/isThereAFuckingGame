@@ -38,9 +38,6 @@ module.exports = {
 
   module: {
     loaders: [
-      { test: /\.css$/, loader: 'style-loader!css-loader' },
-      { test: /\.less$/, loader: 'style-loader!css-loader!autoprefixer-loader!less-loader' },
-      { test: /\.tmpl$/, loader: 'raw' },
       { test: /\.jsx?$/, exclude: /node_modules/, loader: 'babel-loader?optional=runtime' },
       { test: /\.json$/, loader: 'json-loader' }
     ]
