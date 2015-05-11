@@ -20,7 +20,7 @@ var formatData = function(data) {
 module.exports = React.createClass({
   getDefaultProps: function() {
     return {
-      homeTeam:'The Rockies',
+      homeTeam:'Rockies',
       homeStadium: 'Coors Field',
       data: {}
     }
@@ -60,12 +60,12 @@ module.exports = React.createClass({
 
     return (
       <div className='jumbotron content'>
-        <h1 className='question'>Is there a fucking Rockies game today?</h1>
+        <h1 className='question'>Is there a fucking { this.props.homeTeam } game today?</h1>
           <section className='answer'>
             {this.isThereAGameToday(nextGame)}
           </section>
         <h2 className='game-info'>
-          { this.props.homeTeam } play the fucking { nextGame.opponent } at { nextGame.time } @ { nextGame.location} { nextGame.date.format('dddd M/D/YYYY') }
+          The { this.props.homeTeam } play the fucking { nextGame.opponent } at { nextGame.time } @ { nextGame.location} { nextGame.date.format('dddd M/D/YYYY') }
         </h2>
       </div>
     );
