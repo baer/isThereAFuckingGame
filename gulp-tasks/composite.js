@@ -8,7 +8,7 @@ gulp.task('default', false, function () {
   gulp.tasks.help.fn();
 });
 
-gulp.task('build', 'Clean, Copy assets, Build CSS and Build JS', ['clean'], function () {
+gulp.task('build', 'Clean then Copy assets and build CSS+JS', ['clean'], function () {
   gulp.run('copy');
   gulp.run('build:css');
   gulp.run('build:js');
