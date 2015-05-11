@@ -1,29 +1,28 @@
 # Is there a fucking ____ game today?
 
-Running the code
--------
+## Running the code
 
-First, the compiled code is not checked in so you will have to build the project using [Grunt](http://gruntjs.com/) and [Bower](http://bower.io/):
+Compiled code is not checked in so you will have to build the project using [Gulp](http://gulpjs.com/)
 
-    cd <location-of-the-downloaded-project>
-    npm install
-    bower install
-    grunt
+```
+git clone https://github.com/baer/isThereAFuckingGame
+cd isThereAFuckingGame
+npm install
+gulp
+```
 
-Because this project makes same-origin requests you will have to use some sort of container to run the code. The simplest way is to use python but tomcat jetty etc will work fine.
+The project will build to a `dist` directory which is then served as a static website
+```
+open dist/index.html
+```
 
-    cd <location-of-the-downloaded-project>/dist
-    python -m SimpleHTTPServer
-    (Note: for python 3.x run python -m http.server)
-
-Create a version for your favorite team
--------
+## Create a version for your favorite team
 
 There are three things that need to be done to add a team:
 
 ####Edit the application variables:
-- Edit the @homeTeamColor variable in <project>/app/styles/main.less
-- Edit the homeTeam and homeStadium variables in <project>/app/scripts/main.js
+- Edit the @homeTeamColor variable in <project>/src/client/styles/main.less
+- Edit the homeTeam and homeStadium variables in <project>/src/client/js/main.js
 
 ####Retrieve a schedule and generate the json:
 - Go to http://mlb.mlb.com/mlb/schedule/team_by_team.jsp
