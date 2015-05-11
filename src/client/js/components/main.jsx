@@ -17,15 +17,6 @@ var formatData = function(data) {
   })
 }
 
-var getNextGame = function(games) {
-  var today = moment(new Date());
-
-  return _.chain(games)
-    .reject(function(game) { return today.isAfter(game.date, 'day'); })
-    .min(function(game) { return game.date.unix(); })
-    .value();
-}
-
 module.exports = React.createClass({
   getDefaultProps: function() {
     return {
@@ -35,11 +26,23 @@ module.exports = React.createClass({
     }
   },
 
+  getInitialState: function() {
+    return { today: moment(new Date()) };
+  },
+
+  getNextGame: function(games) {
+    var today = this.state.today;
+
+    return _.chain(games)
+      .reject(function(game) { return today.isAfter(game.date, 'day'); })
+      .min(function(game) { return game.date.unix(); })
+      .value();
+  },
+
   isThereAGameToday: function(nextGame) {
-    var today = moment(new Date());
     var location = nextGame.location === this.props.homeStadium ? 'home' : 'away';
 
-    if (today.isSame(nextGame.date, 'day')) {
+    if (this.state.today.isSame(nextGame.date, 'day')) {
       return (
         <div>
           <div className='yesno'>YES</div>
@@ -53,7 +56,7 @@ module.exports = React.createClass({
 
   render: function() {
     var formattedData = formatData(this.props.data)
-    var nextGame = getNextGame(formattedData);
+    var nextGame = this.getNextGame(formattedData);
 
     return (
       <div className='jumbotron content'>
