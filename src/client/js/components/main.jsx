@@ -56,7 +56,7 @@ module.exports = React.createClass({
     var nextGame = getNextGame(formattedData);
 
     return (
-      <div className='hero-unit content'>
+      <div className='jumbotron content'>
         <h1 className='question'>Is there a fucking Rockies game today?</h1>
           <section className='answer'>
             {this.isThereAGameToday(nextGame)}
