@@ -22,9 +22,8 @@
     <![endif]-->
 
     <div class="container">
-      <div class="hero-unit content">
-        <h1 class="question">Is there a fucking Rockies game today?</h1>
-      </div>
+
+      <div id="react-container"></div>
 
       <div class="footer">
         <span class="personal-links">
@@ -43,31 +42,6 @@
       </div>
     </div>
 
-    <script id="entry-template" type="text/x-handlebars-template">
-      <section class="answer">
-        <div class="yesno">{{ yesno }}</div>
-        {{#if yes}}
-          <h1>
-            It's a fucking
-            <span>{{ homeAway }}</span>
-            game
-          </h1>
-        {{/if}}
-      </section>
-
-      <h2 class="game-info">
-        <span>{{ homeTeam }}</span>
-        play the fucking
-        <span>{{ opponent }}</span>
-        at
-        <span>{{ startTime }}</span>
-        @
-        <span>{{ location }}</span>
-        <span>{{ day }}</span>
-      </h2>
-    </script>
-
-    <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.2/handlebars.min.js"></script>
     <script src="js/main.bundle.js"></script>
 
     <script>
