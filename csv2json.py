@@ -12,7 +12,7 @@ from sys import argv
 my_team = input('Enter your team name as it appears in the schedule: ')
 source_csv = input('Enter the path to your schedule csv file: ')
 
-destination_json = 'app/data/schedule.json'
+destination_json = 'src/data/schedule.json'
 
 raw_schedule = csv.reader(open(source_csv, 'r'), delimiter=',')
 schedule = []
@@ -31,7 +31,7 @@ next(raw_schedule)
 for row in raw_schedule:
     # CSV uses 2-digit years; we want 4 digits in the JSON.
     date = ''.join([row[0][:6], '20', row[0][-2:]])
-    
+
     # Remove the space and make "pm" lowercase
     time = ''.join(c.lower() for c in row[1] if not c.isspace())
     time = time +' EDT'
@@ -39,7 +39,7 @@ for row in raw_schedule:
      # Remove leading zeroes from times, such as 02:00pm
     if int(time[0]) == 0:
       time = time[1:]
-    
+
     # Trim the subject description down to the opponent name
     opponent = row[3]
     opponent = opponent.replace('at', '').replace(my_team, '').strip()
