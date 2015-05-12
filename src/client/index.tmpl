@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title>Is there a fucking Rockies game?</title>
-    <meta name="description" content="Is there a fucking Rockies game today?">
-    <meta name="keywords" content="rockies, colorado rockies, rockies game, schedule, mlb, baseball, major league baseball" />
+    <title><%= websiteTitle %></title>
+    <meta name="description" content="<%= websiteDescription %>">
+    <meta name="keywords" content="<%= websiteKeywords %>" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -50,7 +50,7 @@
       e=o.createElement(i);r=o.getElementsByTagName(i)[0];
       e.src='https://www.google-analytics.com/analytics.js';
       r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-32746833-1','auto');ga('send','pageview');
+      ga('create','<%= googleAnalytics %>','auto');ga('send','pageview');
     </script>
   </body>
 </html>

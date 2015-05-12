@@ -10,6 +10,7 @@ gulp.task('default', false, function () {
 
 gulp.task('build', 'Clean then Copy assets and build CSS+JS', ['clean'], function () {
   gulp.run('copy');
+  gulp.run('build:html');
   gulp.run('build:css');
   gulp.run('build:js');
 });

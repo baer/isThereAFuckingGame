@@ -22,7 +22,7 @@ There are three things that need to be done to add a team:
 
 ####Edit the application variables:
 - Edit the @homeTeamColor variable in <project>/src/client/styles/main.less
-- Edit the homeTeam and homeStadium variables in <project>/src/client/js/main.js
+- Edit the anything you'd like to change in variables in <project>/project.config.js
 
 ####Retrieve a schedule and generate the json:
 - Go to http://mlb.mlb.com/mlb/schedule/team_by_team.jsp
@@ -32,10 +32,6 @@ There are three things that need to be done to add a team:
 - Download Full Season Schedule CSV
 - Run python csv2json.py <Full Schedule.csv> app/data/schedule.json
 - Run Grunt.
-
-####Edit the HTML:
-- You will need to change the title and meta data to be about your team rather than rockies
-
 
 Many many thanks to [isthereagiantsgametoday](https://github.com/lforrest/isthereagiantsgametoday) for the inspiration.
 

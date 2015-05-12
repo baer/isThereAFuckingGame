@@ -13,7 +13,8 @@ gulp.task('copy', 'Copy all raw files into dist', [
 gulp.task('copy:root', 'Copy raw files at the root of `src/client` into dist', function () {
   return gulp.src([
     path.join(config.srcFullPath, '.htaccess'),
-    path.join(config.srcFullPath, '*')
+    path.join(config.srcFullPath, '*'),
+    '!' + path.join(config.srcFullPath, 'index.tmpl')
   ]).pipe(gulp.dest(config.destFullPath));
 });
 
