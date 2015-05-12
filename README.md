@@ -36,8 +36,6 @@ There are two things that need to be done to add a team:
 ## Credits
 Many many thanks to [isthereagiantsgametoday](https://github.com/lforrest/isthereagiantsgametoday) for the inspiration.
 
-***
-
 ## License
 
 [MIT License](http://opensource.org/licenses/MIT)
