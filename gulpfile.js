@@ -1,7 +1,6 @@
-var
-  gulp = require('gulp'),
-  gulpHelp = require('gulp-help'),
-  requireDir = require('require-dir');
+var gulp = require('gulp');
+var gulpHelp = require('gulp-help');
+var requireDir = require('require-dir');
 
 /**
  * This modifies the `gulp.task` function to take an additional argument.
