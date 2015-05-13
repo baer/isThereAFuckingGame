@@ -46,7 +46,7 @@ module.exports = React.createClass({
       return (
         <div>
           YES
-          <h1>It's a fucking { location } game</h1>
+          <h2>It's a fucking { location } game</h2>
         </div>
       )
     } else {
@@ -60,13 +60,13 @@ module.exports = React.createClass({
 
     return (
       <div className='jumbotron content'>
-        <h1 className='question'>Is there a fucking { this.props.homeTeam } game today?</h1>
+        <h1>Is there a fucking { this.props.homeTeam } game today?</h1>
           <section className='answer'>
             {this.isThereAGameToday(nextGame)}
           </section>
-        <h2 className='game-info'>
+        <h3 className='game-info'>
           The { this.props.homeTeam } play the fucking { nextGame.opponent } at { nextGame.time } @ { nextGame.location} { nextGame.date.format('dddd M/D/YYYY') }
-        </h2>
+        </h3>
       </div>
     );
   }
