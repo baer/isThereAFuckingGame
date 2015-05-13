@@ -45,12 +45,12 @@ module.exports = React.createClass({
     if (this.state.today.isSame(nextGame.date, 'day')) {
       return (
         <div>
-          <div className='yesno'>YES</div>
+          YES
           <h1>It's a fucking { location } game</h1>
         </div>
       )
     } else {
-      return <div className='yesno'>NO</div>
+      return <div>NO</div>
     }
   },
 
