@@ -44,13 +44,13 @@ module.exports = React.createClass({
 
     if (this.state.today.isSame(nextGame.date, 'day')) {
       return (
-        <div>
+        <div className='answer'>
           YES
           <h2>It's a fucking { location } game</h2>
         </div>
-      )
+      );
     } else {
-      return <div>NO</div>
+      return <div className='answer'>NO</div>
     }
   },
 
@@ -61,12 +61,11 @@ module.exports = React.createClass({
     return (
       <div className='jumbotron content'>
         <h1>Is there a fucking { this.props.homeTeam } game today?</h1>
-          <section className='answer'>
-            {this.isThereAGameToday(nextGame)}
-          </section>
-        <h3 className='game-info'>
-          The { this.props.homeTeam } play the fucking { nextGame.opponent } at { nextGame.time } @ { nextGame.location} { nextGame.date.format('dddd M/D/YYYY') }
-        </h3>
+
+        {this.isThereAGameToday(nextGame)}
+
+        <h2>{ this.props.homeTeam } vs. the fucking { nextGame.opponent }</h2>
+        <h3>{ nextGame.time } { nextGame.date.format('dddd M/D/YYYY') } @ { nextGame.location}</h3>
       </div>
     );
   }
