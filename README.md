@@ -29,9 +29,9 @@ There are two things that need to be done to add a team:
 - Click on Regular Season Schedule under desired team.
 - Scroll down to "In this Section". Click on Downloadable Schedule.
   - http://colorado.rockies.mlb.com/schedule/downloadable.jsp?c_id=col&year=2014
-- Download Full Season Schedule CSV
-- Run `python csv2json.py <Full Schedule.csv> app/data/schedule.json`
-- Run `gulp`.
+- Download Full Season Schedule CSV and overwrite `data/schedule.csv`
+- Run `node schedule-converter.js`
+- Run `gulp build`
 
 ## Credits
 Many many thanks to [isthereagiantsgametoday](https://github.com/lforrest/isthereagiantsgametoday) for the inspiration.
