@@ -15,8 +15,7 @@ var transform = function(csvData, homeTeam) {
   return _.map(csvData.slice(1), function(row) {
     var gameData = _.zipObject(csvData[0], row);
 
-    var date = moment(gameData.START_DATE + ' ' + gameData.START_TIME_ET, 'MM/DD/YY hh:mm a')
-      .tz('America/New_York');
+    var date = moment.tz(gameData.START_DATE + ' ' + gameData.START_TIME_ET, 'MM/DD/YY hh:mm a', 'America/New_York');
 
     var opponent = _.find(gameData.SUBJECT.split(' at '), function(word) {
       return word !== homeTeam;
