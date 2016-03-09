@@ -16,10 +16,16 @@ module.exports = {
   devtool: "sourcemap",
 
   module: {
-    loaders: [
-      { test: /\.jsx?$/, exclude: /node_modules/, loader: 'babel-loader?optional=runtime' },
-      { test: /\.json$/, loader: 'json-loader' }
-    ]
+    loaders: [{
+      name: "babel",
+      test: /\.jsx?$/,
+      exclude: /node_modules/,
+      loader: require.resolve("babel-loader")
+    }, {
+      name: "json",
+      test: /\.json$/,
+      loader: require.resolve("json-loader")
+    }]
   },
 
   plugins: [
