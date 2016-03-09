@@ -4,19 +4,6 @@ var _ = require('lodash');
 var moment = require('moment');
 var React = require('react')
 
-// TODO: Move this into the schedule creation script
-// TODO: Combine date+time
-var formatData = function(data) {
-  return _.map(data, function(game) {
-    return {
-      date: moment(game.date, 'MM/DD/YYYY'),
-      location: game.location,
-      opponent: game.opponent,
-      time: game.time
-    }
-  })
-}
-
 module.exports = React.createClass({
   getDefaultProps: function() {
     return {
@@ -35,7 +22,7 @@ module.exports = React.createClass({
 
     return _.chain(games)
       .reject(function(game) { return today.isAfter(game.date, 'day'); })
-      .min(function(game) { return game.date.unix(); })
+      .min(function(game) { return moment(game.date).unix(); })
       .value();
   },
 
@@ -55,8 +42,7 @@ module.exports = React.createClass({
   },
 
   render: function() {
-    var formattedData = formatData(this.props.data)
-    var nextGame = this.getNextGame(formattedData);
+    var nextGame = this.getNextGame(this.props.data);
 
     return (
       <div className='jumbotron content'>
@@ -65,7 +51,7 @@ module.exports = React.createClass({
         {this.isThereAGameToday(nextGame)}
 
         <h2>{ this.props.homeTeam } vs. the fucking { nextGame.opponent }</h2>
-        <h3>{ nextGame.time } { nextGame.date.format('dddd M/D/YYYY') } @ { nextGame.location}</h3>
+        <h3>{ moment(nextGame.date).format('h:mm a') } { moment(nextGame.date).format('dddd M/D/YYYY') } @ { nextGame.location}</h3>
       </div>
     );
   }
