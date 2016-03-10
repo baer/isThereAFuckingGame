@@ -1,21 +1,22 @@
-var gulp = require('gulp');
-var gulpHelp = require('gulp-help');
-var requireDir = require('require-dir');
+"use strict";
 
-/**
- * This modifies the `gulp.task` function to take an additional argument.
- * The argument should be a short string that describes the task; it will
- * be displayed when `gulp help` is run from the console.
- */
+/*
+  gulpfile.js
+  ===========
+  Rather than manage one giant configuration file responsible
+  for creating multiple tasks, each task has been broken out into
+  its own file in gulp/tasks. Any files in that directory get
+  automatically required below.
 
-gulpHelp(gulp);
+  To add a new task, simply add a new task file that directory.
+  gulp/tasks/default.js specifies the default set of tasks to run
+  when you run `gulp`.
+*/
 
-/**
- * Rather than manage one giant gulpfile, each task is broken out into its
- * own file in the `gulp-tasks` directory.  Any files in that directory will be
- * automatically required by the line below.
- *
- * To add a new task, simply add a new file under `gulp-tasks`.
- */
+const requireDir = require("require-dir");
 
-requireDir('./gulp-tasks', { recurse: true });
+// Set up gulp help
+require("gulp-help")(require("gulp"), {hideDepsMessage: true});
+
+// Require all tasks in gulp/tasks, including subfolders
+requireDir("./gulp-tasks/tasks", {recurse: true});

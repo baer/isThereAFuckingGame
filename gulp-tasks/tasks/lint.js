@@ -6,7 +6,7 @@ var _ = require('lodash');
 var gutil = require('gulp-util');
 var map = require('map-stream');
 var eslint = require('gulp-eslint');
-var config = require('../project.config');
+var config = require('../../project.config');
 
 gulp.task('lint', 'Lint application', function (cb) {
   var success = true;

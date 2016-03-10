@@ -4,7 +4,7 @@ var config = module.exports = {};
 
 config.root = __dirname;
 config.src = 'src/client';
-config.dest = 'dist';
+config.dest = 'dist-dev';
 config.srcFullPath = path.join(config.root, config.src);
 config.destFullPath = path.join(config.root, config.dest);
 

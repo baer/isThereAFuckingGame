@@ -108,6 +108,6 @@ $RECYCLE.BIN/
 # --------------------
 # App Files
 # --------------------
-dist-test
 dist
-frontend-dist
+dist-dev
+dist-test
