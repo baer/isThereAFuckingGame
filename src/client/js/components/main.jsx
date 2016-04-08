@@ -51,7 +51,7 @@ module.exports = React.createClass({
         {this.isThereAGameToday(nextGame)}
 
         <h2>{ this.props.homeTeam } vs. the fucking { nextGame.opponent }</h2>
-        <h3>{ moment(nextGame.date).format('h:mm a') } { moment(nextGame.date).format('dddd M/D/YYYY') } @ { nextGame.location}</h3>
+        <h3>{ moment(nextGame.time, 'h:ma Z').format('h:mm a') } { moment(nextGame.date).format('dddd M/D/YYYY') } @ { nextGame.location}</h3>
       </div>
     );
   }
