@@ -8,7 +8,7 @@ module.exports = React.createClass({
   getDefaultProps: function() {
     return {
       homeTeam:'Rockies',
-      homeStadium: 'Coors Field',
+      homeStadium: /Coors Field/,
       data: {}
     }
   },
@@ -27,7 +27,7 @@ module.exports = React.createClass({
   },
 
   isThereAGameToday: function(nextGame) {
-    var location = nextGame.location === this.props.homeStadium ? 'home' : 'away';
+    var location = this.props.homeStadium.test(nextGame.location) ? 'home' : 'away';
 
     if (this.state.today.isSame(nextGame.date, 'day')) {
       return (
@@ -51,7 +51,7 @@ module.exports = React.createClass({
         {this.isThereAGameToday(nextGame)}
 
         <h2>{ this.props.homeTeam } vs. the fucking { nextGame.opponent }</h2>
-        <h3>{ moment(nextGame.date).format('h:mm a') } { moment(nextGame.date).format('dddd M/D/YYYY') } @ { nextGame.location}</h3>
+        <h3>{ nextGame.time.replace('EDT', '') } { moment(nextGame.date).format('dddd M/D/YYYY') } @ { nextGame.location}</h3>
       </div>
     );
   }
