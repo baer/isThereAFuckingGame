@@ -35,7 +35,6 @@
     "gulp"                     : "3.9.1",
     "json-loader"              : "0.5.4",
     "lodash"                   : "3.8.0",
-    "map-stream"               : "0.1.0",
     "require-dir"              : "0.3.0",
     "webpack"                  : "1.12.14",
 
