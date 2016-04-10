@@ -8,7 +8,7 @@ module.exports = React.createClass({
   getDefaultProps: function() {
     return {
       homeTeam:'Rockies',
-      homeStadium: 'Coors Field',
+      homeStadium: 'Coors Field - Denver',
       data: {}
     }
   },
