@@ -1,7 +1,6 @@
 'use strict';
 
 var gulp = require('gulp');
-var _ = require('lodash');
 var gutil = require('gulp-util');
 var webpack = require('webpack');
 var del = require("del");
