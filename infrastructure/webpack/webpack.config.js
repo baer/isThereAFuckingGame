@@ -1,5 +1,10 @@
-var path = require('path');
-var webpack = require('webpack');
+const ContextReplacementPlugin = require("webpack").ContextReplacementPlugin;
+const DefinePlugin = require("webpack").DefinePlugin;
+const optimize = require("webpack").optimize;
+const path = require('path');
+const SourceMapDevToolPlugin = require("webpack").SourceMapDevToolPlugin;
+const webpack = require('webpack');
+
 var config = require('../../project.config');
 
 module.exports = {
@@ -13,7 +18,6 @@ module.exports = {
     filename: '[name].bundle.js',
     chunkFilename: '[id].bundle.js'
   },
-  devtool: "sourcemap",
 
   module: {
     loaders: [{
@@ -29,11 +33,27 @@ module.exports = {
   },
 
   plugins: [
-    new webpack.DefinePlugin({
-      'ENVIRONMENT': JSON.stringify('PROD')
+    new SourceMapDevToolPlugin({
+      test: /\.(css|js)($|\?)/,
+      filename: "[file].map",
+      append: `\n//# sourceMappingURL=[url]`,
+      module: true,
+      columns: true
     }),
-    new webpack.optimize.DedupePlugin(),
-    new webpack.optimize.UglifyJsPlugin()
+    new DefinePlugin({
+      // Signal production, so that webpack removes non-production code that
+      // is in condtionals like: `if (process.env.NODE_ENV === "production")`
+      // "process.env.NODE_ENV": JSON.stringify(process.env.NODE_ENV)
+      "process.env.NODE_ENV": JSON.stringify("production")
+    }),
+    new optimize.DedupePlugin(),
+    new optimize.UglifyJsPlugin({
+      compress: {
+        warnings: false
+      }
+    }),
+    // Moment by default includes all locales - this ensures that only english is loaded.
+    new ContextReplacementPlugin(/moment[\/\\]locale$/, /en/)
   ],
 
   /**
