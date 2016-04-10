@@ -15,7 +15,7 @@ config.styles = 'styles';
 //       Edit these to customize for your team
 // --------------------------------------------------
 config.homeTeam = 'Rockies';
-config.homeStadium = 'Coors Field';
+config.homeStadium = 'Coors Field - Denver';
 
 config.googleAnalytics = 'UA-32746833-1';
 config.websiteTitle = 'Is there a fucking Rockies game?';
