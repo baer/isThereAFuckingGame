@@ -6,7 +6,7 @@ var _ = require('lodash');
 var gutil = require('gulp-util');
 var map = require('map-stream');
 var eslint = require('gulp-eslint');
-var config = require('../../project.config');
+var config = require('../../../project.config');
 
 gulp.task('lint', 'Lint application', function (cb) {
   var success = true;
@@ -16,7 +16,7 @@ gulp.task('lint', 'Lint application', function (cb) {
     path.join(config.root, '*.js'),
     path.join(config.root, 'gulp-tasks/**/*.js')
   ])
-    .pipe(eslint())
+    .pipe(eslint({configFile: "./infrastructure/eslint/.eslintrc"}))
     .pipe(map(function (file, output) {
       success = success && _.every(file.eslint && file.eslint.messages, function (message) {
         return message.severity !== 2;

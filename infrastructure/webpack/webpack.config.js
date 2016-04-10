@@ -1,6 +1,6 @@
 var path = require('path');
 var webpack = require('webpack');
-var config = require('./project.config');
+var config = require('../../project.config');
 
 module.exports = {
   context: config.srcFullPath,

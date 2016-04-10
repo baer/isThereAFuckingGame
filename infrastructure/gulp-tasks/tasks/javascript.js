@@ -6,7 +6,7 @@ var gutil = require('gulp-util');
 var webpack = require('webpack');
 var del = require("del");
 
-var webpackConfig = require('../../webpack.config');
+var webpackConfig = require('../../webpack/webpack.config');
 
 gulp.task("js:clean", false, () => {
   return del(["dist-dev/js"]);
