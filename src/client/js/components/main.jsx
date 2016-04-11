@@ -1,8 +1,8 @@
 'use strict'
 
-var _ = require('lodash');
-var moment = require('moment');
-var React = require('react')
+const _ = require('lodash/fp');
+const moment = require('moment');
+const React = require('react')
 
 module.exports = React.createClass({
   getDefaultProps: function() {
@@ -18,16 +18,16 @@ module.exports = React.createClass({
   },
 
   getNextGame: function(games) {
-    var today = this.state.today;
+    const today = this.state.today;
 
-    return _.chain(games)
-      .reject(function(game) { return today.isAfter(game.date, 'day'); })
-      .min(function(game) { return moment(game.date).unix(); })
-      .value();
+    return _.flow(
+      _.reject(function(game) { return today.isAfter(game.date, 'day'); }),
+      _.minBy(function(game) { return moment(game.date).unix(); })
+    )(games);
   },
 
   isThereAGameToday: function(nextGame) {
-    var location = nextGame.location === this.props.homeStadium ? 'home' : 'away';
+    const location = nextGame.location === this.props.homeStadium ? 'home' : 'away';
 
     if (this.state.today.isSame(nextGame.date, 'day')) {
       return (
@@ -42,7 +42,7 @@ module.exports = React.createClass({
   },
 
   render: function() {
-    var nextGame = this.getNextGame(this.props.data);
+    const nextGame = this.getNextGame(this.props.data);
 
     return (
       <div className='jumbotron content'>
