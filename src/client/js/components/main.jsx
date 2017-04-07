@@ -1,8 +1,27 @@
 'use strict'
 
-const _ = require('lodash/fp');
+import {
+  flow,
+  minBy,
+  reject
+} from 'lodash/fp';
 const moment = require('moment');
 const React = require('react')
+
+const isGameToday = (now, game) => moment(now).isSame(game.date, 'day');
+
+const formatGameTime = (now, game) => {
+  return isGameToday(now, game)
+    ? moment(game.date).calendar()
+    : moment(game.date).format('LLLL');
+};
+
+const getNextGame = (now, games) => {
+  return flow(
+    reject((game) => { return now.isAfter(game.date, 'day'); }),
+    minBy((game) => { return moment(game.date).unix(); })
+  )(games);
+};
 
 module.exports = React.createClass({
   getDefaultProps: function() {
@@ -14,22 +33,15 @@ module.exports = React.createClass({
   },
 
   getInitialState: function() {
-    return { today: moment(new Date()) };
-  },
-
-  getNextGame: function(games) {
-    const today = this.state.today;
-
-    return _.flow(
-      _.reject(function(game) { return today.isAfter(game.date, 'day'); }),
-      _.minBy(function(game) { return moment(game.date).unix(); })
-    )(games);
+    return {
+      today: moment(new Date())
+    };
   },
 
   isThereAGameToday: function(nextGame) {
     const location = nextGame.location === this.props.homeStadium ? 'home' : 'away';
 
-    if (this.state.today.isSame(nextGame.date, 'day')) {
+    if (isGameToday(this.state.today, nextGame)) {
       return (
         <div className='answer'>
           YES
@@ -42,7 +54,7 @@ module.exports = React.createClass({
   },
 
   render: function() {
-    const nextGame = this.getNextGame(this.props.data);
+    const nextGame = getNextGame(this.state.today, this.props.data);
 
     return (
       <div className='jumbotron content'>
@@ -51,7 +63,7 @@ module.exports = React.createClass({
         {this.isThereAGameToday(nextGame)}
 
         <h2>{ this.props.homeTeam } vs. the fucking { nextGame.opponent }</h2>
-        <h3>{ moment(nextGame.time, 'h:ma Z').format('h:mm a') } { moment(nextGame.date).format('dddd M/D/YYYY') } @ { nextGame.location}</h3>
+        <h3>{ formatGameTime(this.state.today, nextGame) } @ { nextGame.location}</h3>
       </div>
     );
   }
