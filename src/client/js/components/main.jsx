@@ -23,6 +23,21 @@ const getNextGame = (now, games) => {
   )(games);
 };
 
+const heroText = (now, nextGame) => {
+  const isHomeGame = nextGame.location === this.props.homeStadium;
+
+  if (isGameToday(now, nextGame)) {
+    return (
+      <div className='answer'>
+        YES
+        <h2>It's a fucking { isHomeGame ? 'home' : 'away' } game</h2>
+      </div>
+    );
+  } else {
+    return <div className='answer'>NO</div>
+  }
+};
+
 module.exports = React.createClass({
   getDefaultProps: function() {
     return {
@@ -38,21 +53,6 @@ module.exports = React.createClass({
     };
   },
 
-  isThereAGameToday: function(nextGame) {
-    const location = nextGame.location === this.props.homeStadium ? 'home' : 'away';
-
-    if (isGameToday(this.state.today, nextGame)) {
-      return (
-        <div className='answer'>
-          YES
-          <h2>It's a fucking { location } game</h2>
-        </div>
-      );
-    } else {
-      return <div className='answer'>NO</div>
-    }
-  },
-
   render: function() {
     const nextGame = getNextGame(this.state.today, this.props.data);
 
@@ -60,7 +60,7 @@ module.exports = React.createClass({
       <div className='jumbotron content'>
         <h1>Is there a fucking { this.props.homeTeam } game today?</h1>
 
-        {this.isThereAGameToday(nextGame)}
+        { heroText(this.state.today, nextGame) }
 
         <h2>{ this.props.homeTeam } vs. the fucking { nextGame.opponent }</h2>
         <h3>{ formatGameTime(this.state.today, nextGame) } @ { nextGame.location}</h3>
