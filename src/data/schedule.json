@@ -1,1130 +1,797 @@
 [
-    {
-        "date": "03/09/2016",
-        "location": "Scottsdale Stadium - Scottsdale",
-        "opponent": "Giants",
-        "time": "01:05pm EDT"
-    },
-    {
-        "date": "03/10/2016",
-        "location": "Salt River Fields at Talking Stick - Scottsdale",
-        "opponent": "Reds",
-        "time": "01:10pm EDT"
-    },
-    {
-        "date": "03/11/2016",
-        "location": "Salt River Fields at Talking Stick - Scottsdale",
-        "opponent": "Indians",
-        "time": "01:10pm EDT"
-    },
-    {
-        "date": "03/12/2016",
-        "location": "Maryvale Baseball Park - Phoenix",
-        "opponent": "Brewers",
-        "time": "01:05pm EDT"
-    },
-    {
-        "date": "03/13/2016",
-        "location": "Salt River Fields at Talking Stick - Scottsdale",
-        "opponent": "Dodgers",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "03/14/2016",
-        "location": "Peoria Stadium - Peoria",
-        "opponent": "Mariners",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "03/15/2016",
-        "location": "Salt River Fields at Talking Stick - Scottsdale",
-        "opponent": "Athletics",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "03/16/2016",
-        "location": "Camelback Ranch - Glendale",
-        "opponent": "Dodgers",
-        "time": "02:05pm EDT"
-    },
-    {
-        "date": "03/17/2016",
-        "location": "Salt River Fields at Talking Stick - Scottsdale",
-        "opponent": "Angels",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "03/18/2016",
-        "location": "Tempe Diablo Stadium - Tempe",
-        "opponent": "Angels",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "03/19/2016",
-        "location": "Peoria Stadium - Peoria",
-        "opponent": "Padres",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "03/20/2016",
-        "location": "Salt River Fields at Talking Stick - Scottsdale",
-        "opponent": "Giants",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "03/21/2016",
-        "location": "Surprise Stadium - Surprise",
-        "opponent": "Rangers",
-        "time": "02:05pm EDT"
-    },
-    {
-        "date": "03/22/2016",
-        "location": "Salt River Fields at Talking Stick - Scottsdale",
-        "opponent": "Brewers",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "03/24/2016",
-        "location": "Salt River Fields at Talking Stick - Scottsdale",
-        "opponent": "Mariners",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "03/25/2016",
-        "location": "Goodyear Ballpark - Goodyear",
-        "opponent": "Reds",
-        "time": "02:05pm EDT"
-    },
-    {
-        "date": "03/26/2016",
-        "location": "Salt River Fields at Talking Stick - Scottsdale",
-        "opponent": "Rangers",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "03/27/2016",
-        "location": "Salt River Fields at Talking Stick - Scottsdale",
-        "opponent": "D-backs",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "03/28/2016",
-        "location": "Salt River Fields at Talking Stick - Scottsdale",
-        "opponent": "White Sox",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "03/29/2016",
-        "location": "Salt River Fields at Talking Stick - Scottsdale",
-        "opponent": "D-backs",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "03/30/2016",
-        "location": "Salt River Fields at Talking Stick - Scottsdale",
-        "opponent": "Brewers",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "03/30/2016",
-        "location": "Sloan Park - Mesa",
-        "opponent": "Cubs",
-        "time": "02:05pm EDT"
-    },
-    {
-        "date": "03/31/2016",
-        "location": "Salt River Fields at Talking Stick - Scottsdale",
-        "opponent": "D-backs",
-        "time": "01:10pm EDT"
-    },
-    {
-        "date": "04/01/2016",
-        "location": "Peoria Stadium - Peoria",
-        "opponent": "Mariners",
-        "time": "08:10pm EDT"
-    },
-    {
-        "date": "04/02/2016",
-        "location": "Salt River Fields at Talking Stick - Scottsdale",
-        "opponent": "Mariners",
-        "time": "01:10pm EDT"
-    },
-    {
-        "date": "04/04/2016",
-        "location": "Chase Field - Phoenix",
-        "opponent": "D-backs",
-        "time": "07:40pm EDT"
-    },
-    {
-        "date": "04/05/2016",
-        "location": "Chase Field - Phoenix",
-        "opponent": "D-backs",
-        "time": "07:40pm EDT"
-    },
-    {
-        "date": "04/06/2016",
-        "location": "Chase Field - Phoenix",
-        "opponent": "D-backs",
-        "time": "01:40pm EDT"
-    },
-    {
-        "date": "04/08/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Padres",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "04/09/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Padres",
-        "time": "06:10pm EDT"
-    },
-    {
-        "date": "04/10/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Padres",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "04/12/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Giants",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "04/13/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Giants",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "04/14/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Giants",
-        "time": "01:10pm EDT"
-    },
-    {
-        "date": "04/15/2016",
-        "location": "Wrigley Field - Chicago",
-        "opponent": "Cubs",
-        "time": "12:20pm EDT"
-    },
-    {
-        "date": "04/16/2016",
-        "location": "Wrigley Field - Chicago",
-        "opponent": "Cubs",
-        "time": "12:20pm EDT"
-    },
-    {
-        "date": "04/17/2016",
-        "location": "Wrigley Field - Chicago",
-        "opponent": "Cubs",
-        "time": "12:20pm EDT"
-    },
-    {
-        "date": "04/18/2016",
-        "location": "Great American Ball Park - Cincinnati",
-        "opponent": "Reds",
-        "time": "05:10pm EDT"
-    },
-    {
-        "date": "04/19/2016",
-        "location": "Great American Ball Park - Cincinnati",
-        "opponent": "Reds",
-        "time": "05:10pm EDT"
-    },
-    {
-        "date": "04/20/2016",
-        "location": "Great American Ball Park - Cincinnati",
-        "opponent": "Reds",
-        "time": "10:35am EDT"
-    },
-    {
-        "date": "04/22/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Dodgers",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "04/23/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Dodgers",
-        "time": "06:10pm EDT"
-    },
-    {
-        "date": "04/24/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Dodgers",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "04/25/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Pirates",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "04/26/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Pirates",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "04/27/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Pirates",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "04/28/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Pirates",
-        "time": "01:10pm EDT"
-    },
-    {
-        "date": "04/29/2016",
-        "location": "Chase Field - Phoenix",
-        "opponent": "D-backs",
-        "time": "07:40pm EDT"
-    },
-    {
-        "date": "04/30/2016",
-        "location": "Chase Field - Phoenix",
-        "opponent": "D-backs",
-        "time": "06:10pm EDT"
-    },
-    {
-        "date": "05/01/2016",
-        "location": "Chase Field - Phoenix",
-        "opponent": "D-backs",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "05/02/2016",
-        "location": "Petco Park - San Diego",
-        "opponent": "Padres",
-        "time": "08:10pm EDT"
-    },
-    {
-        "date": "05/03/2016",
-        "location": "Petco Park - San Diego",
-        "opponent": "Padres",
-        "time": "08:10pm EDT"
-    },
-    {
-        "date": "05/04/2016",
-        "location": "Petco Park - San Diego",
-        "opponent": "Padres",
-        "time": "01:40pm EDT"
-    },
-    {
-        "date": "05/05/2016",
-        "location": "AT&T Park - San Francisco",
-        "opponent": "Giants",
-        "time": "08:15pm EDT"
-    },
-    {
-        "date": "05/06/2016",
-        "location": "AT&T Park - San Francisco",
-        "opponent": "Giants",
-        "time": "08:15pm EDT"
-    },
-    {
-        "date": "05/07/2016",
-        "location": "AT&T Park - San Francisco",
-        "opponent": "Giants",
-        "time": "02:05pm EDT"
-    },
-    {
-        "date": "05/08/2016",
-        "location": "AT&T Park - San Francisco",
-        "opponent": "Giants",
-        "time": "02:05pm EDT"
-    },
-    {
-        "date": "05/09/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "D-backs",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "05/10/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "D-backs",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "05/11/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "D-backs",
-        "time": "01:10pm EDT"
-    },
-    {
-        "date": "05/13/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Mets",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "05/14/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Mets",
-        "time": "06:10pm EDT"
-    },
-    {
-        "date": "05/15/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Mets",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "05/17/2016",
-        "location": "Busch Stadium - St. Louis",
-        "opponent": "Cardinals",
-        "time": "06:15pm EDT"
-    },
-    {
-        "date": "05/18/2016",
-        "location": "Busch Stadium - St. Louis",
-        "opponent": "Cardinals",
-        "time": "06:15pm EDT"
-    },
-    {
-        "date": "05/19/2016",
-        "location": "Busch Stadium - St. Louis",
-        "opponent": "Cardinals",
-        "time": "05:15pm EDT"
-    },
-    {
-        "date": "05/20/2016",
-        "location": "PNC Park - Pittsburgh",
-        "opponent": "Pirates",
-        "time": "05:05pm EDT"
-    },
-    {
-        "date": "05/21/2016",
-        "location": "PNC Park - Pittsburgh",
-        "opponent": "Pirates",
-        "time": "02:05pm EDT"
-    },
-    {
-        "date": "05/22/2016",
-        "location": "PNC Park - Pittsburgh",
-        "opponent": "Pirates",
-        "time": "11:35am EDT"
-    },
-    {
-        "date": "05/24/2016",
-        "location": "Fenway Park - Boston",
-        "opponent": "Red Sox",
-        "time": "05:10pm EDT"
-    },
-    {
-        "date": "05/25/2016",
-        "location": "Fenway Park - Boston",
-        "opponent": "Red Sox",
-        "time": "05:10pm EDT"
-    },
-    {
-        "date": "05/26/2016",
-        "location": "Fenway Park - Boston",
-        "opponent": "Red Sox",
-        "time": "05:10pm EDT"
-    },
-    {
-        "date": "05/27/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Giants",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "05/28/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Giants",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "05/29/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Giants",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "05/30/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Reds",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "05/31/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Reds",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "06/01/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Reds",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "06/02/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Reds",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "06/03/2016",
-        "location": "Petco Park - San Diego",
-        "opponent": "Padres",
-        "time": "08:40pm EDT"
-    },
-    {
-        "date": "06/04/2016",
-        "location": "Petco Park - San Diego",
-        "opponent": "Padres",
-        "time": "08:10pm EDT"
-    },
-    {
-        "date": "06/05/2016",
-        "location": "Petco Park - San Diego",
-        "opponent": "Padres",
-        "time": "07:10pm EDT"
-    },
-    {
-        "date": "06/06/2016",
-        "location": "Dodger Stadium - Los Angeles",
-        "opponent": "Dodgers",
-        "time": "08:10pm EDT"
-    },
-    {
-        "date": "06/07/2016",
-        "location": "Dodger Stadium - Los Angeles",
-        "opponent": "Dodgers",
-        "time": "08:10pm EDT"
-    },
-    {
-        "date": "06/08/2016",
-        "location": "Dodger Stadium - Los Angeles",
-        "opponent": "Dodgers",
-        "time": "08:10pm EDT"
-    },
-    {
-        "date": "06/10/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Padres",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "06/11/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Padres",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "06/12/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Padres",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "06/14/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Yankees",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "06/15/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Yankees",
-        "time": "01:10pm EDT"
-    },
-    {
-        "date": "06/17/2016",
-        "location": "Marlins Park - Miami",
-        "opponent": "Marlins",
-        "time": "05:10pm EDT"
-    },
-    {
-        "date": "06/18/2016",
-        "location": "Marlins Park - Miami",
-        "opponent": "Marlins",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "06/19/2016",
-        "location": "Marlins Park - Miami",
-        "opponent": "Marlins",
-        "time": "11:10am EDT"
-    },
-    {
-        "date": "06/20/2016",
-        "location": "Marlins Park - Miami",
-        "opponent": "Marlins",
-        "time": "05:10pm EDT"
-    },
-    {
-        "date": "06/21/2016",
-        "location": "Yankee Stadium - Bronx",
-        "opponent": "Yankees",
-        "time": "05:05pm EDT"
-    },
-    {
-        "date": "06/22/2016",
-        "location": "Yankee Stadium - Bronx",
-        "opponent": "Yankees",
-        "time": "11:05am EDT"
-    },
-    {
-        "date": "06/23/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "D-backs",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "06/24/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "D-backs",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "06/25/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "D-backs",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "06/26/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "D-backs",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "06/27/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Blue Jays",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "06/28/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Blue Jays",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "06/29/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Blue Jays",
-        "time": "01:10pm EDT"
-    },
-    {
-        "date": "07/01/2016",
-        "location": "Dodger Stadium - Los Angeles",
-        "opponent": "Dodgers",
-        "time": "08:10pm EDT"
-    },
-    {
-        "date": "07/02/2016",
-        "location": "Dodger Stadium - Los Angeles",
-        "opponent": "Dodgers",
-        "time": "08:10pm EDT"
-    },
-    {
-        "date": "07/03/2016",
-        "location": "Dodger Stadium - Los Angeles",
-        "opponent": "Dodgers",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "07/04/2016",
-        "location": "AT&T Park - San Francisco",
-        "opponent": "Giants",
-        "time": "02:05pm EDT"
-    },
-    {
-        "date": "07/05/2016",
-        "location": "AT&T Park - San Francisco",
-        "opponent": "Giants",
-        "time": "08:15pm EDT"
-    },
-    {
-        "date": "07/06/2016",
-        "location": "AT&T Park - San Francisco",
-        "opponent": "Giants",
-        "time": "08:15pm EDT"
-    },
-    {
-        "date": "07/07/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Phillies",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "07/08/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Phillies",
-        "time": "06:10pm EDT"
-    },
-    {
-        "date": "07/09/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Phillies",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "07/10/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Phillies",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "07/12/2016",
-        "location": "Petco Park - San Diego",
-        "opponent": "American  Nional - Time TBD",
-        "time": " EDT"
-    },
-    {
-        "date": "07/15/2016",
-        "location": "Turner Field - Atlanta",
-        "opponent": "Braves",
-        "time": "05:35pm EDT"
-    },
-    {
-        "date": "07/16/2016",
-        "location": "Turner Field - Atlanta",
-        "opponent": "Braves",
-        "time": "05:10pm EDT"
-    },
-    {
-        "date": "07/17/2016",
-        "location": "Turner Field - Atlanta",
-        "opponent": "Braves",
-        "time": "11:35am EDT"
-    },
-    {
-        "date": "07/18/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Rays",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "07/19/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Rays",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "07/20/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Rays",
-        "time": "01:10pm EDT"
-    },
-    {
-        "date": "07/21/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Braves",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "07/22/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Braves",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "07/23/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Braves",
-        "time": "06:10pm EDT"
-    },
-    {
-        "date": "07/24/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Braves",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "07/25/2016",
-        "location": "Oriole Park at Camden Yards - Baltimore",
-        "opponent": "Orioles",
-        "time": "05:05pm EDT"
-    },
-    {
-        "date": "07/26/2016",
-        "location": "Oriole Park at Camden Yards - Baltimore",
-        "opponent": "Orioles",
-        "time": "05:05pm EDT"
-    },
-    {
-        "date": "07/27/2016",
-        "location": "Oriole Park at Camden Yards - Baltimore",
-        "opponent": "Orioles",
-        "time": "05:05pm EDT"
-    },
-    {
-        "date": "07/28/2016",
-        "location": "Citi Field - Flushing",
-        "opponent": "Mets",
-        "time": "11:10am EDT"
-    },
-    {
-        "date": "07/29/2016",
-        "location": "Citi Field - Flushing",
-        "opponent": "Mets",
-        "time": "05:10pm EDT"
-    },
-    {
-        "date": "07/30/2016",
-        "location": "Citi Field - Flushing",
-        "opponent": "Mets",
-        "time": "05:10pm EDT"
-    },
-    {
-        "date": "07/31/2016",
-        "location": "Citi Field - Flushing",
-        "opponent": "Mets",
-        "time": "11:10am EDT"
-    },
-    {
-        "date": "08/02/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Dodgers",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "08/03/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Dodgers",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "08/04/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Dodgers",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "08/05/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Marlins",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "08/06/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Marlins",
-        "time": "06:10pm EDT"
-    },
-    {
-        "date": "08/07/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Marlins",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "08/08/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Rangers",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "08/09/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Rangers",
-        "time": "01:10pm EDT"
-    },
-    {
-        "date": "08/10/2016",
-        "location": "Globe Life Park in Arlington - Arlington",
-        "opponent": "Rangers",
-        "time": "06:05pm EDT"
-    },
-    {
-        "date": "08/11/2016",
-        "location": "Globe Life Park in Arlington - Arlington",
-        "opponent": "Rangers",
-        "time": "12:05pm EDT"
-    },
-    {
-        "date": "08/12/2016",
-        "location": "Citizens Bank Park - Philadelphia",
-        "opponent": "Phillies",
-        "time": "05:05pm EDT"
-    },
-    {
-        "date": "08/13/2016",
-        "location": "Citizens Bank Park - Philadelphia",
-        "opponent": "Phillies",
-        "time": "05:05pm EDT"
-    },
-    {
-        "date": "08/14/2016",
-        "location": "Citizens Bank Park - Philadelphia",
-        "opponent": "Phillies",
-        "time": "11:35am EDT"
-    },
-    {
-        "date": "08/15/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Nionals",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "08/16/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Nionals",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "08/17/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Nionals",
-        "time": "01:10pm EDT"
-    },
-    {
-        "date": "08/19/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Cubs",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "08/20/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Cubs",
-        "time": "06:10pm EDT"
-    },
-    {
-        "date": "08/21/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Cubs",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "08/22/2016",
-        "location": "Miller Park - Milwaukee",
-        "opponent": "Brewers",
-        "time": "05:20pm EDT"
-    },
-    {
-        "date": "08/23/2016",
-        "location": "Miller Park - Milwaukee",
-        "opponent": "Brewers",
-        "time": "06:10pm EDT"
-    },
-    {
-        "date": "08/24/2016",
-        "location": "Miller Park - Milwaukee",
-        "opponent": "Brewers",
-        "time": "12:10pm EDT"
-    },
-    {
-        "date": "08/26/2016",
-        "location": "Nationals Park - Washington",
-        "opponent": "Nionals",
-        "time": "05:05pm EDT"
-    },
-    {
-        "date": "08/27/2016",
-        "location": "Nationals Park - Washington",
-        "opponent": "Nionals",
-        "time": "11:05am EDT"
-    },
-    {
-        "date": "08/28/2016",
-        "location": "Nationals Park - Washington",
-        "opponent": "Nionals",
-        "time": "11:35am EDT"
-    },
-    {
-        "date": "08/29/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Dodgers",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "08/30/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Dodgers",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "08/31/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Dodgers",
-        "time": "01:10pm EDT"
-    },
-    {
-        "date": "09/02/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "D-backs",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "09/03/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "D-backs",
-        "time": "06:10pm EDT"
-    },
-    {
-        "date": "09/04/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "D-backs",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "09/05/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Giants",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "09/06/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Giants",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "09/07/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Giants",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "09/08/2016",
-        "location": "Petco Park - San Diego",
-        "opponent": "Padres",
-        "time": "08:10pm EDT"
-    },
-    {
-        "date": "09/09/2016",
-        "location": "Petco Park - San Diego",
-        "opponent": "Padres",
-        "time": "08:40pm EDT"
-    },
-    {
-        "date": "09/10/2016",
-        "location": "Petco Park - San Diego",
-        "opponent": "Padres",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "09/11/2016",
-        "location": "Petco Park - San Diego",
-        "opponent": "Padres",
-        "time": "02:40pm EDT"
-    },
-    {
-        "date": "09/12/2016",
-        "location": "Chase Field - Phoenix",
-        "opponent": "D-backs",
-        "time": "07:40pm EDT"
-    },
-    {
-        "date": "09/13/2016",
-        "location": "Chase Field - Phoenix",
-        "opponent": "D-backs",
-        "time": "07:40pm EDT"
-    },
-    {
-        "date": "09/14/2016",
-        "location": "Chase Field - Phoenix",
-        "opponent": "D-backs",
-        "time": "07:40pm EDT"
-    },
-    {
-        "date": "09/16/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Padres",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "09/17/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Padres",
-        "time": "06:10pm EDT"
-    },
-    {
-        "date": "09/18/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Padres",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "09/19/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Cardinals",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "09/20/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Cardinals",
-        "time": "06:40pm EDT"
-    },
-    {
-        "date": "09/21/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Cardinals",
-        "time": "01:10pm EDT"
-    },
-    {
-        "date": "09/22/2016",
-        "location": "Dodger Stadium - Los Angeles",
-        "opponent": "Dodgers",
-        "time": "08:10pm EDT"
-    },
-    {
-        "date": "09/23/2016",
-        "location": "Dodger Stadium - Los Angeles",
-        "opponent": "Dodgers",
-        "time": "08:10pm EDT"
-    },
-    {
-        "date": "09/24/2016",
-        "location": "Dodger Stadium - Los Angeles",
-        "opponent": "Dodgers",
-        "time": "07:10pm EDT"
-    },
-    {
-        "date": "09/25/2016",
-        "location": "Dodger Stadium - Los Angeles",
-        "opponent": "Dodgers",
-        "time": "02:10pm EDT"
-    },
-    {
-        "date": "09/27/2016",
-        "location": "AT&T Park - San Francisco",
-        "opponent": "Giants",
-        "time": "08:15pm EDT"
-    },
-    {
-        "date": "09/28/2016",
-        "location": "AT&T Park - San Francisco",
-        "opponent": "Giants",
-        "time": "08:15pm EDT"
-    },
-    {
-        "date": "09/29/2016",
-        "location": "AT&T Park - San Francisco",
-        "opponent": "Giants",
-        "time": "08:15pm EDT"
-    },
-    {
-        "date": "09/30/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Brewers",
-        "time": "06:10pm EDT"
-    },
-    {
-        "date": "10/01/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Brewers",
-        "time": "06:10pm EDT"
-    },
-    {
-        "date": "10/02/2016",
-        "location": "Coors Field - Denver",
-        "opponent": "Brewers",
-        "time": "01:10pm EDT"
-    }
+  {
+    "date": "2017-04-07T16:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Dodgers"
+  },
+  {
+    "date": "2017-04-08T20:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Dodgers"
+  },
+  {
+    "date": "2017-04-09T15:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Dodgers"
+  },
+  {
+    "date": "2017-04-10T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Padres"
+  },
+  {
+    "date": "2017-04-11T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Padres"
+  },
+  {
+    "date": "2017-04-12T15:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Padres"
+  },
+  {
+    "date": "2017-04-13T22:15:00-04:00",
+    "location": "AT&T Park - San Francisco",
+    "opponent": "Giants"
+  },
+  {
+    "date": "2017-04-14T22:15:00-04:00",
+    "location": "AT&T Park - San Francisco",
+    "opponent": "Giants"
+  },
+  {
+    "date": "2017-04-15T16:05:00-04:00",
+    "location": "AT&T Park - San Francisco",
+    "opponent": "Giants"
+  },
+  {
+    "date": "2017-04-16T16:05:00-04:00",
+    "location": "AT&T Park - San Francisco",
+    "opponent": "Giants"
+  },
+  {
+    "date": "2017-04-18T22:10:00-04:00",
+    "location": "Dodger Stadium - Los Angeles",
+    "opponent": "Dodgers"
+  },
+  {
+    "date": "2017-04-19T22:10:00-04:00",
+    "location": "Dodger Stadium - Los Angeles",
+    "opponent": "Dodgers"
+  },
+  {
+    "date": "2017-04-21T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Giants"
+  },
+  {
+    "date": "2017-04-22T20:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Giants"
+  },
+  {
+    "date": "2017-04-23T15:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Giants"
+  },
+  {
+    "date": "2017-04-24T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Nationals"
+  },
+  {
+    "date": "2017-04-25T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Nationals"
+  },
+  {
+    "date": "2017-04-26T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Nationals"
+  },
+  {
+    "date": "2017-04-27T15:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Nationals"
+  },
+  {
+    "date": "2017-04-28T21:40:00-04:00",
+    "location": "Chase Field - Phoenix",
+    "opponent": "D-backs"
+  },
+  {
+    "date": "2017-04-29T20:10:00-04:00",
+    "location": "Chase Field - Phoenix",
+    "opponent": "D-backs"
+  },
+  {
+    "date": "2017-04-30T16:10:00-04:00",
+    "location": "Chase Field - Phoenix",
+    "opponent": "D-backs"
+  },
+  {
+    "date": "2017-05-02T22:10:00-04:00",
+    "location": "Petco Park - San Diego",
+    "opponent": "Padres"
+  },
+  {
+    "date": "2017-05-03T22:10:00-04:00",
+    "location": "Petco Park - San Diego",
+    "opponent": "Padres"
+  },
+  {
+    "date": "2017-05-04T15:40:00-04:00",
+    "location": "Petco Park - San Diego",
+    "opponent": "Padres"
+  },
+  {
+    "date": "2017-05-05T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "D-backs"
+  },
+  {
+    "date": "2017-05-06T20:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "D-backs"
+  },
+  {
+    "date": "2017-05-07T15:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "D-backs"
+  },
+  {
+    "date": "2017-05-08T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Cubs"
+  },
+  {
+    "date": "2017-05-09T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Cubs"
+  },
+  {
+    "date": "2017-05-10T15:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Cubs"
+  },
+  {
+    "date": "2017-05-11T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Dodgers"
+  },
+  {
+    "date": "2017-05-12T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Dodgers"
+  },
+  {
+    "date": "2017-05-13T20:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Dodgers"
+  },
+  {
+    "date": "2017-05-14T15:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Dodgers"
+  },
+  {
+    "date": "2017-05-16T20:10:00-04:00",
+    "location": "Target Field - Minneapolis",
+    "opponent": "Twins"
+  },
+  {
+    "date": "2017-05-17T20:10:00-04:00",
+    "location": "Target Field - Minneapolis",
+    "opponent": "Twins"
+  },
+  {
+    "date": "2017-05-18T13:10:00-04:00",
+    "location": "Target Field - Minneapolis",
+    "opponent": "Twins"
+  },
+  {
+    "date": "2017-05-19T19:10:00-04:00",
+    "location": "Great American Ball Park - Cincinnati",
+    "opponent": "Reds"
+  },
+  {
+    "date": "2017-05-20T16:10:00-04:00",
+    "location": "Great American Ball Park - Cincinnati",
+    "opponent": "Reds"
+  },
+  {
+    "date": "2017-05-21T13:10:00-04:00",
+    "location": "Great American Ball Park - Cincinnati",
+    "opponent": "Reds"
+  },
+  {
+    "date": "2017-05-22T19:05:00-04:00",
+    "location": "Citizens Bank Park - Philadelphia",
+    "opponent": "Phillies"
+  },
+  {
+    "date": "2017-05-23T19:05:00-04:00",
+    "location": "Citizens Bank Park - Philadelphia",
+    "opponent": "Phillies"
+  },
+  {
+    "date": "2017-05-24T19:05:00-04:00",
+    "location": "Citizens Bank Park - Philadelphia",
+    "opponent": "Phillies"
+  },
+  {
+    "date": "2017-05-25T13:05:00-04:00",
+    "location": "Citizens Bank Park - Philadelphia",
+    "opponent": "Phillies"
+  },
+  {
+    "date": "2017-05-26T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Cardinals"
+  },
+  {
+    "date": "2017-05-27T21:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Cardinals"
+  },
+  {
+    "date": "2017-05-28T15:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Cardinals"
+  },
+  {
+    "date": "2017-05-29T15:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Mariners"
+  },
+  {
+    "date": "2017-05-30T19:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Mariners"
+  },
+  {
+    "date": "2017-05-31T22:10:00-04:00",
+    "location": "Safeco Field - Seattle",
+    "opponent": "Mariners"
+  },
+  {
+    "date": "2017-06-01T15:40:00-04:00",
+    "location": "Safeco Field - Seattle",
+    "opponent": "Mariners"
+  },
+  {
+    "date": "2017-06-02T22:10:00-04:00",
+    "location": "Petco Park - San Diego",
+    "opponent": "Padres"
+  },
+  {
+    "date": "2017-06-03T16:10:00-04:00",
+    "location": "Petco Park - San Diego",
+    "opponent": "Padres"
+  },
+  {
+    "date": "2017-06-04T16:40:00-04:00",
+    "location": "Petco Park - San Diego",
+    "opponent": "Padres"
+  },
+  {
+    "date": "2017-06-06T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Indians"
+  },
+  {
+    "date": "2017-06-07T15:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Indians"
+  },
+  {
+    "date": "2017-06-08T20:05:00-04:00",
+    "location": "Wrigley Field - Chicago",
+    "opponent": "Cubs"
+  },
+  {
+    "date": "2017-06-09T14:20:00-04:00",
+    "location": "Wrigley Field - Chicago",
+    "opponent": "Cubs"
+  },
+  {
+    "date": "2017-06-10T14:20:00-04:00",
+    "location": "Wrigley Field - Chicago",
+    "opponent": "Cubs"
+  },
+  {
+    "date": "2017-06-11T14:20:00-04:00",
+    "location": "Wrigley Field - Chicago",
+    "opponent": "Cubs"
+  },
+  {
+    "date": "2017-06-12T19:05:00-04:00",
+    "location": "PNC Park - Pittsburgh",
+    "opponent": "Pirates"
+  },
+  {
+    "date": "2017-06-13T19:05:00-04:00",
+    "location": "PNC Park - Pittsburgh",
+    "opponent": "Pirates"
+  },
+  {
+    "date": "2017-06-14T19:05:00-04:00",
+    "location": "PNC Park - Pittsburgh",
+    "opponent": "Pirates"
+  },
+  {
+    "date": "2017-06-15T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Giants"
+  },
+  {
+    "date": "2017-06-16T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Giants"
+  },
+  {
+    "date": "2017-06-17T15:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Giants"
+  },
+  {
+    "date": "2017-06-18T15:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Giants"
+  },
+  {
+    "date": "2017-06-20T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "D-backs"
+  },
+  {
+    "date": "2017-06-21T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "D-backs"
+  },
+  {
+    "date": "2017-06-22T15:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "D-backs"
+  },
+  {
+    "date": "2017-06-23T22:10:00-04:00",
+    "location": "Dodger Stadium - Los Angeles",
+    "opponent": "Dodgers"
+  },
+  {
+    "date": "2017-06-24T22:10:00-04:00",
+    "location": "Dodger Stadium - Los Angeles",
+    "opponent": "Dodgers"
+  },
+  {
+    "date": "2017-06-25T16:10:00-04:00",
+    "location": "Dodger Stadium - Los Angeles",
+    "opponent": "Dodgers"
+  },
+  {
+    "date": "2017-06-26T22:15:00-04:00",
+    "location": "AT&T Park - San Francisco",
+    "opponent": "Giants"
+  },
+  {
+    "date": "2017-06-27T22:15:00-04:00",
+    "location": "AT&T Park - San Francisco",
+    "opponent": "Giants"
+  },
+  {
+    "date": "2017-06-28T15:45:00-04:00",
+    "location": "AT&T Park - San Francisco",
+    "opponent": "Giants"
+  },
+  {
+    "date": "2017-06-30T21:40:00-04:00",
+    "location": "Chase Field - Phoenix",
+    "opponent": "D-backs"
+  },
+  {
+    "date": "2017-07-01T22:10:00-04:00",
+    "location": "Chase Field - Phoenix",
+    "opponent": "D-backs"
+  },
+  {
+    "date": "2017-07-02T16:10:00-04:00",
+    "location": "Chase Field - Phoenix",
+    "opponent": "D-backs"
+  },
+  {
+    "date": "2017-07-03T20:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Reds"
+  },
+  {
+    "date": "2017-07-04T20:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Reds"
+  },
+  {
+    "date": "2017-07-05T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Reds"
+  },
+  {
+    "date": "2017-07-06T15:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Reds"
+  },
+  {
+    "date": "2017-07-07T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "White Sox"
+  },
+  {
+    "date": "2017-07-08T21:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "White Sox"
+  },
+  {
+    "date": "2017-07-09T15:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "White Sox"
+  },
+  {
+    "date": "2017-07-11T20:00:00-04:00",
+    "location": "Marlins Park - Miami",
+    "opponent": "AL All-Stars"
+  },
+  {
+    "date": "2017-07-14T19:10:00-04:00",
+    "location": "Citi Field - Flushing",
+    "opponent": "Mets"
+  },
+  {
+    "date": "2017-07-15T19:10:00-04:00",
+    "location": "Citi Field - Flushing",
+    "opponent": "Mets"
+  },
+  {
+    "date": "2017-07-16T13:10:00-04:00",
+    "location": "Citi Field - Flushing",
+    "opponent": "Mets"
+  },
+  {
+    "date": "2017-07-17T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Padres"
+  },
+  {
+    "date": "2017-07-18T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Padres"
+  },
+  {
+    "date": "2017-07-19T15:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Padres"
+  },
+  {
+    "date": "2017-07-21T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Pirates"
+  },
+  {
+    "date": "2017-07-22T20:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Pirates"
+  },
+  {
+    "date": "2017-07-23T15:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Pirates"
+  },
+  {
+    "date": "2017-07-24T20:15:00-04:00",
+    "location": "Busch Stadium - St. Louis",
+    "opponent": "Cardinals"
+  },
+  {
+    "date": "2017-07-25T20:15:00-04:00",
+    "location": "Busch Stadium - St. Louis",
+    "opponent": "Cardinals"
+  },
+  {
+    "date": "2017-07-26T20:15:00-04:00",
+    "location": "Busch Stadium - St. Louis",
+    "opponent": "Cardinals"
+  },
+  {
+    "date": "2017-07-28T19:05:00-04:00",
+    "location": "Nationals Park - Washington",
+    "opponent": "Nationals"
+  },
+  {
+    "date": "2017-07-29T19:05:00-04:00",
+    "location": "Nationals Park - Washington",
+    "opponent": "Nationals"
+  },
+  {
+    "date": "2017-07-30T13:35:00-04:00",
+    "location": "Nationals Park - Washington",
+    "opponent": "Nationals"
+  },
+  {
+    "date": "2017-08-01T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Mets"
+  },
+  {
+    "date": "2017-08-02T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Mets"
+  },
+  {
+    "date": "2017-08-03T15:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Mets"
+  },
+  {
+    "date": "2017-08-04T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Phillies"
+  },
+  {
+    "date": "2017-08-05T20:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Phillies"
+  },
+  {
+    "date": "2017-08-06T15:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Phillies"
+  },
+  {
+    "date": "2017-08-08T19:10:00-04:00",
+    "location": "Progressive Field - Cleveland",
+    "opponent": "Indians"
+  },
+  {
+    "date": "2017-08-09T12:10:00-04:00",
+    "location": "Progressive Field - Cleveland",
+    "opponent": "Indians"
+  },
+  {
+    "date": "2017-08-11T19:10:00-04:00",
+    "location": "Marlins Park - Miami",
+    "opponent": "Marlins"
+  },
+  {
+    "date": "2017-08-12T19:10:00-04:00",
+    "location": "Marlins Park - Miami",
+    "opponent": "Marlins"
+  },
+  {
+    "date": "2017-08-13T13:10:00-04:00",
+    "location": "Marlins Park - Miami",
+    "opponent": "Marlins"
+  },
+  {
+    "date": "2017-08-14T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Braves"
+  },
+  {
+    "date": "2017-08-15T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Braves"
+  },
+  {
+    "date": "2017-08-16T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Braves"
+  },
+  {
+    "date": "2017-08-17T15:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Braves"
+  },
+  {
+    "date": "2017-08-18T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Brewers"
+  },
+  {
+    "date": "2017-08-19T20:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Brewers"
+  },
+  {
+    "date": "2017-08-20T15:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Brewers"
+  },
+  {
+    "date": "2017-08-22T20:15:00-04:00",
+    "location": "Kauffman Stadium - Kansas City",
+    "opponent": "Royals"
+  },
+  {
+    "date": "2017-08-23T20:15:00-04:00",
+    "location": "Kauffman Stadium - Kansas City",
+    "opponent": "Royals"
+  },
+  {
+    "date": "2017-08-24T14:15:00-04:00",
+    "location": "Kauffman Stadium - Kansas City",
+    "opponent": "Royals"
+  },
+  {
+    "date": "2017-08-25T19:35:00-04:00",
+    "location": "SunTrust Park - Atlanta",
+    "opponent": "Braves"
+  },
+  {
+    "date": "2017-08-26T19:10:00-04:00",
+    "location": "SunTrust Park - Atlanta",
+    "opponent": "Braves"
+  },
+  {
+    "date": "2017-08-27T13:35:00-04:00",
+    "location": "SunTrust Park - Atlanta",
+    "opponent": "Braves"
+  },
+  {
+    "date": "2017-08-28T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Tigers"
+  },
+  {
+    "date": "2017-08-29T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Tigers"
+  },
+  {
+    "date": "2017-08-30T15:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Tigers"
+  },
+  {
+    "date": "2017-09-01T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "D-backs"
+  },
+  {
+    "date": "2017-09-02T20:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "D-backs"
+  },
+  {
+    "date": "2017-09-03T15:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "D-backs"
+  },
+  {
+    "date": "2017-09-04T15:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Giants"
+  },
+  {
+    "date": "2017-09-05T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Giants"
+  },
+  {
+    "date": "2017-09-06T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Giants"
+  },
+  {
+    "date": "2017-09-07T22:10:00-04:00",
+    "location": "Dodger Stadium - Los Angeles",
+    "opponent": "Dodgers"
+  },
+  {
+    "date": "2017-09-08T22:10:00-04:00",
+    "location": "Dodger Stadium - Los Angeles",
+    "opponent": "Dodgers"
+  },
+  {
+    "date": "2017-09-09T21:10:00-04:00",
+    "location": "Dodger Stadium - Los Angeles",
+    "opponent": "Dodgers"
+  },
+  {
+    "date": "2017-09-10T16:10:00-04:00",
+    "location": "Dodger Stadium - Los Angeles",
+    "opponent": "Dodgers"
+  },
+  {
+    "date": "2017-09-11T21:40:00-04:00",
+    "location": "Chase Field - Phoenix",
+    "opponent": "D-backs"
+  },
+  {
+    "date": "2017-09-12T21:40:00-04:00",
+    "location": "Chase Field - Phoenix",
+    "opponent": "D-backs"
+  },
+  {
+    "date": "2017-09-13T21:40:00-04:00",
+    "location": "Chase Field - Phoenix",
+    "opponent": "D-backs"
+  },
+  {
+    "date": "2017-09-14T15:40:00-04:00",
+    "location": "Chase Field - Phoenix",
+    "opponent": "D-backs"
+  },
+  {
+    "date": "2017-09-15T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Padres"
+  },
+  {
+    "date": "2017-09-16T20:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Padres"
+  },
+  {
+    "date": "2017-09-17T15:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Padres"
+  },
+  {
+    "date": "2017-09-19T22:15:00-04:00",
+    "location": "AT&T Park - San Francisco",
+    "opponent": "Giants"
+  },
+  {
+    "date": "2017-09-20T15:45:00-04:00",
+    "location": "AT&T Park - San Francisco",
+    "opponent": "Giants"
+  },
+  {
+    "date": "2017-09-21T22:10:00-04:00",
+    "location": "Petco Park - San Diego",
+    "opponent": "Padres"
+  },
+  {
+    "date": "2017-09-22T22:10:00-04:00",
+    "location": "Petco Park - San Diego",
+    "opponent": "Padres"
+  },
+  {
+    "date": "2017-09-23T20:40:00-04:00",
+    "location": "Petco Park - San Diego",
+    "opponent": "Padres"
+  },
+  {
+    "date": "2017-09-24T16:40:00-04:00",
+    "location": "Petco Park - San Diego",
+    "opponent": "Padres"
+  },
+  {
+    "date": "2017-09-25T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Marlins"
+  },
+  {
+    "date": "2017-09-26T20:40:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Marlins"
+  },
+  {
+    "date": "2017-09-27T15:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Marlins"
+  },
+  {
+    "date": "2017-09-29T20:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Dodgers"
+  },
+  {
+    "date": "2017-09-30T20:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Dodgers"
+  },
+  {
+    "date": "2017-10-01T15:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Dodgers"
+  }
 ]
