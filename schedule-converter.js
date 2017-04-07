@@ -2,72 +2,72 @@
 
 'use strict';
 
-var csv = require('csv');
-var path = require('path');
-var fs = require('fs');
-var _ = require('lodash');
-var moment = require('moment-timezone');
+const {
+  countBy,
+  difference,
+  find,
+  flatten,
+  flow,
+  head,
+  identity,
+  map,
+  maxBy,
+  without,
+  zipObject
+} = require('lodash');
+const pify = require('pify');
+const moment = require('moment-timezone');
+const path = require('path');
+
+const fs = pify(require('fs'));
+const parseCSV = pify(require('csv-parse'));
 
 var srcPath = path.resolve('./src/data/schedule.csv')
 var destPath = path.resolve('./src/data') + '/schedule.json';
 
-var transform = function(csvData, homeTeam) {
-  return _.map(csvData.slice(1), function(row) {
-    var gameData = _.zipObject(csvData[0], row);
+var transform = function(games, homeTeam) {
+  return games.map(game => {
+    var date = moment.tz(game['START DATE'] + ' ' + game['START TIME ET'], 'MM/DD/YY hh:mm a', 'America/New_York');
 
-    var date = moment.tz(gameData.START_DATE + ' ' + gameData.START_TIME_ET, 'MM/DD/YY hh:mm a', 'America/New_York');
-
-    var opponent = _.find(gameData.SUBJECT.split(' at '), function(word) {
-      return word !== homeTeam;
-    });
+    var opponent = head(
+      difference(getTeams(game), [homeTeam])
+    )
 
     return {
       date: date.format(),
-      location: gameData.LOCATION,
+      location: game.LOCATION,
       opponent: opponent,
     };
   });
 };
 
-var getHomeTeam = function(csvData) {
-  return _.chain(csvData.slice(1))
-    // Generate an Array of Arrays of all of the teams that play each other
-    // D-backs at Rockies -> ['D-backs', 'Rockies']
-    .map(function(row) {
-      var gameData = _.zipObject(csvData[0], row);
-      return gameData.SUBJECT.split(' at ');
-    })
-    .flatten()
-    // Reduce to an object containing unique team names and a count of occurances
-    .reduce(function(memo, team) {
-      if (!memo[team]) { memo[team] = 0; }
-      memo[team]++;
-      return memo;
-    }, {})
-    // Return the team that occurs the most
-    .reduce(function(memo, gamesPlayed, team) {
-      if (gamesPlayed > memo.gamesPlayed) {
-        memo.gamesPlayed = gamesPlayed;
-        memo.team = team;
-      }
-      return memo;
-    }, { team: '', gamesPlayed: 0})
-    .value()
-    .team;
+var getHomeTeam = function(games) {
+  return flow(
+    (data) => data.map(getTeams),
+    // A list of all teams playing in all games
+    flatten,
+    // A count of the number of games each team played in
+    (data) => countBy(data, identity),
+    // The team with the most games played (should be the home team)
+    (data) => maxBy(Object.keys(data), (key) => data[key])
+  )(games);
 }
 
-fs.readFile(srcPath, function (err, data) {
-  if (err) throw err;
+// To tell what teams are playing, you have to look at the "SUBJECT" field of the CSV which is
+// of the format `Dodgers at Rockies`. This converts a game object to `[Dodgers, Rockies]`
+const getTeams = (game) => game.SUBJECT.split(' at ');
 
-  csv.parse(data, function(err, data){
-    if (err) throw err;
+const csvToJSON = (csvData) => {
+  return csvData.slice(1)
+    .map((row) => zipObject(csvData[0], row));
+};
 
-    var homeTeam = getHomeTeam(data);
-    var jsonData = transform(data, homeTeam);
-
-    fs.writeFile(destPath, JSON.stringify(jsonData), function (err) {
-      if (err) throw err;
-      console.log('Finished!');
-    });
-  });
-});
+fs.readFile(srcPath)
+  .then(parseCSV)
+  .then(csvToJSON)
+  .then((data) => {
+    const homeTeam = getHomeTeam(data);
+    return transform(data, homeTeam);
+  })
+  .then((data) => fs.writeFile(destPath, JSON.stringify(data, null, 2)))
+  .then(() => { console.log(`All Finished!`); })
