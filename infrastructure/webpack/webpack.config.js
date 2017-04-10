@@ -20,15 +20,12 @@ module.exports = {
   },
 
   module: {
-    loaders: [{
-      name: "babel",
+    rules: [{
       test: /\.jsx?$/,
       exclude: /node_modules/,
-      loader: require.resolve("babel-loader")
-    }, {
-      name: "json",
-      test: /\.json$/,
-      loader: require.resolve("json-loader")
+      use: {
+        loader: 'babel-loader'
+      }
     }]
   },
 
@@ -46,11 +43,8 @@ module.exports = {
       // "process.env.NODE_ENV": JSON.stringify(process.env.NODE_ENV)
       "process.env.NODE_ENV": JSON.stringify("production")
     }),
-    new optimize.DedupePlugin(),
     new optimize.UglifyJsPlugin({
-      compress: {
-        warnings: false
-      }
+      sourceMap: true
     }),
     // Moment by default includes all locales - this ensures that only english is loaded.
     new ContextReplacementPlugin(/moment[\/\\]locale$/, /en/)
@@ -63,6 +57,9 @@ module.exports = {
    */
 
   resolve: {
-    root: config.root
+    modules: [
+      path.join(config.root, config.src),
+      "node_modules"
+    ]
   }
 };
