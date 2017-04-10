@@ -5,28 +5,31 @@ import {
   minBy,
   reject
 } from 'lodash/fp';
-const moment = require('moment');
+
+var formatDate = require('date-fns/format');
+var getTime = require('date-fns/get_time');
+var isAfter = require('date-fns/is_after');
+var isToday = require('date-fns/is_today');
+
 const React = require('react')
 
-const isGameToday = (now, game) => moment(now).isSame(game.date, 'day');
-
-const formatGameTime = (now, game) => {
-  return isGameToday(now, game)
-    ? moment(game.date).calendar()
-    : moment(game.date).format('LLLL');
+const formatGameTime = (game) => {
+  return isToday(game.date)
+    ? `Today at ${formatDate(game.date, 'h:mm a')}`
+    : formatDate(game.date, 'dddd, MMM D, YYYY h:mm a');
 };
 
 const getNextGame = (now, games) => {
   return flow(
-    reject((game) => { return now.isAfter(game.date, 'day'); }),
-    minBy((game) => { return moment(game.date).unix(); })
+    reject((game) => { return isAfter(now, game.date) }),
+    minBy((game) => { return getTime(game.date); })
   )(games);
 };
 
-const heroText = (now, homeStadium, nextGame) => {
+const heroText = (homeStadium, nextGame) => {
   const isHomeGame = nextGame.location === homeStadium;
 
-  if (isGameToday(now, nextGame)) {
+  if (isToday(nextGame.date)) {
     return (
       <div className='answer'>
         YES
@@ -49,7 +52,7 @@ module.exports = React.createClass({
 
   getInitialState: function() {
     return {
-      today: moment(new Date())
+      today: new Date()
     };
   },
 
@@ -60,10 +63,10 @@ module.exports = React.createClass({
       <div className='jumbotron content'>
         <h1>Is there a fucking { this.props.homeTeam } game today?</h1>
 
-        { heroText(this.state.today, this.props.homeStadium, nextGame) }
+        { heroText(this.props.homeStadium, nextGame) }
 
         <h2>{ this.props.homeTeam } vs. the fucking { nextGame.opponent }</h2>
-        <h3>{ formatGameTime(this.state.today, nextGame) } @ { nextGame.location}</h3>
+        <h3>{ formatGameTime(nextGame) } @ { nextGame.location}</h3>
       </div>
     );
   }

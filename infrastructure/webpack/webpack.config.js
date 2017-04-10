@@ -1,4 +1,3 @@
-const ContextReplacementPlugin = require("webpack").ContextReplacementPlugin;
 const DefinePlugin = require("webpack").DefinePlugin;
 const optimize = require("webpack").optimize;
 const path = require('path');
@@ -45,9 +44,7 @@ module.exports = {
     }),
     new optimize.UglifyJsPlugin({
       sourceMap: true
-    }),
-    // Moment by default includes all locales - this ensures that only english is loaded.
-    new ContextReplacementPlugin(/moment[\/\\]locale$/, /en/)
+    })
   ],
 
   /**
