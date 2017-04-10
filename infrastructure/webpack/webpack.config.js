@@ -1,8 +1,8 @@
 const DefinePlugin = require("webpack").DefinePlugin;
-const optimize = require("webpack").optimize;
 const path = require('path');
 const SourceMapDevToolPlugin = require("webpack").SourceMapDevToolPlugin;
 const webpack = require('webpack');
+const BabiliPlugin = require("babili-webpack-plugin");
 
 var config = require('../../project.config');
 
@@ -42,7 +42,7 @@ module.exports = {
       // "process.env.NODE_ENV": JSON.stringify(process.env.NODE_ENV)
       "process.env.NODE_ENV": JSON.stringify("production")
     }),
-    new optimize.UglifyJsPlugin({
+    new BabiliPlugin({}, {
       sourceMap: true
     })
   ],

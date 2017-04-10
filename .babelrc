@@ -1,6 +1,13 @@
 {
   "presets": [
-    "es2015",
+    ["env", {
+      "debug": true,
+      "targets": {
+        "browsers": [
+          "last 2 versions"
+        ]
+      }
+    }],
     "react"
   ],
   "plugins": [
