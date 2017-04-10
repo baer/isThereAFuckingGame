@@ -1,21 +1,19 @@
-'use strict'
+const formatDate = require("date-fns/format");
+const getTime = require("date-fns/get_time");
+const isAfter = require("date-fns/is_after");
+const isToday = require("date-fns/is_today");
 
-var formatDate = require('date-fns/format');
-var getTime = require('date-fns/get_time');
-var isAfter = require('date-fns/is_after');
-var isToday = require('date-fns/is_today');
-
-const React = require('react')
+const React = require("react");
 
 const formatGameTime = (game) => {
   return isToday(game.date)
-    ? `Today at ${formatDate(game.date, 'h:mm a')}`
-    : formatDate(game.date, 'dddd, MMM D, YYYY h:mm a');
+    ? `Today at ${formatDate(game.date, "h:mm a")}`
+    : formatDate(game.date, "dddd, MMM D, YYYY h:mm a");
 };
 
 const getNextGame = (now, games) => {
   return games
-    .filter((game) => { return isAfter(game.date, now) })
+    .filter((game) => { return isAfter(game.date, now); })
     .sort((game) => { return -getTime(game.date); })
     .shift();
 };
@@ -25,36 +23,36 @@ const heroText = (homeStadium, nextGame) => {
 
   if (isToday(nextGame.date)) {
     return (
-      <div className='answer'>
+      <div className="answer">
         YES
-        <h2>It's a fucking { isHomeGame ? 'home' : 'away' } game</h2>
+        <h2>It's a fucking { isHomeGame ? "home" : "away" } game</h2>
       </div>
     );
   } else {
-    return <div className='answer'>NO</div>
+    return <div className="answer">NO</div>;
   }
 };
 
 module.exports = React.createClass({
-  getDefaultProps: function() {
+  getDefaultProps() {
     return {
-      homeTeam:'Rockies',
-      homeStadium: 'Coors Field - Denver',
+      homeTeam: "Rockies",
+      homeStadium: "Coors Field - Denver",
       data: {}
-    }
+    };
   },
 
-  getInitialState: function() {
+  getInitialState() {
     return {
       today: new Date()
     };
   },
 
-  render: function() {
+  render() {
     const nextGame = getNextGame(this.state.today, this.props.data);
 
     return (
-      <div className='jumbotron content'>
+      <div className="jumbotron content">
         <h1>Is there a fucking { this.props.homeTeam } game today?</h1>
 
         { heroText(this.props.homeStadium, nextGame) }
