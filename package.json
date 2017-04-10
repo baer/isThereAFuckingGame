@@ -15,7 +15,7 @@
 
   "devDependencies": {
     "babel-core"               : "6.24.0",
-    "babel-eslint"             : "6.0.2",
+    "babel-eslint"             : "7.2.1",
     "babel-loader"             : "6.4.1",
     "babel-plugin-lodash"      : "2.2.2",
     "babel-plugin-transform-object-rest-spread": "6.23.0",
@@ -23,8 +23,12 @@
     "babel-preset-react"       : "6.23.0",
     "cssnano"                  : "3.10.0",
     "del"                      : "2.2.2",
+    "eslint-config-formidable" : "2.0.1",
+    "eslint-plugin-filenames"  : "1.1.0",
+    "eslint-plugin-import"     : "2.2.0",
+    "eslint-plugin-react"      : "6.10.3",
     "gulp-autoprefixer"        : "3.1.1",
-    "gulp-eslint"              : "0.12.0",
+    "gulp-eslint"              : "3.0.1",
     "gulp-help"                : "1.6.1",
     "gulp-less"                : "3.3.0",
     "gulp-notify"              : "2.2.0",

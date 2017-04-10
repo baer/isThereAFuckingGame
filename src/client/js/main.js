@@ -1,18 +1,16 @@
-'use strict';
+const React = require("react");
+const ReactDOM = require("react-dom");
 
-var React = require('react');
-var ReactDOM = require('react-dom');
+const HeroUnit = require("./components/main.jsx");
+const data = require("../../data/schedule.json");
 
-var HeroUnit = require('./components/main.jsx');
-var data = require('../../data/schedule.json');
-
-var projectConfig = require('../../../project.config.js');
+const projectConfig = require("../../../project.config.js");
 
 ReactDOM.render(
   React.createElement(HeroUnit, {
     homeTeam: projectConfig.homeTeam,
     homeStadium: projectConfig.homeStadium,
-    data: data
+    data
   }),
-  document.getElementById('react-container')
+  document.getElementById("react-container")
 );

@@ -9,11 +9,11 @@ const handleErrors = require("../util/handle-errors");
 
 gulp.task("lint:all", false, () => {
   return gulp.src([
-    path.join(config.srcFullPath, '**/*.js'),
+    path.join(config.srcFullPath, '**/*.jsx?'),
     path.join(config.root, '*.js'),
     path.join(config.root, 'gulp-tasks/**/*.js')
   ])
-    .pipe(eslint({configFile: "./infrastructure/eslint/.eslintrc"}))
+    .pipe(eslint())
     .pipe(eslint.format())
     .pipe(eslint.failAfterError());
 });
