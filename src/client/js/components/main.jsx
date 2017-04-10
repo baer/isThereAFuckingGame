@@ -1,11 +1,5 @@
 'use strict'
 
-import {
-  flow,
-  minBy,
-  reject
-} from 'lodash/fp';
-
 var formatDate = require('date-fns/format');
 var getTime = require('date-fns/get_time');
 var isAfter = require('date-fns/is_after');
@@ -20,10 +14,10 @@ const formatGameTime = (game) => {
 };
 
 const getNextGame = (now, games) => {
-  return flow(
-    reject((game) => { return isAfter(now, game.date) }),
-    minBy((game) => { return getTime(game.date); })
-  )(games);
+  return games
+    .filter((game) => { return isAfter(game.date, now) })
+    .sort((game) => { return -getTime(game.date); })
+    .shift();
 };
 
 const heroText = (homeStadium, nextGame) => {
