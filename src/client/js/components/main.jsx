@@ -23,8 +23,8 @@ const getNextGame = (now, games) => {
   )(games);
 };
 
-const heroText = (now, nextGame) => {
-  const isHomeGame = nextGame.location === this.props.homeStadium;
+const heroText = (now, homeStadium, nextGame) => {
+  const isHomeGame = nextGame.location === homeStadium;
 
   if (isGameToday(now, nextGame)) {
     return (
@@ -60,7 +60,7 @@ module.exports = React.createClass({
       <div className='jumbotron content'>
         <h1>Is there a fucking { this.props.homeTeam } game today?</h1>
 
-        { heroText(this.state.today, nextGame) }
+        { heroText(this.state.today, this.props.homeStadium, nextGame) }
 
         <h2>{ this.props.homeTeam } vs. the fucking { nextGame.opponent }</h2>
         <h3>{ formatGameTime(this.state.today, nextGame) } @ { nextGame.location}</h3>
