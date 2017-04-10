@@ -1,7 +1,7 @@
 const React = require("react");
 const ReactDOM = require("react-dom");
 
-const HeroUnit = require("./components/main.jsx");
+const HeroUnit = require("./components/main.js");
 const data = require("../../data/schedule.json");
 
 const projectConfig = require("../../../project.config.js");
