@@ -7,7 +7,7 @@ const less = require("gulp-less");
 const postcss = require("gulp-postcss");
 const rename = require("gulp-rename");
 
-const getBundleName = require("../util/get-bundle-name.js");
+const getBundleName = require("../util/get-css-bundle-name.js");
 const handleErrors = require("../util/handle-errors");
 
 gulp.task("styles:clean", false, () => {

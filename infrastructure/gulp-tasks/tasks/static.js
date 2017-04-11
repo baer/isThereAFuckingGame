@@ -4,7 +4,9 @@ const del = require("del");
 const gulp = require("gulp");
 const replace = require("gulp-replace");
 
-const getBundleName = require("../util/get-bundle-name.js");
+const getCssBundleName = require("../util/get-css-bundle-name.js");
+const getJavaScriptBundleName = require("../util/get-javascript-bundle-name.js");
+
 const handleErrors = require("../util/handle-errors");
 
 const getGoogleAnalyticsId = () => {
@@ -19,12 +21,13 @@ gulp.task("static:clean-fonts", false, () => {
   return del(["dist-dev/fonts"]);
 });
 
-gulp.task("static:html", false, ["static:clean-root"], () => {
+gulp.task("static:html", false, ["static:clean-root", "javascript"], () => {
   return gulp.src([
     "./src/client/index.html",
     "./src/client/404.html"
   ])
-    .pipe(replace("@@cssBundle", getBundleName({ ext: "css" })))
+    .pipe(replace("@@jsBundle", getJavaScriptBundleName()))
+    .pipe(replace("@@cssBundle", getCssBundleName({ ext: "css" })))
     .pipe(replace("@@googleAnalyticsId", getGoogleAnalyticsId()))
     .pipe(gulp.dest("dist-dev"))
     .on("error", handleErrors);

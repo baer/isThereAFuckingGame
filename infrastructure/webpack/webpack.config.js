@@ -15,8 +15,7 @@ module.exports = {
   },
   output: {
     path: path.join(config.destFullPath, config.js),
-    filename: "[name].bundle.js",
-    chunkFilename: "[id].bundle.js"
+    filename: "[hash].bundle.js"
   },
 
   module: {
@@ -47,12 +46,6 @@ module.exports = {
       sourceMap: true
     })
   ],
-
-  /**
-   * This defines the 'root' of your project.  If you `require('some-package')`
-   * from within your application JS, Webpack will first check the directory
-   * specified in config.root for `some-package.js` before checking node_modules.
-   */
 
   resolve: {
     modules: [
