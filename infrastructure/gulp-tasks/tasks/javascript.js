@@ -1,11 +1,11 @@
-'use strict';
+"use strict";
 
-var gulp = require('gulp');
-var gutil = require('gulp-util');
-var webpack = require('webpack');
-var del = require("del");
+const gulp = require("gulp");
+const gutil = require("gulp-util");
+const webpack = require("webpack");
+const del = require("del");
 
-var webpackConfig = require('../../webpack/webpack.config');
+const webpackConfig = require("../../webpack/webpack.config");
 
 gulp.task("js:clean", false, () => {
   return del(["dist-dev/js"]);
@@ -17,7 +17,7 @@ gulp.task("js:client", false, ["js:clean"], (cb) => {
       throw new gutil.PluginError("js:client", err);
     }
 
-    gutil.log("[build:js]", stats.toString({colors: true}));
+    gutil.log("[build:js]", stats.toString({ colors: true }));
     cb();
   });
 });

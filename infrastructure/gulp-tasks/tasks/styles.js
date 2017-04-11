@@ -17,7 +17,7 @@ gulp.task("styles:clean", false, () => {
 gulp.task("styles:compile", false, ["styles:clean"], () => {
   return gulp.src("./src/client/styles/main.less")
     .pipe(less())
-    .pipe(rename(getBundleName({ext: "css"})))
+    .pipe(rename(getBundleName({ ext: "css" })))
     .pipe(postcss([ cssnano ]))
     .pipe(gulp.dest("dist-dev/css/"))
     .on("error", handleErrors);

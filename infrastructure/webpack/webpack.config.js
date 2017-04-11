@@ -1,21 +1,21 @@
 const DefinePlugin = require("webpack").DefinePlugin;
-const path = require('path');
+const path = require("path");
 const SourceMapDevToolPlugin = require("webpack").SourceMapDevToolPlugin;
-const webpack = require('webpack');
+const webpack = require("webpack");
 const BabiliPlugin = require("babili-webpack-plugin");
 
-var config = require('../../project.config');
+const config = require("../../project.config");
 
 module.exports = {
   context: config.srcFullPath,
 
   entry: {
-    main: './js/main.js'
+    main: "./js/main.js"
   },
   output: {
     path: path.join(config.destFullPath, config.js),
-    filename: '[name].bundle.js',
-    chunkFilename: '[id].bundle.js'
+    filename: "[name].bundle.js",
+    chunkFilename: "[id].bundle.js"
   },
 
   module: {
@@ -23,7 +23,7 @@ module.exports = {
       test: /\.jsx?$/,
       exclude: /node_modules/,
       use: {
-        loader: 'babel-loader'
+        loader: "babel-loader"
       }
     }]
   },
@@ -32,7 +32,7 @@ module.exports = {
     new SourceMapDevToolPlugin({
       test: /\.(css|js)($|\?)/,
       filename: "[file].map",
-      append: `\n//# sourceMappingURL=[url]`,
+      append: "\n//# sourceMappingURL=[url]",
       module: true,
       columns: true
     }),

@@ -12,7 +12,7 @@ const getGoogleAnalyticsId = () => {
 };
 
 gulp.task("static:clean-root", false, () => {
-  return del(["dist-dev/*"], {nodir: true});
+  return del(["dist-dev/*"], { nodir: true });
 });
 
 gulp.task("static:clean-fonts", false, () => {
@@ -24,7 +24,7 @@ gulp.task("static:html", false, ["static:clean-root"], () => {
     "./src/client/index.html",
     "./src/client/404.html"
   ])
-    .pipe(replace("@@cssBundle", getBundleName({ext: "css"})))
+    .pipe(replace("@@cssBundle", getBundleName({ ext: "css" })))
     .pipe(replace("@@googleAnalyticsId", getGoogleAnalyticsId()))
     .pipe(gulp.dest("dist-dev"))
     .on("error", handleErrors);
