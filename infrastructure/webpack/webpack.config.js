@@ -1,7 +1,8 @@
+"use strict";
+
 const DefinePlugin = require("webpack").DefinePlugin;
 const path = require("path");
 const SourceMapDevToolPlugin = require("webpack").SourceMapDevToolPlugin;
-const webpack = require("webpack");
 const BabiliPlugin = require("babili-webpack-plugin");
 
 const config = require("../../project.config");
