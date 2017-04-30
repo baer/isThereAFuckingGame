@@ -2,7 +2,7 @@
 
 const notify = require("gulp-notify");
 
-module.exports = function (errorObject, callback) {
+module.exports = function (errorObject) {
   const formattedError = errorObject
     .toString()
     .split(": ")

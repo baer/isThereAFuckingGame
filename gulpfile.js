@@ -1,4 +1,4 @@
-"use strict";
+
 
 /*
   gulpfile.js
@@ -16,7 +16,7 @@
 const requireDir = require("require-dir");
 
 // Set up gulp help
-require("gulp-help")(require("gulp"), {hideDepsMessage: true});
+require("gulp-help")(require("gulp"), { hideDepsMessage: true });
 
 // Require all tasks in gulp/tasks, including subfolders
-requireDir("./infrastructure/gulp-tasks/tasks", {recurse: true});
+requireDir("./infrastructure/gulp-tasks/tasks", { recurse: true });
