@@ -1,13 +1,13 @@
-const React = require("react");
-const ReactDOM = require("react-dom");
+import React from "react";
+import ReactDOM from "react-dom";
 
-const HeroUnit = require("./components/main.js");
-const data = require("../../data/schedule.json");
+import App from "./components/index.js";
+import data from "../../data/schedule.json";
 
-const projectConfig = require("../../../project.config.js");
+import projectConfig from "../../../project.config.js";
 
 ReactDOM.render(
-  React.createElement(HeroUnit, {
+  React.createElement(App, {
     homeTeam: projectConfig.homeTeam,
     homeStadium: projectConfig.homeStadium,
     data

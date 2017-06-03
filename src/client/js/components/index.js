@@ -1,9 +1,10 @@
-const formatDate = require("date-fns/format");
-const getTime = require("date-fns/get_time");
-const isAfter = require("date-fns/is_after");
-const isToday = require("date-fns/is_today");
+import formatDate from "date-fns/format";
+import getTime from "date-fns/get_time";
+import isAfter from "date-fns/is_after";
+import isToday from "date-fns/is_today";
+import React from "react";
 
-const React = require("react");
+import { Footer } from "./footer.js";
 
 const formatGameTime = (game) => {
   return isToday(game.date)
@@ -33,7 +34,7 @@ const heroText = (homeStadium, nextGame) => {
   }
 };
 
-module.exports = React.createClass({
+export default React.createClass({
   getDefaultProps() {
     return {
       homeTeam: "Rockies",
@@ -52,13 +53,16 @@ module.exports = React.createClass({
     const nextGame = getNextGame(this.state.today, this.props.data);
 
     return (
-      <div className="jumbotron content">
-        <h1>Is there a fucking { this.props.homeTeam } game today?</h1>
+      <div className="container">
+        <div className="jumbotron content">
+          <h1>Is there a fucking { this.props.homeTeam } game today?</h1>
 
-        { heroText(this.props.homeStadium, nextGame) }
+          { heroText(this.props.homeStadium, nextGame) }
 
-        <h2>{ this.props.homeTeam } vs. the fucking { nextGame.opponent }</h2>
-        <h3>{ formatGameTime(nextGame) } @ { nextGame.location}</h3>
+          <h2>{ this.props.homeTeam } vs. the fucking { nextGame.opponent }</h2>
+          <h3>{ formatGameTime(nextGame) } @ { nextGame.location}</h3>
+        </div>
+        <Footer/>
       </div>
     );
   }
