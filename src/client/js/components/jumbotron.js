@@ -27,7 +27,7 @@ const AnswerText = ({ homeStadium, nextGame }) => {
 };
 AnswerText.propTypes = {
   homeStadium: PropTypes.string,
-  nextGame: PropTypes.string
+  nextGame: PropTypes.object
 };
 
 const Jumbotron = ({ homeTeam, homeStadium, nextGame }) => {
@@ -46,7 +46,7 @@ const Jumbotron = ({ homeTeam, homeStadium, nextGame }) => {
 Jumbotron.propTypes = {
   homeStadium: PropTypes.string,
   homeTeam: PropTypes.string,
-  nextGame: PropTypes.string
+  nextGame: PropTypes.object
 };
 
 export {
