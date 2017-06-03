@@ -1,3 +1,5 @@
+/* eslint-disable react/no-multi-comp */
+
 import formatDate from "date-fns/format";
 import isToday from "date-fns/is_today";
 import PropTypes from "prop-types";
@@ -9,7 +11,7 @@ const formatGameTime = (game) => {
     : formatDate(game.date, "dddd, MMM D, YYYY h:mm a");
 };
 
-const heroText = (homeStadium, nextGame) => {
+const AnswerText = ({ homeStadium, nextGame }) => {
   const isHomeGame = nextGame.location === homeStadium;
 
   if (isToday(nextGame.date)) {
@@ -23,13 +25,17 @@ const heroText = (homeStadium, nextGame) => {
     return <div className="answer">NO</div>;
   }
 };
+AnswerText.propTypes = {
+  homeStadium: PropTypes.string,
+  nextGame: PropTypes.string
+};
 
 const Jumbotron = ({ homeTeam, homeStadium, nextGame }) => {
   return (
     <div className="jumbotron content">
       <h1>Is there a fucking { homeTeam } game today?</h1>
 
-      { heroText(homeStadium, nextGame) }
+      <AnswerText homeStadium={homeStadium} nextGame={nextGame}/>
 
       <h2>{ homeTeam } vs. the fucking { nextGame.opponent }</h2>
       <h3>{ formatGameTime(nextGame) } @ { nextGame.location}</h3>
