@@ -1,16 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import App from "./components/index.js";
+import { App } from "./components/app.js";
+
 import data from "../../data/schedule.json";
+import injectWithGame from "./components/hoc/inject-with-game.js";
 
 import projectConfig from "../../../project.config.js";
 
 ReactDOM.render(
-  React.createElement(App, {
+  React.createElement(injectWithGame(App, data), {
     homeTeam: projectConfig.homeTeam,
-    homeStadium: projectConfig.homeStadium,
-    data
+    homeStadium: projectConfig.homeStadium
   }),
   document.getElementById("react-container")
 );
