@@ -62,7 +62,9 @@
     "fix": "eslint . --fix",
     "lint": "eslint .",
     "server": "nodemon --watch dist-dev --delay 1000ms --exec static dist-dev",
-    "test": "gulp test-phantom"
+    "test": "gulp test-phantom",
+    "build:dev": "NODE_ENV=development gulp build",
+    "build:prod": "NODE_ENV=production gulp build"
   },
 
   "engines":{
