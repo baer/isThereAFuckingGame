@@ -11,6 +11,11 @@ const getNextGame = (now, games) => {
     .shift();
 };
 
+const updateCurrentDate = (state) => {
+  state.today = new Date();
+  return state;
+};
+
 export default function (Component, gameData) {
   return class extends React.Component {
     constructor(props) {
@@ -21,15 +26,12 @@ export default function (Component, gameData) {
     }
 
     componentDidMount() {
-      this.timer = setInterval(this.tick.bind(this), UPDATE_INTERVAL);
+      const updateDate = () => { this.setState(updateCurrentDate); };
+      this.timer = setInterval(updateDate.bind(this), UPDATE_INTERVAL);
     }
 
     componentWillUnmount() {
       clearInterval(this.timer);
-    }
-
-    tick() {
-      this.setState({ today: new Date() });
     }
 
     render() {
