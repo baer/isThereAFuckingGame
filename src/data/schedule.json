@@ -225,11 +225,6 @@
     "opponent": "Braves"
   },
   {
-    "date": "2019-04-10T15:10:00-04:00",
-    "location": "Coors Field - Denver",
-    "opponent": "Braves"
-  },
-  {
     "date": "2019-04-11T21:45:00-04:00",
     "location": "Oracle Park - San Francisco",
     "opponent": "Giants"
@@ -828,6 +823,11 @@
     "date": "2019-08-25T14:15:00-04:00",
     "location": "Busch Stadium - St. Louis",
     "opponent": "Cardinals"
+  },
+  {
+    "date": "2019-08-26T15:10:00-04:00",
+    "location": "Coors Field - Denver",
+    "opponent": "Braves"
   },
   {
     "date": "2019-08-27T20:40:00-04:00",
