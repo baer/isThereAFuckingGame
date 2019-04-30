@@ -7,7 +7,7 @@ const UPDATE_INTERVAL = 1000;
 const getNextGame = (now, games) => {
   return games
     .filter((game) => { return isAfter(game.date, now); })
-    .sort((game) => { return -getTime(game.date); })
+    .sort((game1, game2) => { return getTime(game1.date) > getTime(game2.date); })
     .shift();
 };
 
