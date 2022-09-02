@@ -1,75 +1,29 @@
 {
-  "name"            : "isThereAFuckingGame",
-  "description"     : "",
-
-  "version"         : "3.0.0",
-  "author"          : "Eric Baer <me@ericbaer.com>",
-
-  "homepage"        : "https://github.com/baer/isThereAFuckingGame",
+  "name": "isthereafuckinggame",
+  "description": "",
+  "version": "5.0.0",
+  "author": "Eric Baer <me@ericbaer.com>",
+  "homepage": "https://github.com/baer/isThereAFuckingGame",
   "bugs": {
     "url": "https://github.com/baer/isThereAFuckingGame/issues"
   },
-
-  "repository"      : "git://github.com/baer/isThereAFuckingGame.git",
-  "private"         : false,
-
-  "devDependencies": {
-    "babel-core"               : "6.24.1",
-    "babel-eslint"             : "7.2.3",
-    "babel-loader"             : "7.0.0",
-    "babel-plugin-lodash"      : "3.2.11",
-    "babel-plugin-transform-object-rest-spread": "6.23.0",
-    "babel-preset-env"         : "1.5.1",
-    "babel-preset-react"       : "6.24.1",
-    "babili-webpack-plugin"    : "0.1.1",
-    "cssnano"                  : "3.10.0",
-    "del"                      : "2.2.2",
-    "eslint-config-formidable" : "3.0.0",
-    "eslint-plugin-filenames"  : "1.1.0",
-    "eslint-plugin-import"     : "2.2.0",
-    "eslint-plugin-react"      : "7.0.1",
-    "gulp-autoprefixer"        : "3.1.1",
-    "gulp-eslint"              : "3.0.1",
-    "gulp-help"                : "1.6.1",
-    "gulp-less"                : "3.3.0",
-    "gulp-notify"              : "3.0.0",
-    "gulp-postcss"             : "6.4.0",
-    "gulp-rename"              : "1.2.2",
-    "gulp-replace"             : "0.5.4",
-    "gulp-util"                : "3.0.8",
-    "gulp"                     : "3.9.1",
-    "lodash-webpack-plugin"    : "0.11.4",
-    "lodash"                   : "4.17.4",
-    "require-dir"              : "0.3.2",
-    "webpack"                  : "2.6.1",
-
-    "nodemon"                  : "1.11.0",
-    "node-static"              : "0.7.9",
-
-    "bootstrap"                : "3.3.4",
-    "date-fns"                 : "1.28.5",
-    "font-awesome"             : "4.7.0",
-    "react-dom"                : "15.5.4",
-    "react"                    : "15.5.4",
-
-    "csv-parse"                : "1.2.0",
-    "moment-timezone"          : "0.5.13",
-    "moment"                   : "2.18.1",
-    "pify"                     : "3.0.0"
-  },
-
+  "repository": "git://github.com/baer/isThereAFuckingGame.git",
+  "private": false,
+  "license": "MIT",
   "scripts": {
-    "fix": "eslint . --fix",
-    "lint": "eslint .",
-    "server": "nodemon --watch dist-dev --delay 1000ms --exec static dist-dev",
-    "test": "gulp test-phantom",
-    "build:dev": "NODE_ENV=development gulp build",
-    "build:prod": "NODE_ENV=production gulp build"
+    "dev": "next dev",
+    "build:production": "NODE_ENV=production next build && NODE_ENV=production next export -o dist",
+    "build:dev": "NODE_ENV=development next build --profile && NODE_ENV=development next export -o dist",
+    "serve-static": "nodemon --watch dist --exec 'serve dist -l 7000'"
   },
-
-  "engines":{
-    "node": ">= 4"
-  },
-
-  "license"         : "MIT"
+  "devDependencies": {
+    "bootstrap": "5.2.0",
+    "date-fns": "2.29.2",
+    "next": "12.2.5",
+    "nodemon": "2.0.19",
+    "react": "18.2.0",
+    "react-bootstrap": "2.5.0",
+    "react-dom": "18.2.0",
+    "serve": "14.0.1"
+  }
 }

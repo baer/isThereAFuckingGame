@@ -1,30 +1,27 @@
-# Is there a fucking ____ game today?
+# Is there a fucking \_\_\_\_ game today?
 
 ## Running the code
 
-Compiled code is not checked in so you will have to build the project using [Gulp](http://gulpjs.com/)
+First, run the development server:
 
-```
-git clone https://github.com/baer/isThereAFuckingGame
-cd isThereAFuckingGame
-npm install
-gulp
+```bash
+npm ci
+npm run dev
 ```
 
-The project will build to a `dist` directory which is then served as a static website
-```
-open dist/index.html
-```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Create a version for your favorite team
 
 There are two things that need to be done to add a team:
 
 #### Edit the application variables:
+
 - Edit the @homeTeamColor variable in <project>/src/client/styles/main.less
 - Edit the anything you'd like to change in variables in <project>/project.config.js
 
 #### Download the schedule and convert it to json:
+
 - Go to http://mlb.mlb.com/mlb/schedule/team_by_team.jsp
 - Click on Regular Season Schedule under desired team.
 - Scroll down to "In this Section". Click on Downloadable Schedule.
@@ -34,6 +31,7 @@ There are two things that need to be done to add a team:
 - Run `gulp build`
 
 ## Credits
+
 Many many thanks to [isthereagiantsgametoday](https://github.com/lforrest/isthereagiantsgametoday) for the inspiration.
 
 ## License
