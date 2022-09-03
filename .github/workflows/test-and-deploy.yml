@@ -3,7 +3,7 @@ name: Test and Deploy
 on:
   pull_request_target:
     branches:
-      - "*"
+      - "master"
 
   # Allow Manual Runs
   workflow_dispatch:
@@ -19,3 +19,31 @@ jobs:
         uses: ./.github/actions/install-dependendencies
       - name: Static Analysis
         uses: ./.github/actions/static-analysis
+
+  publish:
+    name: Publish to Cloudflare Pages
+    needs: static-analysis
+
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install Dependencies
+        uses: ./.github/actions/install-dependendencies
+
+      - name: Build
+        shell: bash
+        run: npm run build:production
+
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: 79fd517feb1d579982e26ccedd0fc4b3
+          projectName: is-there-a-fucking-rockies-game
+          directory: ./dist
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
