@@ -6,4 +6,5 @@ runs:
   using: "composite"
   steps:
     - name: Run Static Analysis
+      shell: bash
       run: npm run analyze-code
