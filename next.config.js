@@ -2,7 +2,8 @@ module.exports = {
   env: {
     homeTeam: "Rockies",
     homeStadium: "Coors Field - Denver",
-    websiteDescription: "Is there a fucking Rockies game today?",
+    websiteURL: "https://isthereafuckingrockiesgame.com/",
+    websiteDescription: "WTF! Why is downtown such a shitshow? Oh... right...",
 
     // TODO: Use These
     googleAnalytics: "UA-32746833-1",
