@@ -11,6 +11,7 @@ on:
 jobs:
   static-analysis:
     name: Static Analysis
+
     runs-on: ubuntu-latest
 
     steps:
@@ -44,8 +45,9 @@ jobs:
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@1
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: 79fd517feb1d579982e26ccedd0fc4b3
-          projectName: is-there-a-fucking-rockies-game
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           directory: ./dist
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          production: true
+          projectName: is-there-a-fucking-rockies-game
