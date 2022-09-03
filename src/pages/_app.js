@@ -27,6 +27,10 @@ function MyApp({ Component, pageProps }) {
           property="og:description"
           content={process.env.websiteDescription}
         />
+        <meta
+          property="og:image"
+          content={`${process.env.websiteURL}/social-preview.png`}
+        />
 
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
@@ -39,6 +43,10 @@ function MyApp({ Component, pageProps }) {
           property="twitter:description"
           content={process.env.websiteDescription}
         />
+        <meta
+          property="twitter:image"
+          content={`${process.env.websiteURL}/social-preview.png`}
+        ></meta>
       </Head>
 
       <Component {...pageProps} />
