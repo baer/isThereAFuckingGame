@@ -8,7 +8,7 @@ const {
   head,
   identity,
   maxBy,
-  zipObject
+  zipObject,
 } = require("lodash");
 
 const pify = require("pify");
@@ -19,7 +19,7 @@ const fs = pify(require("fs"));
 const parseCSV = pify(require("csv-parse"));
 
 const srcPath = path.resolve("./src/data/schedule.csv");
-const destPath = `${path.resolve("./src/data") }/schedule.json`;
+const destPath = `${path.resolve("./src/data")}/schedule.json`;
 
 const JSON_SPACER = 2;
 
@@ -30,16 +30,18 @@ const getTeams = (game) => game.SUBJECT.split(" at ");
 const transform = function (games, homeTeam) {
   return games.map((game) => {
     // eslint-disable-next-line max-len
-    const date = moment.tz(`${game["START DATE"] } ${ game["START TIME ET"]}`, "MM/DD/YY hh:mm a", "America/New_York");
-
-    const opponent = head(
-      difference(getTeams(game), [homeTeam])
+    const date = moment.tz(
+      `${game["START DATE"]} ${game["START TIME ET"]}`,
+      "MM/DD/YY hh:mm a",
+      "America/New_York"
     );
+
+    const opponent = head(difference(getTeams(game), [homeTeam]));
 
     return {
       date: date.format(),
       location: game.LOCATION,
-      opponent
+      opponent,
     };
   });
 };
@@ -57,8 +59,7 @@ const getHomeTeam = function (games) {
 };
 
 const csvToJSON = (csvData) => {
-  return csvData.slice(1)
-    .map((row) => zipObject(csvData[0], row));
+  return csvData.slice(1).map((row) => zipObject(csvData[0], row));
 };
 
 fs.readFile(srcPath)
@@ -68,6 +69,10 @@ fs.readFile(srcPath)
     const homeTeam = getHomeTeam(data);
     return transform(data, homeTeam);
   })
-  .then((data) => fs.writeFile(destPath, JSON.stringify(data, null, JSON_SPACER)))
+  .then((data) =>
+    fs.writeFile(destPath, JSON.stringify(data, null, JSON_SPACER))
+  )
   // eslint-disable-next-line
-  .then(() => { console.log("All Finished!"); });
+  .then(() => {
+    console.log("All Finished!");
+  });

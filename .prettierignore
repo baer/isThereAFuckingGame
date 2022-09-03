@@ -1,0 +1,12 @@
+# dependencies
+/node_modules
+
+# husky configuration
+/husky
+
+# Next.js
+/.next
+/public
+
+# Compiled files
+/dist

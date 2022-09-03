@@ -11,12 +11,16 @@
   "private": false,
   "license": "MIT",
   "scripts": {
-    "dev": "next dev",
-    "build:production": "NODE_ENV=production next build && NODE_ENV=production next export -o dist",
-    "build:dev": "NODE_ENV=development next build --profile && NODE_ENV=development next export -o dist",
-    "serve-static": "nodemon --watch dist --exec 'serve dist -l 7000'",
     "analyze-code:lint-js": "next lint",
-    "fix:lint-js": "next lint"
+    "analyze-code:prettier": "prettier --list-different '**/*.{js,jsx,ts,tsx,json,css,md,yaml}'",
+    "analyze-code": "npm run analyze-code:lint-js && npm run analyze-code:prettier",
+    "build:dev": "NODE_ENV=development next build --profile && NODE_ENV=development next export -o dist",
+    "build:production": "NODE_ENV=production next build && NODE_ENV=production next export -o dist",
+    "dev": "next dev",
+    "fix:lint-js": "next lint --fix",
+    "fix:prettier": "prettier --write '**/*.{js,jsx,ts,tsx,json,css,md,yaml}'",
+    "fix": "npm run fix:lint-js && npm run fix:prettier",
+    "serve-static": "nodemon --watch dist --exec 'serve dist -l 7000'"
   },
   "devDependencies": {
     "bootstrap": "5.2.0",
@@ -25,6 +29,7 @@
     "eslint-config-prettier": "8.5.0",
     "next": "12.2.5",
     "nodemon": "2.0.19",
+    "prettier": "2.7.1",
     "react": "18.2.0",
     "react-bootstrap": "2.5.0",
     "react-dom": "18.2.0",
