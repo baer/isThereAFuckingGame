@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import "../../styles/globals.css";
 import Head from "next/head";
 
@@ -5,9 +6,39 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Is there a fucking {process.env.homeTeam} game?</title>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
-        <meta content={process.env.websiteDescription} name="description" />
+
+        {/* Primary Meta Tags */}
+        <title>{`Is There A Fucking ${process.env.homeTeam} Game?`}</title>
+        <meta
+          name="title"
+          content={`Is There A Fucking ${process.env.homeTeam} Game?`}
+        />
+        <meta name="description" content={process.env.websiteDescription} />
+
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={process.env.websiteURL} />
+        <meta
+          property="og:title"
+          content={`Is There A Fucking ${process.env.homeTeam} Game?`}
+        />
+        <meta
+          property="og:description"
+          content={process.env.websiteDescription}
+        />
+
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content={process.env.websiteURL} />
+        <meta
+          property="twitter:title"
+          content={`Is There A Fucking ${process.env.homeTeam} Game?`}
+        />
+        <meta
+          property="twitter:description"
+          content={process.env.websiteDescription}
+        />
       </Head>
 
       <Component {...pageProps} />
