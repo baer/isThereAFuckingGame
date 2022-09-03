@@ -1,13 +1,10 @@
-name: Static Analysis
+name: Install Dependendencies
 
-description: Checkout repo, install Node.js, and install dependencies
+description: Install Node.js and dependencies
 
 runs:
   using: "composite"
   steps:
-    - name: Checkout
-      uses: actions/checkout@v3
-
     - name: Install Node.js
       uses: actions/setup-node@v3
       with:
