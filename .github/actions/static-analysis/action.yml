@@ -1,0 +1,9 @@
+name: Static Analysis
+
+description: Run ESLint, Prettier, and other static analysis tools
+
+runs:
+  using: "composite"
+  steps:
+    - name: Run Static Analysis
+      run: npm run analyze-code

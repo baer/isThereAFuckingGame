@@ -13,5 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Setup Repo
+        uses: ./.github/actions/setup-repo
       - name: Static Analysis
         uses: ./.github/actions/static-analysis
