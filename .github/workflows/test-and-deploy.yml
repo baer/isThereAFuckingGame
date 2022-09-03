@@ -1,0 +1,17 @@
+name: Test and Deploy
+
+on:
+  pull_request_target:
+    branches:
+      - "*"
+
+  # Allow Manual Runs
+  workflow_dispatch:
+
+jobs:
+  static-analysis:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Static Analysis
+        uses: ./.github/actions/static-analysis

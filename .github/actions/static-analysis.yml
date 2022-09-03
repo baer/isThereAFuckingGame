@@ -1,0 +1,21 @@
+name: Static Analysis
+
+description: Run ESLint, Prettier, and other static analysis tools
+
+runs:
+  using: "composite"
+  steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Install Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version-file: ".nvmrc"
+        cache: "npm"
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Run Static Analysis
+      run: npm run analyze-code
