@@ -3,7 +3,7 @@ name: Test and Deploy
 on:
   pull_request_target:
     branches:
-      - "master"
+      - "main"
 
   # Allow Manual Runs
   workflow_dispatch:
