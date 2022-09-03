@@ -49,5 +49,4 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           directory: ./dist
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-          production: true
           projectName: is-there-a-fucking-rockies-game
