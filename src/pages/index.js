@@ -27,7 +27,7 @@ export default function Home() {
         {isGameToday ? (
           <div className={styles.answer}>
             YES
-            <h2>It's a fucking {isHomeGame ? "home" : "away"} game</h2>
+            <h2>It&apos;s a fucking {isHomeGame ? "home" : "away"} game</h2>
           </div>
         ) : (
           <div className={styles.answer}>NO</div>

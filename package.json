@@ -14,11 +14,15 @@
     "dev": "next dev",
     "build:production": "NODE_ENV=production next build && NODE_ENV=production next export -o dist",
     "build:dev": "NODE_ENV=development next build --profile && NODE_ENV=development next export -o dist",
-    "serve-static": "nodemon --watch dist --exec 'serve dist -l 7000'"
+    "serve-static": "nodemon --watch dist --exec 'serve dist -l 7000'",
+    "analyze-code:lint-js": "next lint",
+    "fix:lint-js": "next lint"
   },
   "devDependencies": {
     "bootstrap": "5.2.0",
     "date-fns": "2.29.2",
+    "eslint-config-next": "12.2.5",
+    "eslint-config-prettier": "8.5.0",
     "next": "12.2.5",
     "nodemon": "2.0.19",
     "react": "18.2.0",
