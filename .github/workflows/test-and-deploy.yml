@@ -1,6 +1,8 @@
 name: Test and Deploy
 
 on:
+  # Cloudflare only deploys the "main" branch to Production. All other branches
+  # (like PRs) are deployed as previews.
   push:
     branches:
       - "main"
@@ -34,6 +36,7 @@ jobs:
     permissions:
       contents: read
       deployments: write
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3
