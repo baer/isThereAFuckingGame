@@ -1,4 +1,4 @@
-import styles from "../../styles/home.module.css";
+import styles from "../styles/home.module.css";
 import data from "../game-data/schedule.json";
 import { Container, Button } from "react-bootstrap";
 import { isToday, format, parseJSON } from "date-fns";
