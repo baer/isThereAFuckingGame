@@ -1,0 +1,377 @@
+START DATE,START TIME,START TIME ET,SUBJECT,LOCATION,DESCRIPTION,END DATE,END DATE ET,END TIME,END TIME ET,REMINDER OFF,REMINDER ON,REMINDER DATE,REMINDER TIME,REMINDER TIME ET,SHOWTIMEAS FREE,SHOWTIMEAS BUSY
+03/17/22,01:10 PM,04:10 PM,D-backs at Rockies,Salt River Fields at Talking Stick - Scottsdale,"",03/17/22,03/17/22,04:10 PM,07:10 PM,FALSE,TRUE,03/17/22,12:10 PM,03:10 PM,FREE,BUSY
+03/18/22,02:10 PM,04:10 PM,Rockies at D-backs,Salt River Fields at Talking Stick - Scottsdale,"",03/18/22,03/18/22,05:10 PM,07:10 PM,FALSE,TRUE,03/18/22,01:10 PM,03:10 PM,FREE,BUSY
+03/19/22,01:10 PM,04:10 PM,Giants at Rockies,Salt River Fields at Talking Stick - Scottsdale,"Local Radio: KOA 850 AM/94.1 FM ",03/19/22,03/19/22,04:10 PM,07:10 PM,FALSE,TRUE,03/19/22,12:10 PM,03:10 PM,FREE,BUSY
+03/20/22,01:10 PM,04:10 PM,White Sox at Rockies,Salt River Fields at Talking Stick - Scottsdale,"Local Radio: KOA 850 AM/94.1 FM ",03/20/22,03/20/22,04:10 PM,07:10 PM,FALSE,TRUE,03/20/22,12:10 PM,03:10 PM,FREE,BUSY
+03/21/22,02:10 PM,04:10 PM,Rockies at Padres,Peoria Stadium - Peoria,"",03/21/22,03/21/22,05:10 PM,07:10 PM,FALSE,TRUE,03/21/22,01:10 PM,03:10 PM,FREE,BUSY
+03/22/22,02:10 PM,04:10 PM,Rockies at Angels,Tempe Diablo Stadium - Tempe,"",03/22/22,03/22/22,05:10 PM,07:10 PM,FALSE,TRUE,03/22/22,01:10 PM,03:10 PM,FREE,BUSY
+03/23/22,01:10 PM,04:10 PM,Royals at Rockies,Salt River Fields at Talking Stick - Scottsdale,"",03/23/22,03/23/22,04:10 PM,07:10 PM,FALSE,TRUE,03/23/22,12:10 PM,03:10 PM,FREE,BUSY
+03/24/22,01:10 PM,04:10 PM,Dodgers at Rockies,Salt River Fields at Talking Stick - Scottsdale,"",03/24/22,03/24/22,04:10 PM,07:10 PM,FALSE,TRUE,03/24/22,12:10 PM,03:10 PM,FREE,BUSY
+03/25/22,02:05 PM,04:05 PM,Rockies at Cubs,Sloan Park - Mesa,"Local Radio: KOA 850 AM/94.1 FM ",03/25/22,03/25/22,05:05 PM,07:05 PM,FALSE,TRUE,03/25/22,01:05 PM,03:05 PM,FREE,BUSY
+03/26/22,01:10 PM,04:10 PM,Rangers at Rockies,Salt River Fields at Talking Stick - Scottsdale,"Local TV: ATT SportsNet-RM",03/26/22,03/26/22,04:10 PM,07:10 PM,FALSE,TRUE,03/26/22,12:10 PM,03:10 PM,FREE,BUSY
+03/27/22,02:05 PM,04:05 PM,Rockies at Reds,Goodyear Ballpark - Goodyear,"",03/27/22,03/27/22,05:05 PM,07:05 PM,FALSE,TRUE,03/27/22,01:05 PM,03:05 PM,FREE,BUSY
+03/27/22,02:10 PM,04:10 PM,Rockies at D-backs,Salt River Fields at Talking Stick - Scottsdale,"",03/27/22,03/27/22,05:10 PM,07:10 PM,FALSE,TRUE,03/27/22,01:10 PM,03:10 PM,FREE,BUSY
+03/29/22,01:10 PM,04:10 PM,Angels at Rockies,Salt River Fields at Talking Stick - Scottsdale,"",03/29/22,03/29/22,04:10 PM,07:10 PM,FALSE,TRUE,03/29/22,12:10 PM,03:10 PM,FREE,BUSY
+03/30/22,01:10 PM,04:10 PM,D-backs at Rockies,Salt River Fields at Talking Stick - Scottsdale,"Local TV: ATT SportsNet-RM",03/30/22,03/30/22,04:10 PM,07:10 PM,FALSE,TRUE,03/30/22,12:10 PM,03:10 PM,FREE,BUSY
+03/31/22,02:05 PM,04:05 PM,Rockies at Giants,Scottsdale Stadium - Scottsdale,"",03/31/22,03/31/22,05:05 PM,07:05 PM,FALSE,TRUE,03/31/22,01:05 PM,03:05 PM,FREE,BUSY
+04/01/22,06:40 PM,09:40 PM,Mariners at Rockies,Salt River Fields at Talking Stick - Scottsdale,"Local TV: ATT SportsNet-RM",04/01/22,04/02/22,09:40 PM,12:40 AM,FALSE,TRUE,04/01/22,05:40 PM,08:40 PM,FREE,BUSY
+04/02/22,02:05 PM,04:05 PM,Rockies at Athletics,Hohokam Stadium - Mesa,"",04/02/22,04/02/22,05:05 PM,07:05 PM,FALSE,TRUE,04/02/22,01:05 PM,03:05 PM,FREE,BUSY
+04/03/22,02:05 PM,04:05 PM,Rockies at White Sox,Camelback Ranch - Glendale,"",04/03/22,04/03/22,05:05 PM,07:05 PM,FALSE,TRUE,04/03/22,01:05 PM,03:05 PM,FREE,BUSY
+04/04/22,06:40 PM,09:40 PM,Brewers at Rockies,Salt River Fields at Talking Stick - Scottsdale,"Local TV: ATT SportsNet-RM",04/04/22,04/05/22,09:40 PM,12:40 AM,FALSE,TRUE,04/04/22,05:40 PM,08:40 PM,FREE,BUSY
+04/05/22,01:10 PM,04:10 PM,Guardians at Rockies,Salt River Fields at Talking Stick - Scottsdale,"Local TV: ATT SportsNet-RM",04/05/22,04/05/22,04:10 PM,07:10 PM,FALSE,TRUE,04/05/22,12:10 PM,03:10 PM,FREE,BUSY
+04/08/22,02:10 PM,04:10 PM,Dodgers at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM ----- Local Radio: KNRV 1150",04/08/22,04/08/22,05:10 PM,07:10 PM,FALSE,TRUE,04/08/22,01:10 PM,03:10 PM,FREE,BUSY
+04/09/22,06:10 PM,08:10 PM,Dodgers at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM ----- Local Radio: KOA 850 AM- KNRV 1150",04/09/22,04/09/22,09:10 PM,11:10 PM,FALSE,TRUE,04/09/22,05:10 PM,07:10 PM,FREE,BUSY
+04/10/22,01:10 PM,03:10 PM,Dodgers at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM ----- Local Radio: KOA 850 AM- KNRV 1150",04/10/22,04/10/22,04:10 PM,06:10 PM,FALSE,TRUE,04/10/22,12:10 PM,02:10 PM,FREE,BUSY
+04/11/22,02:05 PM,04:05 PM,Rockies at Rangers,Globe Life Field - Arlington,"Local TV: ATT SportsNet-RM",04/11/22,04/11/22,05:05 PM,07:05 PM,FALSE,TRUE,04/11/22,01:05 PM,03:05 PM,FREE,BUSY
+04/12/22,06:05 PM,08:05 PM,Rockies at Rangers,Globe Life Field - Arlington,"Local TV: ATT SportsNet-RM",04/12/22,04/12/22,09:05 PM,11:05 PM,FALSE,TRUE,04/12/22,05:05 PM,07:05 PM,FREE,BUSY
+04/14/22,06:40 PM,08:40 PM,Cubs at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM ----- Local Radio: KOA 850 AM",04/14/22,04/14/22,09:40 PM,11:40 PM,FALSE,TRUE,04/14/22,05:40 PM,07:40 PM,FREE,BUSY
+04/15/22,06:40 PM,08:40 PM,Cubs at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM ----- Local Radio: KOA 850 AM",04/15/22,04/15/22,09:40 PM,11:40 PM,FALSE,TRUE,04/15/22,05:40 PM,07:40 PM,FREE,BUSY
+04/16/22,06:10 PM,08:10 PM,Cubs at Rockies,Coors Field - Denver,"",04/16/22,04/16/22,09:10 PM,11:10 PM,FALSE,TRUE,04/16/22,05:10 PM,07:10 PM,FREE,BUSY
+04/17/22,01:10 PM,03:10 PM,Cubs at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM ----- Local Radio: KOA 850 AM",04/17/22,04/17/22,04:10 PM,06:10 PM,FALSE,TRUE,04/17/22,12:10 PM,02:10 PM,FREE,BUSY
+04/18/22,06:40 PM,08:40 PM,Phillies at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",04/18/22,04/18/22,09:40 PM,11:40 PM,FALSE,TRUE,04/18/22,05:40 PM,07:40 PM,FREE,BUSY
+04/19/22,06:40 PM,08:40 PM,Phillies at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM ----- Local Radio: KNRV 1150",04/19/22,04/19/22,09:40 PM,11:40 PM,FALSE,TRUE,04/19/22,05:40 PM,07:40 PM,FREE,BUSY
+04/20/22,01:10 PM,03:10 PM,Phillies at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM- MLBN (out-of-market only) ----- Local Radio: KOA 850 AM",04/20/22,04/20/22,04:10 PM,06:10 PM,FALSE,TRUE,04/20/22,12:10 PM,02:10 PM,FREE,BUSY
+04/23/22,11:10 AM,01:10 PM,Rockies at Tigers,Comerica Park - Detroit,"Local TV: ATT SportsNet-RM",04/23/22,04/23/22,02:10 PM,04:10 PM,FALSE,TRUE,04/23/22,10:10 AM,12:10 PM,FREE,BUSY
+04/23/22,04:40 PM,06:40 PM,Rockies at Tigers,Comerica Park - Detroit,"Local TV: ATT SportsNet-RM",04/23/22,04/23/22,07:40 PM,09:40 PM,FALSE,TRUE,04/23/22,03:40 PM,05:40 PM,FREE,BUSY
+04/24/22,11:10 AM,01:10 PM,Rockies at Tigers,Comerica Park - Detroit,"Local TV: ATT SportsNet-RM",04/24/22,04/24/22,02:10 PM,04:10 PM,FALSE,TRUE,04/24/22,10:10 AM,12:10 PM,FREE,BUSY
+04/25/22,04:45 PM,06:45 PM,Rockies at Phillies,Citizens Bank Park - Philadelphia,"",04/25/22,04/25/22,07:45 PM,09:45 PM,FALSE,TRUE,04/25/22,03:45 PM,05:45 PM,FREE,BUSY
+04/26/22,04:45 PM,06:45 PM,Rockies at Phillies,Citizens Bank Park - Philadelphia,"Local TV: ATT SportsNet-RM",04/26/22,04/26/22,07:45 PM,09:45 PM,FALSE,TRUE,04/26/22,03:45 PM,05:45 PM,FREE,BUSY
+04/27/22,04:45 PM,06:45 PM,Rockies at Phillies,Citizens Bank Park - Philadelphia,"Local TV: ATT SportsNet-RM",04/27/22,04/27/22,07:45 PM,09:45 PM,FALSE,TRUE,04/27/22,03:45 PM,05:45 PM,FREE,BUSY
+04/28/22,11:05 AM,01:05 PM,Rockies at Phillies,Citizens Bank Park - Philadelphia,"Local TV: MLBN (out-of-market only) ----- Local Radio: KOA 850 AM",04/28/22,04/28/22,02:05 PM,04:05 PM,FALSE,TRUE,04/28/22,10:05 AM,12:05 PM,FREE,BUSY
+04/29/22,06:40 PM,08:40 PM,Reds at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM ----- Local Radio: KOA 850 AM",04/29/22,04/29/22,09:40 PM,11:40 PM,FALSE,TRUE,04/29/22,05:40 PM,07:40 PM,FREE,BUSY
+04/30/22,06:10 PM,08:10 PM,Reds at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM ----- Local Radio: KOA 850 AM",04/30/22,04/30/22,09:10 PM,11:10 PM,FALSE,TRUE,04/30/22,05:10 PM,07:10 PM,FREE,BUSY
+05/01/22,01:10 PM,03:10 PM,Reds at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM ----- Local Radio: KOA 850 AM",05/01/22,05/01/22,04:10 PM,06:10 PM,FALSE,TRUE,05/01/22,12:10 PM,02:10 PM,FREE,BUSY
+05/03/22,06:40 PM,08:40 PM,Nationals at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",05/03/22,05/03/22,09:40 PM,11:40 PM,FALSE,TRUE,05/03/22,05:40 PM,07:40 PM,FREE,BUSY
+05/04/22,06:40 PM,08:40 PM,Nationals at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",05/04/22,05/04/22,09:40 PM,11:40 PM,FALSE,TRUE,05/04/22,05:40 PM,07:40 PM,FREE,BUSY
+05/05/22,01:10 PM,03:10 PM,Nationals at Rockies,Coors Field - Denver,"",05/05/22,05/05/22,04:10 PM,06:10 PM,FALSE,TRUE,05/05/22,12:10 PM,02:10 PM,FREE,BUSY
+05/06/22,07:40 PM,09:40 PM,Rockies at D-backs,Chase Field - Phoenix,"Local TV: ATT SportsNet-RM",05/06/22,05/07/22,10:40 PM,12:40 AM,FALSE,TRUE,05/06/22,06:40 PM,08:40 PM,FREE,BUSY
+05/07/22,06:10 PM,08:10 PM,Rockies at D-backs,Chase Field - Phoenix,"Local TV: ATT SportsNet-RM",05/07/22,05/07/22,09:10 PM,11:10 PM,FALSE,TRUE,05/07/22,05:10 PM,07:10 PM,FREE,BUSY
+05/08/22,02:10 PM,04:10 PM,Rockies at D-backs,Chase Field - Phoenix,"Local TV: ATT SportsNet-RM",05/08/22,05/08/22,05:10 PM,07:10 PM,FALSE,TRUE,05/08/22,01:10 PM,03:10 PM,FREE,BUSY
+05/09/22,07:45 PM,09:45 PM,Rockies at Giants,Oracle Park - San Francisco,"Local TV: ATT SportsNet-RM",05/09/22,05/10/22,10:45 PM,12:45 AM,FALSE,TRUE,05/09/22,06:45 PM,08:45 PM,FREE,BUSY
+05/10/22,07:45 PM,09:45 PM,Rockies at Giants,Oracle Park - San Francisco,"Local TV: ATT SportsNet-RM",05/10/22,05/11/22,10:45 PM,12:45 AM,FALSE,TRUE,05/10/22,06:45 PM,08:45 PM,FREE,BUSY
+05/11/22,01:45 PM,03:45 PM,Rockies at Giants,Oracle Park - San Francisco,"Local TV: ATT SportsNet-RM",05/11/22,05/11/22,04:45 PM,06:45 PM,FALSE,TRUE,05/11/22,12:45 PM,02:45 PM,FREE,BUSY
+05/13/22,06:40 PM,08:40 PM,Royals at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",05/13/22,05/13/22,09:40 PM,11:40 PM,FALSE,TRUE,05/13/22,05:40 PM,07:40 PM,FREE,BUSY
+05/14/22,06:10 PM,08:10 PM,Royals at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",05/14/22,05/14/22,09:10 PM,11:10 PM,FALSE,TRUE,05/14/22,05:10 PM,07:10 PM,FREE,BUSY
+05/15/22,01:10 PM,03:10 PM,Royals at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",05/15/22,05/15/22,04:10 PM,06:10 PM,FALSE,TRUE,05/15/22,12:10 PM,02:10 PM,FREE,BUSY
+05/16/22,06:40 PM,08:40 PM,Giants at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM ----- Local Radio: KNRV 1150",05/16/22,05/16/22,09:40 PM,11:40 PM,FALSE,TRUE,05/16/22,05:40 PM,07:40 PM,FREE,BUSY
+05/17/22,06:40 PM,08:40 PM,Giants at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",05/17/22,05/17/22,09:40 PM,11:40 PM,FALSE,TRUE,05/17/22,05:40 PM,07:40 PM,FREE,BUSY
+05/18/22,01:10 PM,03:10 PM,Giants at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",05/18/22,05/18/22,04:10 PM,06:10 PM,FALSE,TRUE,05/18/22,12:10 PM,02:10 PM,FREE,BUSY
+05/21/22,01:10 PM,03:10 PM,Mets at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",05/21/22,05/21/22,04:10 PM,06:10 PM,FALSE,TRUE,05/21/22,12:10 PM,02:10 PM,FREE,BUSY
+05/21/22,06:40 PM,08:40 PM,Mets at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",05/21/22,05/21/22,09:40 PM,11:40 PM,FALSE,TRUE,05/21/22,05:40 PM,07:40 PM,FREE,BUSY
+05/22/22,01:10 PM,03:10 PM,Mets at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",05/22/22,05/22/22,04:10 PM,06:10 PM,FALSE,TRUE,05/22/22,12:10 PM,02:10 PM,FREE,BUSY
+05/23/22,04:35 PM,06:35 PM,Rockies at Pirates,PNC Park - Pittsburgh,"Local TV: ATT SportsNet-RM",05/23/22,05/23/22,07:35 PM,09:35 PM,FALSE,TRUE,05/23/22,03:35 PM,05:35 PM,FREE,BUSY
+05/24/22,04:35 PM,06:35 PM,Rockies at Pirates,PNC Park - Pittsburgh,"Local TV: ATT SportsNet-RM",05/24/22,05/24/22,07:35 PM,09:35 PM,FALSE,TRUE,05/24/22,03:35 PM,05:35 PM,FREE,BUSY
+05/25/22,10:35 AM,12:35 PM,Rockies at Pirates,PNC Park - Pittsburgh,"Local TV: ATT SportsNet-RM",05/25/22,05/25/22,01:35 PM,03:35 PM,FALSE,TRUE,05/25/22,09:35 AM,11:35 AM,FREE,BUSY
+05/26/22,05:05 PM,07:05 PM,Rockies at Nationals,Nationals Park - Washington,"Local TV: ATT SportsNet-RM",05/26/22,05/26/22,08:05 PM,10:05 PM,FALSE,TRUE,05/26/22,04:05 PM,06:05 PM,FREE,BUSY
+05/28/22,10:05 AM,12:05 PM,Rockies at Nationals,Nationals Park - Washington,"",05/28/22,05/28/22,01:05 PM,03:05 PM,FALSE,TRUE,05/28/22,09:05 AM,11:05 AM,FREE,BUSY
+05/28/22,04:05 PM,06:05 PM,Rockies at Nationals,Nationals Park - Washington,"Local TV: ATT SportsNet-RM",05/28/22,05/28/22,07:05 PM,09:05 PM,FALSE,TRUE,05/28/22,03:05 PM,05:05 PM,FREE,BUSY
+05/29/22,11:35 AM,01:35 PM,Rockies at Nationals,Nationals Park - Washington,"Local TV: ATT SportsNet-RM",05/29/22,05/29/22,02:35 PM,04:35 PM,FALSE,TRUE,05/29/22,10:35 AM,12:35 PM,FREE,BUSY
+05/30/22,02:10 PM,04:10 PM,Marlins at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",05/30/22,05/30/22,05:10 PM,07:10 PM,FALSE,TRUE,05/30/22,01:10 PM,03:10 PM,FREE,BUSY
+06/01/22,01:10 PM,03:10 PM,Marlins at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",06/01/22,06/01/22,04:10 PM,06:10 PM,FALSE,TRUE,06/01/22,12:10 PM,02:10 PM,FREE,BUSY
+06/01/22,,,Marlins at Rockies - Time TBD,Coors Field - Denver,"Local TV: ATT SportsNet-RM ----- Local Radio: KNRV 1150",06/01/22,06/01/22,,,FALSE,TRUE,06/01/22,,,FREE,BUSY
+06/02/22,06:40 PM,08:40 PM,Braves at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",06/02/22,06/02/22,09:40 PM,11:40 PM,FALSE,TRUE,06/02/22,05:40 PM,07:40 PM,FREE,BUSY
+06/03/22,06:40 PM,08:40 PM,Braves at Rockies,Coors Field - Denver,"Local TV: Apple TV+",06/03/22,06/03/22,09:40 PM,11:40 PM,FALSE,TRUE,06/03/22,05:40 PM,07:40 PM,FREE,BUSY
+06/04/22,07:10 PM,09:10 PM,Braves at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",06/04/22,06/05/22,10:10 PM,12:10 AM,FALSE,TRUE,06/04/22,06:10 PM,08:10 PM,FREE,BUSY
+06/05/22,01:10 PM,03:10 PM,Braves at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",06/05/22,06/05/22,04:10 PM,06:10 PM,FALSE,TRUE,06/05/22,12:10 PM,02:10 PM,FREE,BUSY
+06/07/22,07:45 PM,09:45 PM,Rockies at Giants,Oracle Park - San Francisco,"Local TV: ATT SportsNet-RM",06/07/22,06/08/22,10:45 PM,12:45 AM,FALSE,TRUE,06/07/22,06:45 PM,08:45 PM,FREE,BUSY
+06/08/22,07:45 PM,09:45 PM,Rockies at Giants,Oracle Park - San Francisco,"Local TV: ATT SportsNet-RM",06/08/22,06/09/22,10:45 PM,12:45 AM,FALSE,TRUE,06/08/22,06:45 PM,08:45 PM,FREE,BUSY
+06/09/22,01:45 PM,03:45 PM,Rockies at Giants,Oracle Park - San Francisco,"Local TV: ATT SportsNet-RM",06/09/22,06/09/22,04:45 PM,06:45 PM,FALSE,TRUE,06/09/22,12:45 PM,02:45 PM,FREE,BUSY
+06/10/22,07:40 PM,09:40 PM,Rockies at Padres,Petco Park - San Diego,"",06/10/22,06/11/22,10:40 PM,12:40 AM,FALSE,TRUE,06/10/22,06:40 PM,08:40 PM,FREE,BUSY
+06/11/22,02:10 PM,04:10 PM,Rockies at Padres,Petco Park - San Diego,"",06/11/22,06/11/22,05:10 PM,07:10 PM,FALSE,TRUE,06/11/22,01:10 PM,03:10 PM,FREE,BUSY
+06/11/22,08:10 PM,10:10 PM,Rockies at Padres,Petco Park - San Diego,"Local TV: ATT SportsNet-RM",06/11/22,06/12/22,11:10 PM,01:10 AM,FALSE,TRUE,06/11/22,07:10 PM,09:10 PM,FREE,BUSY
+06/12/22,02:10 PM,04:10 PM,Rockies at Padres,Petco Park - San Diego,"",06/12/22,06/12/22,05:10 PM,07:10 PM,FALSE,TRUE,06/12/22,01:10 PM,03:10 PM,FREE,BUSY
+06/14/22,06:40 PM,08:40 PM,Guardians at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",06/14/22,06/14/22,09:40 PM,11:40 PM,FALSE,TRUE,06/14/22,05:40 PM,07:40 PM,FREE,BUSY
+06/15/22,06:40 PM,08:40 PM,Guardians at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",06/15/22,06/15/22,09:40 PM,11:40 PM,FALSE,TRUE,06/15/22,05:40 PM,07:40 PM,FREE,BUSY
+06/16/22,01:10 PM,03:10 PM,Guardians at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",06/16/22,06/16/22,04:10 PM,06:10 PM,FALSE,TRUE,06/16/22,12:10 PM,02:10 PM,FREE,BUSY
+06/17/22,06:40 PM,08:40 PM,Padres at Rockies,Coors Field - Denver,"",06/17/22,06/17/22,09:40 PM,11:40 PM,FALSE,TRUE,06/17/22,05:40 PM,07:40 PM,FREE,BUSY
+06/18/22,07:10 PM,09:10 PM,Padres at Rockies,Coors Field - Denver,"",06/18/22,06/19/22,10:10 PM,12:10 AM,FALSE,TRUE,06/18/22,06:10 PM,08:10 PM,FREE,BUSY
+06/19/22,01:10 PM,03:10 PM,Padres at Rockies,Coors Field - Denver,"",06/19/22,06/19/22,04:10 PM,06:10 PM,FALSE,TRUE,06/19/22,12:10 PM,02:10 PM,FREE,BUSY
+06/21/22,04:40 PM,06:40 PM,Rockies at Marlins,loanDepot park - Miami,"Local TV: ATT SportsNet-RM",06/21/22,06/21/22,07:40 PM,09:40 PM,FALSE,TRUE,06/21/22,03:40 PM,05:40 PM,FREE,BUSY
+06/22/22,04:40 PM,06:40 PM,Rockies at Marlins,loanDepot park - Miami,"Local TV: ATT SportsNet-RM",06/22/22,06/22/22,07:40 PM,09:40 PM,FALSE,TRUE,06/22/22,03:40 PM,05:40 PM,FREE,BUSY
+06/23/22,10:10 AM,12:10 PM,Rockies at Marlins,loanDepot park - Miami,"",06/23/22,06/23/22,01:10 PM,03:10 PM,FALSE,TRUE,06/23/22,09:10 AM,11:10 AM,FREE,BUSY
+06/24/22,06:10 PM,08:10 PM,Rockies at Twins,Target Field - Minneapolis,"Local TV: ATT SportsNet-RM",06/24/22,06/24/22,09:10 PM,11:10 PM,FALSE,TRUE,06/24/22,05:10 PM,07:10 PM,FREE,BUSY
+06/25/22,05:15 PM,07:15 PM,Rockies at Twins,Target Field - Minneapolis,"Local TV: FOX",06/25/22,06/25/22,08:15 PM,10:15 PM,FALSE,TRUE,06/25/22,04:15 PM,06:15 PM,FREE,BUSY
+06/26/22,12:10 PM,02:10 PM,Rockies at Twins,Target Field - Minneapolis,"Local TV: ATT SportsNet-RM",06/26/22,06/26/22,03:10 PM,05:10 PM,FALSE,TRUE,06/26/22,11:10 AM,01:10 PM,FREE,BUSY
+06/27/22,06:40 PM,08:40 PM,Dodgers at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",06/27/22,06/27/22,09:40 PM,11:40 PM,FALSE,TRUE,06/27/22,05:40 PM,07:40 PM,FREE,BUSY
+06/28/22,06:40 PM,08:40 PM,Dodgers at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",06/28/22,06/28/22,09:40 PM,11:40 PM,FALSE,TRUE,06/28/22,05:40 PM,07:40 PM,FREE,BUSY
+06/29/22,06:40 PM,08:40 PM,Dodgers at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",06/29/22,06/29/22,09:40 PM,11:40 PM,FALSE,TRUE,06/29/22,05:40 PM,07:40 PM,FREE,BUSY
+07/01/22,06:10 PM,08:10 PM,D-backs at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",07/01/22,07/01/22,09:10 PM,11:10 PM,FALSE,TRUE,07/01/22,05:10 PM,07:10 PM,FREE,BUSY
+07/02/22,07:10 PM,09:10 PM,D-backs at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",07/02/22,07/03/22,10:10 PM,12:10 AM,FALSE,TRUE,07/02/22,06:10 PM,08:10 PM,FREE,BUSY
+07/03/22,01:10 PM,03:10 PM,D-backs at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",07/03/22,07/03/22,04:10 PM,06:10 PM,FALSE,TRUE,07/03/22,12:10 PM,02:10 PM,FREE,BUSY
+07/04/22,07:10 PM,09:10 PM,Rockies at Dodgers,Dodger Stadium - Los Angeles,"Local TV: ATT SportsNet-RM",07/04/22,07/05/22,10:10 PM,12:10 AM,FALSE,TRUE,07/04/22,06:10 PM,08:10 PM,FREE,BUSY
+07/05/22,08:10 PM,10:10 PM,Rockies at Dodgers,Dodger Stadium - Los Angeles,"Local TV: MLBN (out-of-market only)",07/05/22,07/06/22,11:10 PM,01:10 AM,FALSE,TRUE,07/05/22,07:10 PM,09:10 PM,FREE,BUSY
+07/06/22,08:10 PM,10:10 PM,Rockies at Dodgers,Dodger Stadium - Los Angeles,"Local TV: MLBN (out-of-market only) ----- Local Radio: KOA 850 AM",07/06/22,07/07/22,11:10 PM,01:10 AM,FALSE,TRUE,07/06/22,07:10 PM,09:10 PM,FREE,BUSY
+07/07/22,07:40 PM,09:40 PM,Rockies at D-backs,Chase Field - Phoenix,"Local TV: ATT SportsNet-RM",07/07/22,07/08/22,10:40 PM,12:40 AM,FALSE,TRUE,07/07/22,06:40 PM,08:40 PM,FREE,BUSY
+07/08/22,07:40 PM,09:40 PM,Rockies at D-backs,Chase Field - Phoenix,"Local TV: ATT SportsNet-RM",07/08/22,07/09/22,10:40 PM,12:40 AM,FALSE,TRUE,07/08/22,06:40 PM,08:40 PM,FREE,BUSY
+07/09/22,02:10 PM,04:10 PM,Rockies at D-backs,Chase Field - Phoenix,"Local TV: ATT SportsNet-RM",07/09/22,07/09/22,05:10 PM,07:10 PM,FALSE,TRUE,07/09/22,01:10 PM,03:10 PM,FREE,BUSY
+07/10/22,02:10 PM,04:10 PM,Rockies at D-backs,Chase Field - Phoenix,"Local TV: ATT SportsNet-RM",07/10/22,07/10/22,05:10 PM,07:10 PM,FALSE,TRUE,07/10/22,01:10 PM,03:10 PM,FREE,BUSY
+07/11/22,06:40 PM,08:40 PM,Padres at Rockies,Coors Field - Denver,"",07/11/22,07/11/22,09:40 PM,11:40 PM,FALSE,TRUE,07/11/22,05:40 PM,07:40 PM,FREE,BUSY
+07/12/22,06:40 PM,08:40 PM,Padres at Rockies,Coors Field - Denver,"",07/12/22,07/12/22,09:40 PM,11:40 PM,FALSE,TRUE,07/12/22,05:40 PM,07:40 PM,FREE,BUSY
+07/13/22,06:40 PM,08:40 PM,Padres at Rockies,Coors Field - Denver,"",07/13/22,07/13/22,09:40 PM,11:40 PM,FALSE,TRUE,07/13/22,05:40 PM,07:40 PM,FREE,BUSY
+07/14/22,01:10 PM,03:10 PM,Padres at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM- MLBN (out-of-market only) ----- Local Radio: KNRV 1150",07/14/22,07/14/22,04:10 PM,06:10 PM,FALSE,TRUE,07/14/22,12:10 PM,02:10 PM,FREE,BUSY
+07/15/22,06:40 PM,08:40 PM,Pirates at Rockies,Coors Field - Denver,"Local TV: Apple TV+",07/15/22,07/15/22,09:40 PM,11:40 PM,FALSE,TRUE,07/15/22,05:40 PM,07:40 PM,FREE,BUSY
+07/16/22,01:10 PM,03:10 PM,Pirates at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",07/16/22,07/16/22,04:10 PM,06:10 PM,FALSE,TRUE,07/16/22,12:10 PM,02:10 PM,FREE,BUSY
+07/17/22,01:10 PM,03:10 PM,Pirates at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",07/17/22,07/17/22,04:10 PM,06:10 PM,FALSE,TRUE,07/17/22,12:10 PM,02:10 PM,FREE,BUSY
+07/22/22,06:10 PM,08:10 PM,Rockies at Brewers,American Family Field - Milwaukee,"Local TV: ATT SportsNet-RM",07/22/22,07/22/22,09:10 PM,11:10 PM,FALSE,TRUE,07/22/22,05:10 PM,07:10 PM,FREE,BUSY
+07/23/22,05:10 PM,07:10 PM,Rockies at Brewers,American Family Field - Milwaukee,"Local TV: ATT SportsNet-RM",07/23/22,07/23/22,08:10 PM,10:10 PM,FALSE,TRUE,07/23/22,04:10 PM,06:10 PM,FREE,BUSY
+07/24/22,12:10 PM,02:10 PM,Rockies at Brewers,American Family Field - Milwaukee,"Local TV: ATT SportsNet-RM",07/24/22,07/24/22,03:10 PM,05:10 PM,FALSE,TRUE,07/24/22,11:10 AM,01:10 PM,FREE,BUSY
+07/25/22,06:10 PM,08:10 PM,Rockies at Brewers,American Family Field - Milwaukee,"Local TV: ATT SportsNet-RM",07/25/22,07/25/22,09:10 PM,11:10 PM,FALSE,TRUE,07/25/22,05:10 PM,07:10 PM,FREE,BUSY
+07/26/22,06:40 PM,08:40 PM,White Sox at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",07/26/22,07/26/22,09:40 PM,11:40 PM,FALSE,TRUE,07/26/22,05:40 PM,07:40 PM,FREE,BUSY
+07/27/22,01:10 PM,03:10 PM,White Sox at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",07/27/22,07/27/22,04:10 PM,06:10 PM,FALSE,TRUE,07/27/22,12:10 PM,02:10 PM,FREE,BUSY
+07/28/22,06:40 PM,08:40 PM,Dodgers at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM ----- Local Radio: KNRV 1150",07/28/22,07/28/22,09:40 PM,11:40 PM,FALSE,TRUE,07/28/22,05:40 PM,07:40 PM,FREE,BUSY
+07/29/22,06:40 PM,08:40 PM,Dodgers at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM ----- Local Radio: KNRV 1150",07/29/22,07/29/22,09:40 PM,11:40 PM,FALSE,TRUE,07/29/22,05:40 PM,07:40 PM,FREE,BUSY
+07/30/22,06:10 PM,08:10 PM,Dodgers at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",07/30/22,07/30/22,09:10 PM,11:10 PM,FALSE,TRUE,07/30/22,05:10 PM,07:10 PM,FREE,BUSY
+07/31/22,01:10 PM,03:10 PM,Dodgers at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",07/31/22,07/31/22,04:10 PM,06:10 PM,FALSE,TRUE,07/31/22,12:10 PM,02:10 PM,FREE,BUSY
+08/01/22,07:40 PM,09:40 PM,Rockies at Padres,Petco Park - San Diego,"",08/01/22,08/02/22,10:40 PM,12:40 AM,FALSE,TRUE,08/01/22,06:40 PM,08:40 PM,FREE,BUSY
+08/02/22,02:10 PM,04:10 PM,Rockies at Padres,Petco Park - San Diego,"",08/02/22,08/02/22,05:10 PM,07:10 PM,FALSE,TRUE,08/02/22,01:10 PM,03:10 PM,FREE,BUSY
+08/02/22,08:10 PM,10:10 PM,Rockies at Padres,Petco Park - San Diego,"",08/02/22,08/03/22,11:10 PM,01:10 AM,FALSE,TRUE,08/02/22,07:10 PM,09:10 PM,FREE,BUSY
+08/03/22,07:40 PM,09:40 PM,Rockies at Padres,Petco Park - San Diego,"Local TV: ATT SportsNet-RM",08/03/22,08/04/22,10:40 PM,12:40 AM,FALSE,TRUE,08/03/22,06:40 PM,08:40 PM,FREE,BUSY
+08/04/22,02:10 PM,04:10 PM,Rockies at Padres,Petco Park - San Diego,"Local TV: ATT SportsNet-RM",08/04/22,08/04/22,05:10 PM,07:10 PM,FALSE,TRUE,08/04/22,01:10 PM,03:10 PM,FREE,BUSY
+08/05/22,07:40 PM,09:40 PM,Rockies at D-backs,Chase Field - Phoenix,"Local TV: MLBN (out-of-market only)",08/05/22,08/06/22,10:40 PM,12:40 AM,FALSE,TRUE,08/05/22,06:40 PM,08:40 PM,FREE,BUSY
+08/06/22,06:10 PM,08:10 PM,Rockies at D-backs,Chase Field - Phoenix,"Local TV: ATT SportsNet-RM",08/06/22,08/06/22,09:10 PM,11:10 PM,FALSE,TRUE,08/06/22,05:10 PM,07:10 PM,FREE,BUSY
+08/07/22,02:10 PM,04:10 PM,Rockies at D-backs,Chase Field - Phoenix,"Local TV: ATT SportsNet-RM",08/07/22,08/07/22,05:10 PM,07:10 PM,FALSE,TRUE,08/07/22,01:10 PM,03:10 PM,FREE,BUSY
+08/09/22,06:40 PM,08:40 PM,Cardinals at Rockies,Coors Field - Denver,"",08/09/22,08/09/22,09:40 PM,11:40 PM,FALSE,TRUE,08/09/22,05:40 PM,07:40 PM,FREE,BUSY
+08/10/22,06:40 PM,08:40 PM,Cardinals at Rockies,Coors Field - Denver,"",08/10/22,08/10/22,09:40 PM,11:40 PM,FALSE,TRUE,08/10/22,05:40 PM,07:40 PM,FREE,BUSY
+08/11/22,01:10 PM,03:10 PM,Cardinals at Rockies,Coors Field - Denver,"",08/11/22,08/11/22,04:10 PM,06:10 PM,FALSE,TRUE,08/11/22,12:10 PM,02:10 PM,FREE,BUSY
+08/12/22,06:40 PM,08:40 PM,D-backs at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM ----- Local Radio: KOA 850 AM",08/12/22,08/12/22,09:40 PM,11:40 PM,FALSE,TRUE,08/12/22,05:40 PM,07:40 PM,FREE,BUSY
+08/13/22,06:10 PM,08:10 PM,D-backs at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",08/13/22,08/13/22,09:10 PM,11:10 PM,FALSE,TRUE,08/13/22,05:10 PM,07:10 PM,FREE,BUSY
+08/14/22,01:10 PM,03:10 PM,D-backs at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",08/14/22,08/14/22,04:10 PM,06:10 PM,FALSE,TRUE,08/14/22,12:10 PM,02:10 PM,FREE,BUSY
+08/16/22,05:45 PM,07:45 PM,Rockies at Cardinals,Busch Stadium - St. Louis,"",08/16/22,08/16/22,08:45 PM,10:45 PM,FALSE,TRUE,08/16/22,04:45 PM,06:45 PM,FREE,BUSY
+08/17/22,05:45 PM,07:45 PM,Rockies at Cardinals,Busch Stadium - St. Louis,"",08/17/22,08/17/22,08:45 PM,10:45 PM,FALSE,TRUE,08/17/22,04:45 PM,06:45 PM,FREE,BUSY
+08/18/22,11:15 AM,01:15 PM,Rockies at Cardinals,Busch Stadium - St. Louis,"",08/18/22,08/18/22,02:15 PM,04:15 PM,FALSE,TRUE,08/18/22,10:15 AM,12:15 PM,FREE,BUSY
+08/19/22,06:40 PM,08:40 PM,Giants at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",08/19/22,08/19/22,09:40 PM,11:40 PM,FALSE,TRUE,08/19/22,05:40 PM,07:40 PM,FREE,BUSY
+08/20/22,06:10 PM,08:10 PM,Giants at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",08/20/22,08/20/22,09:10 PM,11:10 PM,FALSE,TRUE,08/20/22,05:10 PM,07:10 PM,FREE,BUSY
+08/21/22,01:10 PM,03:10 PM,Giants at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",08/21/22,08/21/22,04:10 PM,06:10 PM,FALSE,TRUE,08/21/22,12:10 PM,02:10 PM,FREE,BUSY
+08/23/22,06:40 PM,08:40 PM,Rangers at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM ----- Local Radio: KNRV 1150",08/23/22,08/23/22,09:40 PM,11:40 PM,FALSE,TRUE,08/23/22,05:40 PM,07:40 PM,FREE,BUSY
+08/24/22,01:10 PM,03:10 PM,Rangers at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM ----- Local Radio: KNRV 1150",08/24/22,08/24/22,04:10 PM,06:10 PM,FALSE,TRUE,08/24/22,12:10 PM,02:10 PM,FREE,BUSY
+08/25/22,05:10 PM,07:10 PM,Rockies at Mets,Citi Field - Flushing,"Local TV: ATT SportsNet-RM",08/25/22,08/25/22,08:10 PM,10:10 PM,FALSE,TRUE,08/25/22,04:10 PM,06:10 PM,FREE,BUSY
+08/26/22,05:10 PM,07:10 PM,Rockies at Mets,Citi Field - Flushing,"Local TV: ATT SportsNet-RM",08/26/22,08/26/22,08:10 PM,10:10 PM,FALSE,TRUE,08/26/22,04:10 PM,06:10 PM,FREE,BUSY
+08/27/22,05:10 PM,07:10 PM,Rockies at Mets,Citi Field - Flushing,"Local TV: ATT SportsNet-RM",08/27/22,08/27/22,08:10 PM,10:10 PM,FALSE,TRUE,08/27/22,04:10 PM,06:10 PM,FREE,BUSY
+08/28/22,11:40 AM,01:40 PM,Rockies at Mets,Citi Field - Flushing,"",08/28/22,08/28/22,02:40 PM,04:40 PM,FALSE,TRUE,08/28/22,10:40 AM,12:40 PM,FREE,BUSY
+08/30/22,05:20 PM,07:20 PM,Rockies at Braves,Truist Park - Atlanta,"Local TV: ATT SportsNet-RM",08/30/22,08/30/22,08:20 PM,10:20 PM,FALSE,TRUE,08/30/22,04:20 PM,06:20 PM,FREE,BUSY
+08/31/22,05:20 PM,07:20 PM,Rockies at Braves,Truist Park - Atlanta,"Local TV: ATT SportsNet-RM",08/31/22,08/31/22,08:20 PM,10:20 PM,FALSE,TRUE,08/31/22,04:20 PM,06:20 PM,FREE,BUSY
+09/01/22,05:20 PM,07:20 PM,Rockies at Braves,Truist Park - Atlanta,"",09/01/22,09/01/22,08:20 PM,10:20 PM,FALSE,TRUE,09/01/22,04:20 PM,06:20 PM,FREE,BUSY
+09/02/22,04:40 PM,06:40 PM,Rockies at Reds,Great American Ball Park - Cincinnati,"Local TV: ATT SportsNet-RM ----- Local Radio: KOA 850 AM",09/02/22,09/02/22,07:40 PM,09:40 PM,FALSE,TRUE,09/02/22,03:40 PM,05:40 PM,FREE,BUSY
+09/04/22,10:10 AM,12:10 PM,Rockies at Reds,Great American Ball Park - Cincinnati,"Local TV: ATT SportsNet-RM ----- Local Radio: KOA 850 AM",09/04/22,09/04/22,01:10 PM,03:10 PM,FALSE,TRUE,09/04/22,09:10 AM,11:10 AM,FREE,BUSY
+09/04/22,,,Rockies at Reds - Time TBD,Great American Ball Park - Cincinnati,"Local TV: ATT SportsNet-RM ----- Local Radio: KOA 850 AM",09/04/22,09/04/22,,,FALSE,TRUE,09/04/22,,,FREE,BUSY
+09/05/22,02:10 PM,04:10 PM,Brewers at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",09/05/22,09/05/22,05:10 PM,07:10 PM,FALSE,TRUE,09/05/22,01:10 PM,03:10 PM,FREE,BUSY
+09/06/22,06:40 PM,08:40 PM,Brewers at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",09/06/22,09/06/22,09:40 PM,11:40 PM,FALSE,TRUE,09/06/22,05:40 PM,07:40 PM,FREE,BUSY
+09/07/22,01:10 PM,03:10 PM,Brewers at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",09/07/22,09/07/22,04:10 PM,06:10 PM,FALSE,TRUE,09/07/22,12:10 PM,02:10 PM,FREE,BUSY
+09/09/22,06:40 PM,08:40 PM,D-backs at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM ----- Local Radio: KNRV 1150",09/09/22,09/09/22,09:40 PM,11:40 PM,FALSE,TRUE,09/09/22,05:40 PM,07:40 PM,FREE,BUSY
+09/10/22,06:10 PM,08:10 PM,D-backs at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",09/10/22,09/10/22,09:10 PM,11:10 PM,FALSE,TRUE,09/10/22,05:10 PM,07:10 PM,FREE,BUSY
+09/11/22,01:10 PM,03:10 PM,D-backs at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",09/11/22,09/11/22,04:10 PM,06:10 PM,FALSE,TRUE,09/11/22,12:10 PM,02:10 PM,FREE,BUSY
+09/13/22,06:10 PM,08:10 PM,Rockies at White Sox,Guaranteed Rate Field - Chicago,"Local TV: ATT SportsNet-RM",09/13/22,09/13/22,09:10 PM,11:10 PM,FALSE,TRUE,09/13/22,05:10 PM,07:10 PM,FREE,BUSY
+09/14/22,12:10 PM,02:10 PM,Rockies at White Sox,Guaranteed Rate Field - Chicago,"Local TV: ATT SportsNet-RM",09/14/22,09/14/22,03:10 PM,05:10 PM,FALSE,TRUE,09/14/22,11:10 AM,01:10 PM,FREE,BUSY
+09/16/22,12:20 PM,02:20 PM,Rockies at Cubs,Wrigley Field - Chicago,"Local Radio: KOA 850 AM",09/16/22,09/16/22,03:20 PM,05:20 PM,FALSE,TRUE,09/16/22,11:20 AM,01:20 PM,FREE,BUSY
+09/17/22,12:20 PM,02:20 PM,Rockies at Cubs,Wrigley Field - Chicago,"Local TV: MLBN (out-of-market only) ----- Local Radio: KOA 850 AM",09/17/22,09/17/22,03:20 PM,05:20 PM,FALSE,TRUE,09/17/22,11:20 AM,01:20 PM,FREE,BUSY
+09/18/22,12:20 PM,02:20 PM,Rockies at Cubs,Wrigley Field - Chicago,"Local TV: ATT SportsNet-RM",09/18/22,09/18/22,03:20 PM,05:20 PM,FALSE,TRUE,09/18/22,11:20 AM,01:20 PM,FREE,BUSY
+09/19/22,06:40 PM,08:40 PM,Giants at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM ----- Local Radio: KOA 850 AM",09/19/22,09/19/22,09:40 PM,11:40 PM,FALSE,TRUE,09/19/22,05:40 PM,07:40 PM,FREE,BUSY
+09/20/22,06:40 PM,08:40 PM,Giants at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",09/20/22,09/20/22,09:40 PM,11:40 PM,FALSE,TRUE,09/20/22,05:40 PM,07:40 PM,FREE,BUSY
+09/21/22,06:40 PM,08:40 PM,Giants at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM ----- Local Radio: KNRV 1150",09/21/22,09/21/22,09:40 PM,11:40 PM,FALSE,TRUE,09/21/22,05:40 PM,07:40 PM,FREE,BUSY
+09/22/22,01:10 PM,03:10 PM,Giants at Rockies,Coors Field - Denver,"Local TV: ATT SportsNet-RM",09/22/22,09/22/22,04:10 PM,06:10 PM,FALSE,TRUE,09/22/22,12:10 PM,02:10 PM,FREE,BUSY
+09/23/22,06:10 PM,08:10 PM,Padres at Rockies,Coors Field - Denver,"",09/23/22,09/23/22,09:10 PM,11:10 PM,FALSE,TRUE,09/23/22,05:10 PM,07:10 PM,FREE,BUSY
+09/24/22,06:10 PM,08:10 PM,Padres at Rockies,Coors Field - Denver,"",09/24/22,09/24/22,09:10 PM,11:10 PM,FALSE,TRUE,09/24/22,05:10 PM,07:10 PM,FREE,BUSY
+09/25/22,01:10 PM,03:10 PM,Padres at Rockies,Coors Field - Denver,"",09/25/22,09/25/22,04:10 PM,06:10 PM,FALSE,TRUE,09/25/22,12:10 PM,02:10 PM,FREE,BUSY
+09/27/22,07:45 PM,09:45 PM,Rockies at Giants,Oracle Park - San Francisco,"Local TV: ATT SportsNet-RM",09/27/22,09/28/22,10:45 PM,12:45 AM,FALSE,TRUE,09/27/22,06:45 PM,08:45 PM,FREE,BUSY
+09/28/22,07:45 PM,09:45 PM,Rockies at Giants,Oracle Park - San Francisco,"Local TV: ATT SportsNet-RM",09/28/22,09/29/22,10:45 PM,12:45 AM,FALSE,TRUE,09/28/22,06:45 PM,08:45 PM,FREE,BUSY
+09/29/22,07:45 PM,09:45 PM,Rockies at Giants,Oracle Park - San Francisco,"Local TV: ATT SportsNet-RM",09/29/22,09/30/22,10:45 PM,12:45 AM,FALSE,TRUE,09/29/22,06:45 PM,08:45 PM,FREE,BUSY
+09/30/22,08:10 PM,10:10 PM,Rockies at Dodgers,Dodger Stadium - Los Angeles,"Local TV: ATT SportsNet-RM",09/30/22,10/01/22,11:10 PM,01:10 AM,FALSE,TRUE,09/30/22,07:10 PM,09:10 PM,FREE,BUSY
+10/01/22,07:10 PM,09:10 PM,Rockies at Dodgers,Dodger Stadium - Los Angeles,"Local TV: ATT SportsNet-RM",10/01/22,10/02/22,10:10 PM,12:10 AM,FALSE,TRUE,10/01/22,06:10 PM,08:10 PM,FREE,BUSY
+10/02/22,02:10 PM,04:10 PM,Rockies at Dodgers,Dodger Stadium - Los Angeles,"Local TV: ATT SportsNet-RM",10/02/22,10/02/22,05:10 PM,07:10 PM,FALSE,TRUE,10/02/22,01:10 PM,03:10 PM,FREE,BUSY
+10/03/22,08:10 PM,10:10 PM,Rockies at Dodgers,Dodger Stadium - Los Angeles,"Local TV: MLBN (out-of-market only) ----- Local Radio: KOA 850 AM",10/03/22,10/04/22,11:10 PM,01:10 AM,FALSE,TRUE,10/03/22,07:10 PM,09:10 PM,FREE,BUSY
+10/04/22,08:10 PM,10:10 PM,Rockies at Dodgers,Dodger Stadium - Los Angeles,"",10/04/22,10/05/22,11:10 PM,01:10 AM,FALSE,TRUE,10/04/22,07:10 PM,09:10 PM,FREE,BUSY
+10/05/22,02:20 PM,04:20 PM,Rockies at Dodgers,Dodger Stadium - Los Angeles,"Local TV: FS1 ----- Local Radio: KOA 850 AM",10/05/22,10/05/22,05:20 PM,07:20 PM,FALSE,TRUE,10/05/22,01:20 PM,03:20 PM,FREE,BUSY
+02/25/23,01:10 PM,03:10 PM,Rockies at D-backs,Salt River Fields at Talking Stick - Scottsdale,"",02/25/23,02/25/23,04:10 PM,06:10 PM,FALSE,TRUE,02/25/23,12:10 PM,02:10 PM,FREE,BUSY
+02/26/23,,,Brewers at Rockies - Time TBD,Salt River Fields at Talking Stick - Scottsdale,"",02/26/23,02/26/23,,,FALSE,TRUE,02/26/23,,,FREE,BUSY
+02/27/23,,,Rockies at Athletics - Time TBD,Hohokam Stadium - Mesa,"",02/27/23,02/27/23,,,FALSE,TRUE,02/27/23,,,FREE,BUSY
+02/28/23,,,Rockies at Rangers - Time TBD,Surprise Stadium - Surprise,"",02/28/23,02/28/23,,,FALSE,TRUE,02/28/23,,,FREE,BUSY
+03/01/23,,,Royals at Rockies - Time TBD,Salt River Fields at Talking Stick - Scottsdale,"",03/01/23,03/01/23,,,FALSE,TRUE,03/01/23,,,FREE,BUSY
+03/02/23,,,White Sox at Rockies - Time TBD,Salt River Fields at Talking Stick - Scottsdale,"",03/02/23,03/02/23,,,FALSE,TRUE,03/02/23,,,FREE,BUSY
+03/03/23,,,Rockies at Giants - Time TBD,Scottsdale Stadium - Scottsdale,"",03/03/23,03/03/23,,,FALSE,TRUE,03/03/23,,,FREE,BUSY
+03/04/23,,,Rockies at Mariners - Time TBD,Peoria Stadium - Peoria,"",03/04/23,03/04/23,,,FALSE,TRUE,03/04/23,,,FREE,BUSY
+03/05/23,,,Cubs at Rockies - Time TBD,Salt River Fields at Talking Stick - Scottsdale,"",03/05/23,03/05/23,,,FALSE,TRUE,03/05/23,,,FREE,BUSY
+03/06/23,,,Rockies at Reds - Time TBD,Goodyear Ballpark - Goodyear,"",03/06/23,03/06/23,,,FALSE,TRUE,03/06/23,,,FREE,BUSY
+03/06/23,,,Rangers at Rockies - Time TBD,Salt River Fields at Talking Stick - Scottsdale,"",03/06/23,03/06/23,,,FALSE,TRUE,03/06/23,,,FREE,BUSY
+03/08/23,,,Rockies at Angels - Time TBD,Tempe Diablo Stadium - Tempe,"",03/08/23,03/08/23,,,FALSE,TRUE,03/08/23,,,FREE,BUSY
+03/09/23,,,WBC TBD at Rockies - Time TBD,Salt River Fields at Talking Stick - Scottsdale,"",03/09/23,03/09/23,,,FALSE,TRUE,03/09/23,,,FREE,BUSY
+03/10/23,,,Giants at Rockies - Time TBD,Salt River Fields at Talking Stick - Scottsdale,"",03/10/23,03/10/23,,,FALSE,TRUE,03/10/23,,,FREE,BUSY
+03/11/23,,,Mariners at Rockies - Time TBD,Salt River Fields at Talking Stick - Scottsdale,"",03/11/23,03/11/23,,,FALSE,TRUE,03/11/23,,,FREE,BUSY
+03/12/23,02:10 PM,04:10 PM,Rockies at D-backs,Salt River Fields at Talking Stick - Scottsdale,"",03/12/23,03/12/23,05:10 PM,07:10 PM,FALSE,TRUE,03/12/23,01:10 PM,03:10 PM,FREE,BUSY
+03/13/23,,,Athletics at Rockies - Time TBD,Salt River Fields at Talking Stick - Scottsdale,"",03/13/23,03/13/23,,,FALSE,TRUE,03/13/23,,,FREE,BUSY
+03/14/23,07:05 PM,09:05 PM,Rockies at Cubs,Sloan Park - Mesa,"",03/14/23,03/15/23,10:05 PM,12:05 AM,FALSE,TRUE,03/14/23,06:05 PM,08:05 PM,FREE,BUSY
+03/15/23,,,Rockies at Dodgers - Time TBD,Camelback Ranch - Glendale,"",03/15/23,03/15/23,,,FALSE,TRUE,03/15/23,,,FREE,BUSY
+03/16/23,,,Padres at Rockies - Time TBD,Salt River Fields at Talking Stick - Scottsdale,"",03/16/23,03/16/23,,,FALSE,TRUE,03/16/23,,,FREE,BUSY
+03/17/23,,,D-backs at Rockies - Time TBD,Salt River Fields at Talking Stick - Scottsdale,"",03/17/23,03/17/23,,,FALSE,TRUE,03/17/23,,,FREE,BUSY
+03/18/23,,,Rockies at Royals - Time TBD,Surprise Stadium - Surprise,"",03/18/23,03/18/23,,,FALSE,TRUE,03/18/23,,,FREE,BUSY
+03/19/23,,,Rockies at Guardians - Time TBD,Goodyear Ballpark - Goodyear,"",03/19/23,03/19/23,,,FALSE,TRUE,03/19/23,,,FREE,BUSY
+03/20/23,,,Dodgers at Rockies - Time TBD,Salt River Fields at Talking Stick - Scottsdale,"",03/20/23,03/20/23,,,FALSE,TRUE,03/20/23,,,FREE,BUSY
+03/21/23,07:40 PM,09:40 PM,Rockies at Padres,Peoria Stadium - Peoria,"",03/21/23,03/22/23,10:40 PM,12:40 AM,FALSE,TRUE,03/21/23,06:40 PM,08:40 PM,FREE,BUSY
+03/22/23,,,Angels at Rockies - Time TBD,Salt River Fields at Talking Stick - Scottsdale,"",03/22/23,03/22/23,,,FALSE,TRUE,03/22/23,,,FREE,BUSY
+03/24/23,02:10 PM,04:10 PM,Rockies at Brewers,American Family Fields of Phoenix - Phoenix,"",03/24/23,03/24/23,05:10 PM,07:10 PM,FALSE,TRUE,03/24/23,01:10 PM,03:10 PM,FREE,BUSY
+03/25/23,,,Guardians at Rockies - Time TBD,Salt River Fields at Talking Stick - Scottsdale,"",03/25/23,03/25/23,,,FALSE,TRUE,03/25/23,,,FREE,BUSY
+03/26/23,,,Reds at Rockies - Time TBD,Salt River Fields at Talking Stick - Scottsdale,"",03/26/23,03/26/23,,,FALSE,TRUE,03/26/23,,,FREE,BUSY
+03/26/23,,,Rockies at White Sox - Time TBD,Camelback Ranch - Glendale,"",03/26/23,03/26/23,,,FALSE,TRUE,03/26/23,,,FREE,BUSY
+03/27/23,02:10 PM,04:10 PM,Rockies at Brewers,American Family Fields of Phoenix - Phoenix,"",03/27/23,03/27/23,05:10 PM,07:10 PM,FALSE,TRUE,03/27/23,01:10 PM,03:10 PM,FREE,BUSY
+03/28/23,,,Brewers at Rockies - Time TBD,Salt River Fields at Talking Stick - Scottsdale,"",03/28/23,03/28/23,,,FALSE,TRUE,03/28/23,,,FREE,BUSY
+03/30/23,02:10 PM,04:10 PM,Rockies at Padres,Petco Park - San Diego,"",03/30/23,03/30/23,05:10 PM,07:10 PM,FALSE,TRUE,03/30/23,01:10 PM,03:10 PM,FREE,BUSY
+03/31/23,07:40 PM,09:40 PM,Rockies at Padres,Petco Park - San Diego,"",03/31/23,04/01/23,10:40 PM,12:40 AM,FALSE,TRUE,03/31/23,06:40 PM,08:40 PM,FREE,BUSY
+04/01/23,06:40 PM,08:40 PM,Rockies at Padres,Petco Park - San Diego,"",04/01/23,04/01/23,09:40 PM,11:40 PM,FALSE,TRUE,04/01/23,05:40 PM,07:40 PM,FREE,BUSY
+04/02/23,02:10 PM,04:10 PM,Rockies at Padres,Petco Park - San Diego,"",04/02/23,04/02/23,05:10 PM,07:10 PM,FALSE,TRUE,04/02/23,01:10 PM,03:10 PM,FREE,BUSY
+04/03/23,,,Rockies at Dodgers - Time TBD,Dodger Stadium - Los Angeles,"",04/03/23,04/03/23,,,FALSE,TRUE,04/03/23,,,FREE,BUSY
+04/04/23,,,Rockies at Dodgers - Time TBD,Dodger Stadium - Los Angeles,"",04/04/23,04/04/23,,,FALSE,TRUE,04/04/23,,,FREE,BUSY
+04/06/23,02:10 PM,04:10 PM,Nationals at Rockies,Coors Field - Denver,"",04/06/23,04/06/23,05:10 PM,07:10 PM,FALSE,TRUE,04/06/23,01:10 PM,03:10 PM,FREE,BUSY
+04/07/23,06:40 PM,08:40 PM,Nationals at Rockies,Coors Field - Denver,"",04/07/23,04/07/23,09:40 PM,11:40 PM,FALSE,TRUE,04/07/23,05:40 PM,07:40 PM,FREE,BUSY
+04/08/23,06:10 PM,08:10 PM,Nationals at Rockies,Coors Field - Denver,"",04/08/23,04/08/23,09:10 PM,11:10 PM,FALSE,TRUE,04/08/23,05:10 PM,07:10 PM,FREE,BUSY
+04/09/23,01:10 PM,03:10 PM,Nationals at Rockies,Coors Field - Denver,"",04/09/23,04/09/23,04:10 PM,06:10 PM,FALSE,TRUE,04/09/23,12:10 PM,02:10 PM,FREE,BUSY
+04/10/23,06:40 PM,08:40 PM,Cardinals at Rockies,Coors Field - Denver,"",04/10/23,04/10/23,09:40 PM,11:40 PM,FALSE,TRUE,04/10/23,05:40 PM,07:40 PM,FREE,BUSY
+04/11/23,06:40 PM,08:40 PM,Cardinals at Rockies,Coors Field - Denver,"",04/11/23,04/11/23,09:40 PM,11:40 PM,FALSE,TRUE,04/11/23,05:40 PM,07:40 PM,FREE,BUSY
+04/12/23,01:10 PM,03:10 PM,Cardinals at Rockies,Coors Field - Denver,"",04/12/23,04/12/23,04:10 PM,06:10 PM,FALSE,TRUE,04/12/23,12:10 PM,02:10 PM,FREE,BUSY
+04/14/23,,,Rockies at Mariners - Time TBD,T-Mobile Park - Seattle,"",04/14/23,04/14/23,,,FALSE,TRUE,04/14/23,,,FREE,BUSY
+04/15/23,,,Rockies at Mariners - Time TBD,T-Mobile Park - Seattle,"",04/15/23,04/15/23,,,FALSE,TRUE,04/15/23,,,FREE,BUSY
+04/16/23,,,Rockies at Mariners - Time TBD,T-Mobile Park - Seattle,"",04/16/23,04/16/23,,,FALSE,TRUE,04/16/23,,,FREE,BUSY
+04/17/23,06:40 PM,08:40 PM,Pirates at Rockies,Coors Field - Denver,"",04/17/23,04/17/23,09:40 PM,11:40 PM,FALSE,TRUE,04/17/23,05:40 PM,07:40 PM,FREE,BUSY
+04/18/23,06:40 PM,08:40 PM,Pirates at Rockies,Coors Field - Denver,"",04/18/23,04/18/23,09:40 PM,11:40 PM,FALSE,TRUE,04/18/23,05:40 PM,07:40 PM,FREE,BUSY
+04/19/23,01:10 PM,03:10 PM,Pirates at Rockies,Coors Field - Denver,"",04/19/23,04/19/23,04:10 PM,06:10 PM,FALSE,TRUE,04/19/23,12:10 PM,02:10 PM,FREE,BUSY
+04/20/23,04:40 PM,06:40 PM,Rockies at Phillies,Citizens Bank Park - Philadelphia,"",04/20/23,04/20/23,07:40 PM,09:40 PM,FALSE,TRUE,04/20/23,03:40 PM,05:40 PM,FREE,BUSY
+04/21/23,05:05 PM,07:05 PM,Rockies at Phillies,Citizens Bank Park - Philadelphia,"",04/21/23,04/21/23,08:05 PM,10:05 PM,FALSE,TRUE,04/21/23,04:05 PM,06:05 PM,FREE,BUSY
+04/22/23,02:05 PM,04:05 PM,Rockies at Phillies,Citizens Bank Park - Philadelphia,"",04/22/23,04/22/23,05:05 PM,07:05 PM,FALSE,TRUE,04/22/23,01:05 PM,03:05 PM,FREE,BUSY
+04/23/23,11:05 AM,01:05 PM,Rockies at Phillies,Citizens Bank Park - Philadelphia,"",04/23/23,04/23/23,02:05 PM,04:05 PM,FALSE,TRUE,04/23/23,10:05 AM,12:05 PM,FREE,BUSY
+04/24/23,,,Rockies at Guardians - Time TBD,Progressive Field - Cleveland,"",04/24/23,04/24/23,,,FALSE,TRUE,04/24/23,,,FREE,BUSY
+04/25/23,,,Rockies at Guardians - Time TBD,Progressive Field - Cleveland,"",04/25/23,04/25/23,,,FALSE,TRUE,04/25/23,,,FREE,BUSY
+04/26/23,,,Rockies at Guardians - Time TBD,Progressive Field - Cleveland,"",04/26/23,04/26/23,,,FALSE,TRUE,04/26/23,,,FREE,BUSY
+04/28/23,06:40 PM,08:40 PM,D-backs at Rockies,Coors Field - Denver,"",04/28/23,04/28/23,09:40 PM,11:40 PM,FALSE,TRUE,04/28/23,05:40 PM,07:40 PM,FREE,BUSY
+04/29/23,06:10 PM,08:10 PM,D-backs at Rockies,Coors Field - Denver,"",04/29/23,04/29/23,09:10 PM,11:10 PM,FALSE,TRUE,04/29/23,05:10 PM,07:10 PM,FREE,BUSY
+04/30/23,01:10 PM,03:10 PM,D-backs at Rockies,Coors Field - Denver,"",04/30/23,04/30/23,04:10 PM,06:10 PM,FALSE,TRUE,04/30/23,12:10 PM,02:10 PM,FREE,BUSY
+05/02/23,06:40 PM,08:40 PM,Brewers at Rockies,Coors Field - Denver,"",05/02/23,05/02/23,09:40 PM,11:40 PM,FALSE,TRUE,05/02/23,05:40 PM,07:40 PM,FREE,BUSY
+05/03/23,06:40 PM,08:40 PM,Brewers at Rockies,Coors Field - Denver,"",05/03/23,05/03/23,09:40 PM,11:40 PM,FALSE,TRUE,05/03/23,05:40 PM,07:40 PM,FREE,BUSY
+05/04/23,01:10 PM,03:10 PM,Brewers at Rockies,Coors Field - Denver,"",05/04/23,05/04/23,04:10 PM,06:10 PM,FALSE,TRUE,05/04/23,12:10 PM,02:10 PM,FREE,BUSY
+05/05/23,,,Rockies at Mets - Time TBD,Citi Field - Flushing,"",05/05/23,05/05/23,,,FALSE,TRUE,05/05/23,,,FREE,BUSY
+05/06/23,,,Rockies at Mets - Time TBD,Citi Field - Flushing,"",05/06/23,05/06/23,,,FALSE,TRUE,05/06/23,,,FREE,BUSY
+05/07/23,,,Rockies at Mets - Time TBD,Citi Field - Flushing,"",05/07/23,05/07/23,,,FALSE,TRUE,05/07/23,,,FREE,BUSY
+05/08/23,04:35 PM,06:35 PM,Rockies at Pirates,PNC Park - Pittsburgh,"",05/08/23,05/08/23,07:35 PM,09:35 PM,FALSE,TRUE,05/08/23,03:35 PM,05:35 PM,FREE,BUSY
+05/09/23,04:35 PM,06:35 PM,Rockies at Pirates,PNC Park - Pittsburgh,"",05/09/23,05/09/23,07:35 PM,09:35 PM,FALSE,TRUE,05/09/23,03:35 PM,05:35 PM,FREE,BUSY
+05/10/23,10:35 AM,12:35 PM,Rockies at Pirates,PNC Park - Pittsburgh,"",05/10/23,05/10/23,01:35 PM,03:35 PM,FALSE,TRUE,05/10/23,09:35 AM,11:35 AM,FREE,BUSY
+05/12/23,06:40 PM,08:40 PM,Phillies at Rockies,Coors Field - Denver,"",05/12/23,05/12/23,09:40 PM,11:40 PM,FALSE,TRUE,05/12/23,05:40 PM,07:40 PM,FREE,BUSY
+05/13/23,06:10 PM,08:10 PM,Phillies at Rockies,Coors Field - Denver,"",05/13/23,05/13/23,09:10 PM,11:10 PM,FALSE,TRUE,05/13/23,05:10 PM,07:10 PM,FREE,BUSY
+05/14/23,01:10 PM,03:10 PM,Phillies at Rockies,Coors Field - Denver,"",05/14/23,05/14/23,04:10 PM,06:10 PM,FALSE,TRUE,05/14/23,12:10 PM,02:10 PM,FREE,BUSY
+05/15/23,06:40 PM,08:40 PM,Reds at Rockies,Coors Field - Denver,"",05/15/23,05/15/23,09:40 PM,11:40 PM,FALSE,TRUE,05/15/23,05:40 PM,07:40 PM,FREE,BUSY
+05/16/23,06:40 PM,08:40 PM,Reds at Rockies,Coors Field - Denver,"",05/16/23,05/16/23,09:40 PM,11:40 PM,FALSE,TRUE,05/16/23,05:40 PM,07:40 PM,FREE,BUSY
+05/17/23,01:10 PM,03:10 PM,Reds at Rockies,Coors Field - Denver,"",05/17/23,05/17/23,04:10 PM,06:10 PM,FALSE,TRUE,05/17/23,12:10 PM,02:10 PM,FREE,BUSY
+05/19/23,,,Rockies at Rangers - Time TBD,Globe Life Field - Arlington,"",05/19/23,05/19/23,,,FALSE,TRUE,05/19/23,,,FREE,BUSY
+05/20/23,,,Rockies at Rangers - Time TBD,Globe Life Field - Arlington,"",05/20/23,05/20/23,,,FALSE,TRUE,05/20/23,,,FREE,BUSY
+05/21/23,,,Rockies at Rangers - Time TBD,Globe Life Field - Arlington,"",05/21/23,05/21/23,,,FALSE,TRUE,05/21/23,,,FREE,BUSY
+05/22/23,06:40 PM,08:40 PM,Marlins at Rockies,Coors Field - Denver,"",05/22/23,05/22/23,09:40 PM,11:40 PM,FALSE,TRUE,05/22/23,05:40 PM,07:40 PM,FREE,BUSY
+05/23/23,06:40 PM,08:40 PM,Marlins at Rockies,Coors Field - Denver,"",05/23/23,05/23/23,09:40 PM,11:40 PM,FALSE,TRUE,05/23/23,05:40 PM,07:40 PM,FREE,BUSY
+05/24/23,06:40 PM,08:40 PM,Marlins at Rockies,Coors Field - Denver,"",05/24/23,05/24/23,09:40 PM,11:40 PM,FALSE,TRUE,05/24/23,05:40 PM,07:40 PM,FREE,BUSY
+05/25/23,01:10 PM,03:10 PM,Marlins at Rockies,Coors Field - Denver,"",05/25/23,05/25/23,04:10 PM,06:10 PM,FALSE,TRUE,05/25/23,12:10 PM,02:10 PM,FREE,BUSY
+05/26/23,06:40 PM,08:40 PM,Mets at Rockies,Coors Field - Denver,"",05/26/23,05/26/23,09:40 PM,11:40 PM,FALSE,TRUE,05/26/23,05:40 PM,07:40 PM,FREE,BUSY
+05/27/23,,,Mets at Rockies - Time TBD,Coors Field - Denver,"",05/27/23,05/27/23,,,FALSE,TRUE,05/27/23,,,FREE,BUSY
+05/28/23,01:10 PM,03:10 PM,Mets at Rockies,Coors Field - Denver,"",05/28/23,05/28/23,04:10 PM,06:10 PM,FALSE,TRUE,05/28/23,12:10 PM,02:10 PM,FREE,BUSY
+05/29/23,,,Rockies at D-backs - Time TBD,Chase Field - Phoenix,"",05/29/23,05/29/23,,,FALSE,TRUE,05/29/23,,,FREE,BUSY
+05/30/23,,,Rockies at D-backs - Time TBD,Chase Field - Phoenix,"",05/30/23,05/30/23,,,FALSE,TRUE,05/30/23,,,FREE,BUSY
+05/31/23,,,Rockies at D-backs - Time TBD,Chase Field - Phoenix,"",05/31/23,05/31/23,,,FALSE,TRUE,05/31/23,,,FREE,BUSY
+06/01/23,,,Rockies at D-backs - Time TBD,Chase Field - Phoenix,"",06/01/23,06/01/23,,,FALSE,TRUE,06/01/23,,,FREE,BUSY
+06/02/23,,,Rockies at Royals - Time TBD,Kauffman Stadium - Kansas City,"",06/02/23,06/02/23,,,FALSE,TRUE,06/02/23,,,FREE,BUSY
+06/03/23,,,Rockies at Royals - Time TBD,Kauffman Stadium - Kansas City,"",06/03/23,06/03/23,,,FALSE,TRUE,06/03/23,,,FREE,BUSY
+06/04/23,,,Rockies at Royals - Time TBD,Kauffman Stadium - Kansas City,"",06/04/23,06/04/23,,,FALSE,TRUE,06/04/23,,,FREE,BUSY
+06/06/23,06:40 PM,08:40 PM,Giants at Rockies,Coors Field - Denver,"",06/06/23,06/06/23,09:40 PM,11:40 PM,FALSE,TRUE,06/06/23,05:40 PM,07:40 PM,FREE,BUSY
+06/07/23,06:40 PM,08:40 PM,Giants at Rockies,Coors Field - Denver,"",06/07/23,06/07/23,09:40 PM,11:40 PM,FALSE,TRUE,06/07/23,05:40 PM,07:40 PM,FREE,BUSY
+06/08/23,01:10 PM,03:10 PM,Giants at Rockies,Coors Field - Denver,"",06/08/23,06/08/23,04:10 PM,06:10 PM,FALSE,TRUE,06/08/23,12:10 PM,02:10 PM,FREE,BUSY
+06/09/23,06:40 PM,08:40 PM,Padres at Rockies,Coors Field - Denver,"",06/09/23,06/09/23,09:40 PM,11:40 PM,FALSE,TRUE,06/09/23,05:40 PM,07:40 PM,FREE,BUSY
+06/10/23,,,Padres at Rockies - Time TBD,Coors Field - Denver,"",06/10/23,06/10/23,,,FALSE,TRUE,06/10/23,,,FREE,BUSY
+06/11/23,01:10 PM,03:10 PM,Padres at Rockies,Coors Field - Denver,"",06/11/23,06/11/23,04:10 PM,06:10 PM,FALSE,TRUE,06/11/23,12:10 PM,02:10 PM,FREE,BUSY
+06/12/23,,,Rockies at Red Sox - Time TBD,Fenway Park - Boston,"",06/12/23,06/12/23,,,FALSE,TRUE,06/12/23,,,FREE,BUSY
+06/13/23,,,Rockies at Red Sox - Time TBD,Fenway Park - Boston,"",06/13/23,06/13/23,,,FALSE,TRUE,06/13/23,,,FREE,BUSY
+06/14/23,,,Rockies at Red Sox - Time TBD,Fenway Park - Boston,"",06/14/23,06/14/23,,,FALSE,TRUE,06/14/23,,,FREE,BUSY
+06/15/23,,,Rockies at Braves - Time TBD,Truist Park - Atlanta,"",06/15/23,06/15/23,,,FALSE,TRUE,06/15/23,,,FREE,BUSY
+06/16/23,,,Rockies at Braves - Time TBD,Truist Park - Atlanta,"",06/16/23,06/16/23,,,FALSE,TRUE,06/16/23,,,FREE,BUSY
+06/17/23,,,Rockies at Braves - Time TBD,Truist Park - Atlanta,"",06/17/23,06/17/23,,,FALSE,TRUE,06/17/23,,,FREE,BUSY
+06/18/23,,,Rockies at Braves - Time TBD,Truist Park - Atlanta,"",06/18/23,06/18/23,,,FALSE,TRUE,06/18/23,,,FREE,BUSY
+06/19/23,,,Rockies at Reds - Time TBD,Great American Ball Park - Cincinnati,"",06/19/23,06/19/23,,,FALSE,TRUE,06/19/23,,,FREE,BUSY
+06/20/23,,,Rockies at Reds - Time TBD,Great American Ball Park - Cincinnati,"",06/20/23,06/20/23,,,FALSE,TRUE,06/20/23,,,FREE,BUSY
+06/21/23,,,Rockies at Reds - Time TBD,Great American Ball Park - Cincinnati,"",06/21/23,06/21/23,,,FALSE,TRUE,06/21/23,,,FREE,BUSY
+06/23/23,06:40 PM,08:40 PM,Angels at Rockies,Coors Field - Denver,"",06/23/23,06/23/23,09:40 PM,11:40 PM,FALSE,TRUE,06/23/23,05:40 PM,07:40 PM,FREE,BUSY
+06/24/23,,,Angels at Rockies - Time TBD,Coors Field - Denver,"",06/24/23,06/24/23,,,FALSE,TRUE,06/24/23,,,FREE,BUSY
+06/25/23,01:10 PM,03:10 PM,Angels at Rockies,Coors Field - Denver,"",06/25/23,06/25/23,04:10 PM,06:10 PM,FALSE,TRUE,06/25/23,12:10 PM,02:10 PM,FREE,BUSY
+06/27/23,06:40 PM,08:40 PM,Dodgers at Rockies,Coors Field - Denver,"",06/27/23,06/27/23,09:40 PM,11:40 PM,FALSE,TRUE,06/27/23,05:40 PM,07:40 PM,FREE,BUSY
+06/28/23,06:40 PM,08:40 PM,Dodgers at Rockies,Coors Field - Denver,"",06/28/23,06/28/23,09:40 PM,11:40 PM,FALSE,TRUE,06/28/23,05:40 PM,07:40 PM,FREE,BUSY
+06/29/23,06:40 PM,08:40 PM,Dodgers at Rockies,Coors Field - Denver,"",06/29/23,06/29/23,09:40 PM,11:40 PM,FALSE,TRUE,06/29/23,05:40 PM,07:40 PM,FREE,BUSY
+06/30/23,06:10 PM,08:10 PM,Tigers at Rockies,Coors Field - Denver,"",06/30/23,06/30/23,09:10 PM,11:10 PM,FALSE,TRUE,06/30/23,05:10 PM,07:10 PM,FREE,BUSY
+07/01/23,,,Tigers at Rockies - Time TBD,Coors Field - Denver,"",07/01/23,07/01/23,,,FALSE,TRUE,07/01/23,,,FREE,BUSY
+07/02/23,01:10 PM,03:10 PM,Tigers at Rockies,Coors Field - Denver,"",07/02/23,07/02/23,04:10 PM,06:10 PM,FALSE,TRUE,07/02/23,12:10 PM,02:10 PM,FREE,BUSY
+07/04/23,,,Rockies at Astros - Time TBD,Minute Maid Park - Houston,"",07/04/23,07/04/23,,,FALSE,TRUE,07/04/23,,,FREE,BUSY
+07/05/23,,,Rockies at Astros - Time TBD,Minute Maid Park - Houston,"",07/05/23,07/05/23,,,FALSE,TRUE,07/05/23,,,FREE,BUSY
+07/07/23,,,Rockies at Giants - Time TBD,Oracle Park - San Francisco,"",07/07/23,07/07/23,,,FALSE,TRUE,07/07/23,,,FREE,BUSY
+07/08/23,,,Rockies at Giants - Time TBD,Oracle Park - San Francisco,"",07/08/23,07/08/23,,,FALSE,TRUE,07/08/23,,,FREE,BUSY
+07/09/23,,,Rockies at Giants - Time TBD,Oracle Park - San Francisco,"",07/09/23,07/09/23,,,FALSE,TRUE,07/09/23,,,FREE,BUSY
+07/14/23,06:40 PM,08:40 PM,Yankees at Rockies,Coors Field - Denver,"",07/14/23,07/14/23,09:40 PM,11:40 PM,FALSE,TRUE,07/14/23,05:40 PM,07:40 PM,FREE,BUSY
+07/15/23,06:10 PM,08:10 PM,Yankees at Rockies,Coors Field - Denver,"",07/15/23,07/15/23,09:10 PM,11:10 PM,FALSE,TRUE,07/15/23,05:10 PM,07:10 PM,FREE,BUSY
+07/16/23,01:10 PM,03:10 PM,Yankees at Rockies,Coors Field - Denver,"",07/16/23,07/16/23,04:10 PM,06:10 PM,FALSE,TRUE,07/16/23,12:10 PM,02:10 PM,FREE,BUSY
+07/18/23,06:40 PM,08:40 PM,Astros at Rockies,Coors Field - Denver,"",07/18/23,07/18/23,09:40 PM,11:40 PM,FALSE,TRUE,07/18/23,05:40 PM,07:40 PM,FREE,BUSY
+07/19/23,01:10 PM,03:10 PM,Astros at Rockies,Coors Field - Denver,"",07/19/23,07/19/23,04:10 PM,06:10 PM,FALSE,TRUE,07/19/23,12:10 PM,02:10 PM,FREE,BUSY
+07/21/23,04:40 PM,06:40 PM,Rockies at Marlins,loanDepot park - Miami,"",07/21/23,07/21/23,07:40 PM,09:40 PM,FALSE,TRUE,07/21/23,03:40 PM,05:40 PM,FREE,BUSY
+07/22/23,11:10 AM,01:10 PM,Rockies at Marlins,loanDepot park - Miami,"",07/22/23,07/22/23,02:10 PM,04:10 PM,FALSE,TRUE,07/22/23,10:10 AM,12:10 PM,FREE,BUSY
+07/23/23,11:40 AM,01:40 PM,Rockies at Marlins,loanDepot park - Miami,"",07/23/23,07/23/23,02:40 PM,04:40 PM,FALSE,TRUE,07/23/23,10:40 AM,12:40 PM,FREE,BUSY
+07/24/23,05:05 PM,07:05 PM,Rockies at Nationals,Nationals Park - Washington,"",07/24/23,07/24/23,08:05 PM,10:05 PM,FALSE,TRUE,07/24/23,04:05 PM,06:05 PM,FREE,BUSY
+07/25/23,05:05 PM,07:05 PM,Rockies at Nationals,Nationals Park - Washington,"",07/25/23,07/25/23,08:05 PM,10:05 PM,FALSE,TRUE,07/25/23,04:05 PM,06:05 PM,FREE,BUSY
+07/26/23,10:05 AM,12:05 PM,Rockies at Nationals,Nationals Park - Washington,"",07/26/23,07/26/23,01:05 PM,03:05 PM,FALSE,TRUE,07/26/23,09:05 AM,11:05 AM,FREE,BUSY
+07/28/23,06:40 PM,08:40 PM,Athletics at Rockies,Coors Field - Denver,"",07/28/23,07/28/23,09:40 PM,11:40 PM,FALSE,TRUE,07/28/23,05:40 PM,07:40 PM,FREE,BUSY
+07/29/23,06:10 PM,08:10 PM,Athletics at Rockies,Coors Field - Denver,"",07/29/23,07/29/23,09:10 PM,11:10 PM,FALSE,TRUE,07/29/23,05:10 PM,07:10 PM,FREE,BUSY
+07/30/23,01:10 PM,03:10 PM,Athletics at Rockies,Coors Field - Denver,"",07/30/23,07/30/23,04:10 PM,06:10 PM,FALSE,TRUE,07/30/23,12:10 PM,02:10 PM,FREE,BUSY
+07/31/23,06:40 PM,08:40 PM,Padres at Rockies,Coors Field - Denver,"",07/31/23,07/31/23,09:40 PM,11:40 PM,FALSE,TRUE,07/31/23,05:40 PM,07:40 PM,FREE,BUSY
+08/01/23,06:40 PM,08:40 PM,Padres at Rockies,Coors Field - Denver,"",08/01/23,08/01/23,09:40 PM,11:40 PM,FALSE,TRUE,08/01/23,05:40 PM,07:40 PM,FREE,BUSY
+08/02/23,01:10 PM,03:10 PM,Padres at Rockies,Coors Field - Denver,"",08/02/23,08/02/23,04:10 PM,06:10 PM,FALSE,TRUE,08/02/23,12:10 PM,02:10 PM,FREE,BUSY
+08/04/23,,,Rockies at Cardinals - Time TBD,Busch Stadium - St. Louis,"",08/04/23,08/04/23,,,FALSE,TRUE,08/04/23,,,FREE,BUSY
+08/05/23,,,Rockies at Cardinals - Time TBD,Busch Stadium - St. Louis,"",08/05/23,08/05/23,,,FALSE,TRUE,08/05/23,,,FREE,BUSY
+08/06/23,,,Rockies at Cardinals - Time TBD,Busch Stadium - St. Louis,"",08/06/23,08/06/23,,,FALSE,TRUE,08/06/23,,,FREE,BUSY
+08/07/23,06:10 PM,08:10 PM,Rockies at Brewers,American Family Field - Milwaukee,"",08/07/23,08/07/23,09:10 PM,11:10 PM,FALSE,TRUE,08/07/23,05:10 PM,07:10 PM,FREE,BUSY
+08/08/23,06:10 PM,08:10 PM,Rockies at Brewers,American Family Field - Milwaukee,"",08/08/23,08/08/23,09:10 PM,11:10 PM,FALSE,TRUE,08/08/23,05:10 PM,07:10 PM,FREE,BUSY
+08/09/23,12:10 PM,02:10 PM,Rockies at Brewers,American Family Field - Milwaukee,"",08/09/23,08/09/23,03:10 PM,05:10 PM,FALSE,TRUE,08/09/23,11:10 AM,01:10 PM,FREE,BUSY
+08/10/23,,,Rockies at Dodgers - Time TBD,Dodger Stadium - Los Angeles,"",08/10/23,08/10/23,,,FALSE,TRUE,08/10/23,,,FREE,BUSY
+08/11/23,,,Rockies at Dodgers - Time TBD,Dodger Stadium - Los Angeles,"",08/11/23,08/11/23,,,FALSE,TRUE,08/11/23,,,FREE,BUSY
+08/12/23,,,Rockies at Dodgers - Time TBD,Dodger Stadium - Los Angeles,"",08/12/23,08/12/23,,,FALSE,TRUE,08/12/23,,,FREE,BUSY
+08/13/23,,,Rockies at Dodgers - Time TBD,Dodger Stadium - Los Angeles,"",08/13/23,08/13/23,,,FALSE,TRUE,08/13/23,,,FREE,BUSY
+08/14/23,06:40 PM,08:40 PM,D-backs at Rockies,Coors Field - Denver,"",08/14/23,08/14/23,09:40 PM,11:40 PM,FALSE,TRUE,08/14/23,05:40 PM,07:40 PM,FREE,BUSY
+08/15/23,06:40 PM,08:40 PM,D-backs at Rockies,Coors Field - Denver,"",08/15/23,08/15/23,09:40 PM,11:40 PM,FALSE,TRUE,08/15/23,05:40 PM,07:40 PM,FREE,BUSY
+08/16/23,01:10 PM,03:10 PM,D-backs at Rockies,Coors Field - Denver,"",08/16/23,08/16/23,04:10 PM,06:10 PM,FALSE,TRUE,08/16/23,12:10 PM,02:10 PM,FREE,BUSY
+08/18/23,06:40 PM,08:40 PM,White Sox at Rockies,Coors Field - Denver,"",08/18/23,08/18/23,09:40 PM,11:40 PM,FALSE,TRUE,08/18/23,05:40 PM,07:40 PM,FREE,BUSY
+08/19/23,06:10 PM,08:10 PM,White Sox at Rockies,Coors Field - Denver,"",08/19/23,08/19/23,09:10 PM,11:10 PM,FALSE,TRUE,08/19/23,05:10 PM,07:10 PM,FREE,BUSY
+08/20/23,01:10 PM,03:10 PM,White Sox at Rockies,Coors Field - Denver,"",08/20/23,08/20/23,04:10 PM,06:10 PM,FALSE,TRUE,08/20/23,12:10 PM,02:10 PM,FREE,BUSY
+08/22/23,,,Rockies at Rays - Time TBD,Tropicana Field - St. Petersburg,"",08/22/23,08/22/23,,,FALSE,TRUE,08/22/23,,,FREE,BUSY
+08/23/23,,,Rockies at Rays - Time TBD,Tropicana Field - St. Petersburg,"",08/23/23,08/23/23,,,FALSE,TRUE,08/23/23,,,FREE,BUSY
+08/24/23,,,Rockies at Rays - Time TBD,Tropicana Field - St. Petersburg,"",08/24/23,08/24/23,,,FALSE,TRUE,08/24/23,,,FREE,BUSY
+08/25/23,,,Rockies at Orioles - Time TBD,Oriole Park at Camden Yards - Baltimore,"",08/25/23,08/25/23,,,FALSE,TRUE,08/25/23,,,FREE,BUSY
+08/26/23,,,Rockies at Orioles - Time TBD,Oriole Park at Camden Yards - Baltimore,"",08/26/23,08/26/23,,,FALSE,TRUE,08/26/23,,,FREE,BUSY
+08/27/23,,,Rockies at Orioles - Time TBD,Oriole Park at Camden Yards - Baltimore,"",08/27/23,08/27/23,,,FALSE,TRUE,08/27/23,,,FREE,BUSY
+08/28/23,06:40 PM,08:40 PM,Braves at Rockies,Coors Field - Denver,"",08/28/23,08/28/23,09:40 PM,11:40 PM,FALSE,TRUE,08/28/23,05:40 PM,07:40 PM,FREE,BUSY
+08/29/23,06:40 PM,08:40 PM,Braves at Rockies,Coors Field - Denver,"",08/29/23,08/29/23,09:40 PM,11:40 PM,FALSE,TRUE,08/29/23,05:40 PM,07:40 PM,FREE,BUSY
+08/30/23,06:40 PM,08:40 PM,Braves at Rockies,Coors Field - Denver,"",08/30/23,08/30/23,09:40 PM,11:40 PM,FALSE,TRUE,08/30/23,05:40 PM,07:40 PM,FREE,BUSY
+09/01/23,06:40 PM,08:40 PM,Blue Jays at Rockies,Coors Field - Denver,"",09/01/23,09/01/23,09:40 PM,11:40 PM,FALSE,TRUE,09/01/23,05:40 PM,07:40 PM,FREE,BUSY
+09/02/23,06:10 PM,08:10 PM,Blue Jays at Rockies,Coors Field - Denver,"",09/02/23,09/02/23,09:10 PM,11:10 PM,FALSE,TRUE,09/02/23,05:10 PM,07:10 PM,FREE,BUSY
+09/03/23,01:10 PM,03:10 PM,Blue Jays at Rockies,Coors Field - Denver,"",09/03/23,09/03/23,04:10 PM,06:10 PM,FALSE,TRUE,09/03/23,12:10 PM,02:10 PM,FREE,BUSY
+09/04/23,,,Rockies at D-backs - Time TBD,Chase Field - Phoenix,"",09/04/23,09/04/23,,,FALSE,TRUE,09/04/23,,,FREE,BUSY
+09/05/23,,,Rockies at D-backs - Time TBD,Chase Field - Phoenix,"",09/05/23,09/05/23,,,FALSE,TRUE,09/05/23,,,FREE,BUSY
+09/06/23,,,Rockies at D-backs - Time TBD,Chase Field - Phoenix,"",09/06/23,09/06/23,,,FALSE,TRUE,09/06/23,,,FREE,BUSY
+09/08/23,,,Rockies at Giants - Time TBD,Oracle Park - San Francisco,"",09/08/23,09/08/23,,,FALSE,TRUE,09/08/23,,,FREE,BUSY
+09/09/23,,,Rockies at Giants - Time TBD,Oracle Park - San Francisco,"",09/09/23,09/09/23,,,FALSE,TRUE,09/09/23,,,FREE,BUSY
+09/10/23,,,Rockies at Giants - Time TBD,Oracle Park - San Francisco,"",09/10/23,09/10/23,,,FALSE,TRUE,09/10/23,,,FREE,BUSY
+09/11/23,06:40 PM,08:40 PM,Cubs at Rockies,Coors Field - Denver,"",09/11/23,09/11/23,09:40 PM,11:40 PM,FALSE,TRUE,09/11/23,05:40 PM,07:40 PM,FREE,BUSY
+09/12/23,06:40 PM,08:40 PM,Cubs at Rockies,Coors Field - Denver,"",09/12/23,09/12/23,09:40 PM,11:40 PM,FALSE,TRUE,09/12/23,05:40 PM,07:40 PM,FREE,BUSY
+09/13/23,01:10 PM,03:10 PM,Cubs at Rockies,Coors Field - Denver,"",09/13/23,09/13/23,04:10 PM,06:10 PM,FALSE,TRUE,09/13/23,12:10 PM,02:10 PM,FREE,BUSY
+09/14/23,06:40 PM,08:40 PM,Giants at Rockies,Coors Field - Denver,"",09/14/23,09/14/23,09:40 PM,11:40 PM,FALSE,TRUE,09/14/23,05:40 PM,07:40 PM,FREE,BUSY
+09/15/23,06:40 PM,08:40 PM,Giants at Rockies,Coors Field - Denver,"",09/15/23,09/15/23,09:40 PM,11:40 PM,FALSE,TRUE,09/15/23,05:40 PM,07:40 PM,FREE,BUSY
+09/16/23,06:10 PM,08:10 PM,Giants at Rockies,Coors Field - Denver,"",09/16/23,09/16/23,09:10 PM,11:10 PM,FALSE,TRUE,09/16/23,05:10 PM,07:10 PM,FREE,BUSY
+09/17/23,01:10 PM,03:10 PM,Giants at Rockies,Coors Field - Denver,"",09/17/23,09/17/23,04:10 PM,06:10 PM,FALSE,TRUE,09/17/23,12:10 PM,02:10 PM,FREE,BUSY
+09/18/23,07:40 PM,09:40 PM,Rockies at Padres,Petco Park - San Diego,"",09/18/23,09/19/23,10:40 PM,12:40 AM,FALSE,TRUE,09/18/23,06:40 PM,08:40 PM,FREE,BUSY
+09/19/23,07:40 PM,09:40 PM,Rockies at Padres,Petco Park - San Diego,"",09/19/23,09/20/23,10:40 PM,12:40 AM,FALSE,TRUE,09/19/23,06:40 PM,08:40 PM,FREE,BUSY
+09/20/23,02:10 PM,04:10 PM,Rockies at Padres,Petco Park - San Diego,"",09/20/23,09/20/23,05:10 PM,07:10 PM,FALSE,TRUE,09/20/23,01:10 PM,03:10 PM,FREE,BUSY
+09/22/23,,,Rockies at Cubs - Time TBD,Wrigley Field - Chicago,"",09/22/23,09/22/23,,,FALSE,TRUE,09/22/23,,,FREE,BUSY
+09/23/23,,,Rockies at Cubs - Time TBD,Wrigley Field - Chicago,"",09/23/23,09/23/23,,,FALSE,TRUE,09/23/23,,,FREE,BUSY
+09/24/23,,,Rockies at Cubs - Time TBD,Wrigley Field - Chicago,"",09/24/23,09/24/23,,,FALSE,TRUE,09/24/23,,,FREE,BUSY
+09/26/23,01:10 PM,03:10 PM,Dodgers at Rockies,Coors Field - Denver,"",09/26/23,09/26/23,04:10 PM,06:10 PM,FALSE,TRUE,09/26/23,12:10 PM,02:10 PM,FREE,BUSY
+09/26/23,06:40 PM,08:40 PM,Dodgers at Rockies,Coors Field - Denver,"",09/26/23,09/26/23,09:40 PM,11:40 PM,FALSE,TRUE,09/26/23,05:40 PM,07:40 PM,FREE,BUSY
+09/27/23,06:40 PM,08:40 PM,Dodgers at Rockies,Coors Field - Denver,"",09/27/23,09/27/23,09:40 PM,11:40 PM,FALSE,TRUE,09/27/23,05:40 PM,07:40 PM,FREE,BUSY
+09/28/23,06:40 PM,08:40 PM,Dodgers at Rockies,Coors Field - Denver,"",09/28/23,09/28/23,09:40 PM,11:40 PM,FALSE,TRUE,09/28/23,05:40 PM,07:40 PM,FREE,BUSY
+09/29/23,06:10 PM,08:10 PM,Twins at Rockies,Coors Field - Denver,"",09/29/23,09/29/23,09:10 PM,11:10 PM,FALSE,TRUE,09/29/23,05:10 PM,07:10 PM,FREE,BUSY
+09/30/23,06:10 PM,08:10 PM,Twins at Rockies,Coors Field - Denver,"",09/30/23,09/30/23,09:10 PM,11:10 PM,FALSE,TRUE,09/30/23,05:10 PM,07:10 PM,FREE,BUSY
+10/01/23,01:10 PM,03:10 PM,Twins at Rockies,Coors Field - Denver,"",10/01/23,10/01/23,04:10 PM,06:10 PM,FALSE,TRUE,10/01/23,12:10 PM,02:10 PM,FREE,BUSY
