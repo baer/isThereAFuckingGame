@@ -6,13 +6,15 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="manifest" href="site.webmanifest" />
 
         {/* Primary Meta Tags */}
-        <title>{`Is There A Fucking ${process.env.homeTeam} Game?`}</title>
+        <title>{`Is There A Fucking ${process.env.teamName} Game?`}</title>
         <meta
           name="title"
-          content={`Is There A Fucking ${process.env.homeTeam} Game?`}
+          content={`Is There A Fucking ${process.env.teamName} Game?`}
         />
         <meta name="description" content={process.env.websiteDescription} />
 
@@ -21,7 +23,7 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:url" content={process.env.websiteURL} />
         <meta
           property="og:title"
-          content={`Is There A Fucking ${process.env.homeTeam} Game?`}
+          content={`Is There A Fucking ${process.env.teamName} Game?`}
         />
         <meta
           property="og:description"
@@ -37,7 +39,7 @@ function MyApp({ Component, pageProps }) {
         <meta property="twitter:url" content={process.env.websiteURL} />
         <meta
           property="twitter:title"
-          content={`Is There A Fucking ${process.env.homeTeam} Game?`}
+          content={`Is There A Fucking ${process.env.teamName} Game?`}
         />
         <meta
           property="twitter:description"

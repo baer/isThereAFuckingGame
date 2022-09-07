@@ -8,7 +8,7 @@ module.exports = {
     },
   },
   env: {
-    homeTeam: "Rockies",
+    teamName: "Rockies",
     homeStadium: "Coors Field - Denver",
     websiteURL: "https://isthereafuckingrockiesgame.com/",
     websiteDescription: "WTF! Why is downtown such a shitshow? Oh... right...",

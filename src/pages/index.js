@@ -1,7 +1,8 @@
 import styles from "../styles/home.module.css";
-import data from "../game-data/schedule.json";
+import schedule from "../game-data/schedule.json";
 import { Container, Button } from "react-bootstrap";
-import { isToday, format, parseJSON } from "date-fns";
+import { isAfter, isToday, format, parseJSON } from "date-fns";
+import { find } from "lodash/fp";
 
 const formatGameTime = (gameDate) =>
   isToday(gameDate)
@@ -9,11 +10,13 @@ const formatGameTime = (gameDate) =>
     : format(gameDate, "MMM d, yyyy h:mm a");
 
 export default function Home() {
-  const homeTeam = process.env.homeTeam;
+  const team = process.env.teamName;
   const homeStadium = process.env.homeStadium;
 
-  // TODO: Fix this
-  const nextGame = data[0];
+  const nextGame = find((game) => {
+    const gameDate = parseJSON(game.date);
+    return isToday(gameDate) || isAfter(gameDate, new Date());
+  }, schedule);
 
   const nextGameDate = parseJSON(nextGame.date);
   const isGameToday = isToday(nextGameDate);
@@ -22,19 +25,23 @@ export default function Home() {
   return (
     <Container>
       <div className={styles.jumbotron}>
-        <h1>Is there a fucking {homeTeam} game today?</h1>
+        <h1>Is there a fucking {team} game today?</h1>
 
         {isGameToday ? (
           <div className={styles.answer}>
             YES
-            <h2>It&apos;s a fucking {isHomeGame ? "home" : "away"} game</h2>
+            <h2>
+              {isHomeGame
+                ? "and it's a fucking home game!"
+                : "but it's a fucking away game."}
+            </h2>
           </div>
         ) : (
           <div className={styles.answer}>NO</div>
         )}
 
         <h2>
-          {homeTeam} vs. the fucking {nextGame.opponent}
+          {team} vs. the fucking {nextGame.opponent}
         </h2>
         <h3>
           {formatGameTime(nextGameDate)} @ {nextGame.location}
