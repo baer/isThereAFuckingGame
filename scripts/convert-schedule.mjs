@@ -15,34 +15,36 @@ const JSON_SPACER = 2;
 
 const {
   countBy,
-  difference,
   drop,
   flatten,
   flow,
-  head,
+  first,
   identity,
   map,
   maxBy,
+  without,
   zipObject,
 } = fp;
 const program = new Command();
 
-const csvToJSON = (rawCsvData) => {
-  const header = head(rawCsvData);
+const convertRawCsvToJSON = (rawCsvData) => {
+  const header = first(rawCsvData);
   const data = drop(1, rawCsvData);
 
-  return map((row) => zipObject(header, row), data);
+  return map(zipObject(header), data);
 };
 
-const formatData = (homeTeam, games) =>
-  games.map((game) => {
+const formatData = (games) => {
+  const primaryTeam = inferTeamFromSchedule(games);
+
+  return games.map((game) => {
     const date = moment.tz(
       `${game["START DATE"]} ${game["START TIME ET"]}`,
       "MM/DD/YY hh:mm a",
       "America/New_York"
     );
 
-    const opponent = head([homeTeam], difference(getTeams(game)));
+    const opponent = flow(getTeams, without([primaryTeam]), first)(game);
 
     return {
       date: date.format(),
@@ -50,13 +52,14 @@ const formatData = (homeTeam, games) =>
       opponent,
     };
   });
+};
 
 // To tell what teams are playing, you have to look at the "SUBJECT" field of
 // the CSV which is of the format `Dodgers at Rockies`. This converts a game
 // object to `[Dodgers, Rockies]`
 const getTeams = (game) => game.SUBJECT.split(" at ");
 
-const getHomeTeam = flow(
+const inferTeamFromSchedule = flow(
   map(getTeams),
   // A list of all teams playing in all games
   flatten,
@@ -78,9 +81,7 @@ program
     "Destination path to write the converted JSON file",
     "./src/game-data"
   )
-  .action((options, name, command) => {
-    // TODO: Figure out if there is a graceful way to check for empty args.
-    // This is non-zero bc dafault values
+  .action((options) => {
     if (!options.path) {
       program.help();
     }
@@ -92,16 +93,12 @@ program
 
     readFile(srcPath)
       .then(promisify(parseCSV))
-      .then(csvToJSON)
-      .then((data) => {
-        return formatData(getHomeTeam(data), data);
-      })
+      .then(convertRawCsvToJSON)
+      .then(formatData)
       .then((data) =>
         writeFile(destinationPath, JSON.stringify(data, null, JSON_SPACER))
       )
-      .then(() => {
-        console.log("All Finished!");
-      });
+      .then(() => console.log("All Finished!"));
   });
 
 program.parse();
