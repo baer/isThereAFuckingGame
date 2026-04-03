@@ -18,9 +18,9 @@ export default function Home() {
     return isToday(gameDate) || isAfter(gameDate, new Date());
   }, schedule);
 
-  const nextGameDate = parseJSON(nextGame.date);
+  const nextGameDate = nextGame ? parseJSON(nextGame.date) : new Date(1, 1, 1970);
   const isGameToday = isToday(nextGameDate);
-  const isHomeGame = nextGame.location === homeStadium;
+  const isHomeGame = nextGame?.location === homeStadium;
 
   return (
     <Container>
@@ -40,12 +40,19 @@ export default function Home() {
           <div className={styles.answer}>NO</div>
         )}
 
-        <h2>
-          {team} vs. the fucking {nextGame.opponent}
-        </h2>
-        <h3>
-          {formatGameTime(nextGameDate)} @ {nextGame.location}
-        </h3>
+        {
+          nextGame ?
+            <>
+              <h2>
+                {team} vs. the fucking {nextGame.opponent}
+              </h2>
+              <h3>
+                {formatGameTime(nextGameDate)} @ {nextGame.location}
+              </h3>
+            </> :
+            <h2>And there won&apos;t be until next fucking season!</h2>
+        }
+
       </div>
 
       <footer className={styles.footer}>
